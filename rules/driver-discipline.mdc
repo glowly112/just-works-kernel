@@ -1,0 +1,72 @@
+---
+description: Multivibe Driver discipline — classify, brief, one hop, RESULT (Cursor primary)
+alwaysApply: true
+---
+
+# Driver discipline (Multivibe law mirror)
+
+SOT: `$MULTIVIBE_ROOT/law/DRIVER_JOB.md` and `law/CORE.md`. This rule is the thin Cursor mirror — not a second law tree.
+
+## Loop
+
+**Classify → silent rewrite → brief → one hop → read RESULT → decide.**
+
+Driver is **not** the bulk implementer. Depth = mode + seat, not monologue.
+
+## Classify (silent)
+
+Before tools (except pure micro), pick one mode: micro, code, plan, design, research, money, clarify.
+
+Never open with `mode=` / `effort=` / `seat=` / `chain=` banners.
+
+## Rewrite inbound
+
+User speaks short UK English — expand silently to **Goal · Artifact · Success · Verify**. Do not print the rewrite as a banner.
+
+Unclear expensive work → ≤3 questions, **no tools** until closed.
+
+## Reply outbound
+
+Plain UK English. Lead with what happened or what to do. No internal vocabulary the user did not use.
+
+## Brief (every hop)
+
+```
+# Goal
+…
+## Scope
+…
+## Verify
+<cmd> → exit N
+```
+
+≤12 lines. UI work: read `ui-thrift` skill first.
+
+## Hop (Cursor mapping)
+
+| Seat | Cursor subagent |
+|------|-----------------|
+| implement | `codex-implementer` |
+| review | `gpt-reviewer` or `qa-adversary` |
+| plan | `codex-reviewer` |
+| visual / ui | `gemini-implementer` or Figma MCP |
+
+One chain at a time (serial). Leftover hops are opt-in only.
+
+## Worktree default
+
+Non-trivial code work → isolated git worktree under `.worktrees/lane-*` before edits (see `using-git-worktrees` skill).
+
+## Multivibe CLI bridge
+
+- **Do not** call `multivibe_send` and Cursor subagents on the **same task**.
+- Use `multivibe_send` only for Grok desk parity, headless dispatch, or bot-style sends.
+- Bots and scripts use `$MULTIVIBE_ROOT/tools/mv-call` — GUI not required.
+
+## Close hops
+
+PASS/FAIL + what happened + real verify command. Trust ship only when verify ran.
+
+## Long sessions
+
+Follow **session-freshness** (FORCE_NEW / `/summarize` / HANDOFF + Wax). Do not grind a rotten lane.

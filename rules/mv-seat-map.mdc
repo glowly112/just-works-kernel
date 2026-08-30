@@ -1,0 +1,28 @@
+---
+description: Multivibe hop seats → Cursor subagents (reference)
+alwaysApply: false
+---
+
+# Seat map (Multivibe → Cursor)
+
+When dispatching hops from Cursor, use these seats. SOT agents: `$MULTIVIBE_ROOT/engines/grok/agents/*.md`.
+
+| Multivibe seat | Role | Cursor subagent | Notes |
+|----------------|------|-----------------|-------|
+| driver | classify, brief, decide | (this chat) | Never bulk-implement |
+| implement | code / fixes | `codex-implementer` | UI: read `ui-thrift` first |
+| review | adversarial verify | `qa-adversary` | Money/tests/merge paths |
+| plan | multi-phase rails | `codex-reviewer` | Then judge if needed |
+| judge | approve plan | `gpt-reviewer` | After plan RESULT |
+| visual | screenshots / pixels | `gemini-implementer` | Figma MCP when available |
+| ui | full craft (opt-in) | `gemini-implementer` | Only after thrift fails twice |
+| design-review | UI ship gate | `qa-adversary` | After thrift UI RESULT |
+| post-review | money path | `gpt-reviewer` | Settlement / ledger only |
+
+## Parallel work
+
+Multivibe lanes → Cursor fan-out: one message, numbered independent sub-tasks, launch subagents concurrently. Do not mimic lane rail in Cursor.
+
+## Skills (SOT symlinked)
+
+Priority Multivibe skills: `ui-thrift`, `session-discipline`, `verify-before-hedging`, `design-review`, `work-modes`, `using-git-worktrees`.

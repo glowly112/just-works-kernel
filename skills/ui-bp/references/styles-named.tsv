@@ -1,0 +1,817 @@
+style_id	family	title	feel	type_era	control	material_hint	a11y_watch	notes
+arts-and-crafts	historical-movement	Arts and Crafts	handmade honesty anti-industrial	TY-OLDSTYLE-SERIF	chunk-border	wool-felt	body contrast on patterned grounds	Morris era craft
+art-nouveau	historical-movement	Art Nouveau	organic curves botanical line	TY-DISPLAY-EXTREME	ink-underline	watercolor-wash	display not for long body	1890s-1910s
+wiener-werkstatte	historical-movement	Wiener Werkstätte	geometric square modern craft	TY-GEOMETRIC	sharp-0	gold-leaf	thin gold on cream contrast	Vienna workshops
+futurism	historical-movement	Futurism	speed diagonals machine energy	TY-INDUSTRIAL-COND	sharp-0	steel	motion reduce path	Italian Futurism
+dada	historical-movement	Dada	collage absurd anti-design	TY-MIXED-HIGH-CONTRAST	chunk-border	newsprint	chaos still needs hierarchy	Dada
+constructivism	historical-movement	Constructivist	bars diagonals propaganda geometry	TY-INDUSTRIAL-COND	chunk-border	screenprint	red/black contrast	Russian Constructivism
+de-stijl	historical-movement	De Stijl	strict H/V primary rects	TY-GEOMETRIC	sharp-0	primary-blocks	primary colours on white	Mondrian/Doesburg
+bauhaus	historical-movement	Bauhaus	workshop modern geometry function	TY-GEOMETRIC	sharp-0	primary-blocks	clear hierarchy	1919 school
+new-typography	historical-movement	New Typography	type as image asymmetric	TY-GROTESQUE	ink-underline	paper-ink	extreme scale keep body	Tschichold
+art-deco	historical-movement	Art Deco	glamour verticals fan geometry	TY-DIDONE-LUX	ticket	gold-leaf	gold on dark contrast	1925+
+streamline-moderne	historical-movement	Streamline Moderne	aerodynamic curves chrome speed	TY-GEOMETRIC	pill	chrome-metal	chrome glare not text	1930s
+swiss-international	historical-movement	Swiss International	grid objectivity quiet type	TY-GROTESQUE	ink-underline	paper-ink	grey text risk	1950s ITS
+international-style-arch	historical-movement	International Style Architecture	glass box rational facade	TY-GROTESK-SOFT	sharp-0	glass-frost	glass panels contrast	architecture
+mid-century-modern	historical-movement	Mid-Century Modern	warm modern atomic optimism	TY-HUMANIST	soft-rect	teak	mustard on cream ok	1945-65
+scandinavian-modern	historical-movement	Scandinavian Modern	light wood honest air	TY-HUMANIST	soft-rect	birch	pale greys contrast	Nordic
+pop-art	historical-movement	Pop Art	halftone punch everyday icons	TY-DISPLAY-EXTREME	sharp-0	halftone-print	CMYK primaries	Warhol era
+op-art	historical-movement	Op Art	optical vibration geometry	TY-GEOMETRIC	sharp-0	high-contrast	avoid seizure patterns; reduce motion	1960s
+psychedelic	historical-movement	Psychedelic	vibrating type dense poster	TY-DISPLAY-EXTREME	chunk-border	neon-tube	body readable; no strobe	1960s posters
+space-age	historical-movement	Space Age	atomic age optimism plastics	TY-GEOMETRIC	pill	astronaut-white	pastel+chrome	1960s
+minimalism	historical-movement	Minimalism	less almost nothing	TY-SANS-ONLY-TIGHT	ink-underline	white-void	not low-contrast grey	1960s+
+postmodern-graphic	historical-movement	Postmodern Graphic	rule-break pastiche irony	TY-MIXED-HIGH-CONTRAST	offset-shadow	terrazzo	still one hierarchy	1978+
+memphis	historical-movement	Memphis	playful clash laminate shapes	TY-GEOMETRIC	chunk-border	formica	pastel+black rules	1981 Sottsass
+deconstructivism	historical-movement	Deconstructivism	fragmented unstable structure	TY-MIXED-HIGH-CONTRAST	sharp-0	scaffold	structure still navigable	architecture 80s
+grunge-print	historical-movement	Grunge Print	distressed layered dirty type	TY-MIXED-HIGH-CONTRAST	chunk-border	toner-dirt	don't crush contrast	90s print
+y2k	historical-movement	Y2K	gloss bubbles chrome stars	TY-ROUNDED	pill	iridescent-film	shine not text	late 90s web
+web-safe-classic	historical-movement	Web 1.0 Classic	blue links tables honest	TY-SYSTEM-RAW	ink-underline	lcd-blue	default link contrast	1995-2002
+web-2.0-gloss	historical-movement	Web 2.0 Glossy	bevel badges gradients	TY-GROTESK-SOFT	pill	bubble-plastic	gradient text ban long	2005-10
+skeuomorph-ios6	historical-movement	Classic Skeuomorphism	leather felt stitched realism	TY-HUMANIST	soft-rect	leather-bound	texture behind text careful	iOS6 era
+metro-fluent-flat	historical-movement	Metro / flat tiles	typography-led tile mosaic	TY-GROTESQUE	sharp-0	solid-fill	tile text contrast	Windows Metro
+material-design	historical-movement	Material Design	paper layers FAB elevation	TY-HUMANIST	soft-rect	paper-elevation	elevation not only cue	Google M
+material-you	historical-movement	Material You tonal	dynamic tonal surfaces	TY-ROUNDED	pill	tonal-surface	tonal contrast steps	M3
+fluent-2	historical-movement	Fluent 2	mica acrylic soft system	TY-GROTESK-SOFT	soft-rect	acrylic	mica behind text	Microsoft
+human-interface-apple	historical-movement	Apple HIG clean	SF-like clarity large radius	TY-GROTESK-SOFT	soft-rect	system-blur	blur contrast	Apple HIG
+glassmorphism	historical-movement	Glassmorphism	frosted panels on photo	TY-GROTESK-SOFT	soft-rect	glass-frost	WCAG on frost critical	2020 trend
+neumorphism	historical-movement	Neumorphism	soft extruded mono UI	TY-ROUNDED	soft-rect	soft-clay	3:1 UI contrast hard	2019+
+claymorphism	historical-movement	Claymorphism	puffy 3D clay controls	TY-ROUNDED	pill	soft-clay	pastels contrast	soft UI
+neo-brutalism	historical-movement	Neo-Brutalism	fat borders hard shadow loud	TY-DISPLAY-EXTREME	chunk-border	solid-fill	good for contrast if ink dark	web trend
+brutalist-web	historical-movement	Brutalist Web	raw system anti-polish	TY-SYSTEM-RAW	sharp-0	default-browser	use real focus styles	brutalistwebsites
+soft-brutalism	historical-movement	Soft Brutalism	bold structure softer fill	TY-GROTESQUE	chunk-border	pastel-pop	borders high contrast	hybrid
+bento-ui	historical-movement	Bento UI	soft mosaic large tiles	TY-GROTESK-SOFT	soft-rect	light-grey-card	card text contrast	Apple-like marketing
+dark-mode-oled	historical-movement	OLED Dark Product	true black sparse light type	TY-GROTESK-SOFT	sharp-0	oled-black	grey on black fail risk	product UI
+aurora-mesh	historical-movement	Aurora Mesh Gradient	soft mesh atmosphere once	TY-GROTESK-SOFT	soft-rect	iridescent-film	text not on busy mesh	Stripe-era
+kinetic-type	historical-movement	Kinetic Typography	motion type first	TY-DISPLAY-EXTREME	ink-underline	paper-ink	reduced-motion static	motion design
+isometric-3d	historical-movement	Isometric Illustration UI	3D iso scenes with UI chrome quiet	TY-GROTESK-SOFT	soft-rect	iso-plastic	don't put body on iso noise	illustration UI
+maximalism	historical-movement	Maximalism	more is more layered dense	TY-MIXED-HIGH-CONTRAST	chunk-border	pattern-clash	hierarchy still mandatory	design culture
+quiet-luxury	historical-movement	Quiet Luxury	restraint expensive materials	TY-DIDONE-LUX	ink-underline	stone-silk	thin type contrast	fashion
+corporate-memphis	historical-movement	Corporate Memphis	flat diverse vectors pastel	TY-GROTESK-SOFT	soft-rect	pastel-vector	avoid cliché if banned	2010s SaaS
+anti-corporate-memphis	historical-movement	Anti-Corporate-Memphis	reject blob people use photo/type	TY-SERIF-TEXT	sharp-0	photo-led	photo alt text	reaction
+brutalist-architecture	architecture	Brutalist Architecture	concrete mass voids	TY-GROTESQUE	sharp-0	concrete	grey-on-grey risk	architecture
+gothic-cathedral	architecture	Gothic Cathedral	vertical pointed stained light	TY-BLACKLETTER-SPARSE	ink-underline	stone-stained-glass	body not blackletter	gothic
+baroque-ornate	architecture	Baroque Ornate	ornament drama gold scroll	TY-MODERN-SERIF	ticket	gold-leaf	ornament not body	baroque
+rococo-light	architecture	Rococo Light	pastel scroll delicate	TY-SCRIPT-SPARSE	pill	cream-cotton	pastel contrast	rococo
+beaux-arts	architecture	Beaux-Arts	formal classical grandeur	TY-TRANSITIONAL-SERIF	sharp-0	marble	classical symmetry	beaux-arts
+art-nouveau-arch	architecture	Art Nouveau Architecture	whiplash iron botanical facade	TY-DISPLAY-EXTREME	ink-underline	wrought-iron	curves as structure	architecture
+googie	architecture	Googie	atomic roadside angles neon	TY-DISPLAY-EXTREME	sharp-0	motel-neon	neon contrast	US roadside
+midcentury-ranch	architecture	Mid-century Ranch Interior	horizontal glass indoor-outdoor	TY-HUMANIST	soft-rect	teak	warm neutrals	interiors
+japanese-metabolist	architecture	Metabolist	modular capsules future	TY-GEOMETRIC	sharp-0	capsule-module	module grid	Japan 60s
+high-tech-arch	architecture	High-Tech Architecture	exposed structure services	TY-MONO-DATA	sharp-0	scaffold	Pompidou-like	Rogers/Foster
+parametric-blob	architecture	Parametric / Blobitecture	smooth digital curves	TY-GROTESK-SOFT	pill	white-composite	curve frames	Zaha-era
+shaker-simplicity	architecture	Shaker	utility pure spare wood	TY-HUMANIST	sharp-0	oak-timber	plain honesty	Shaker
+craftsman-bungalow	architecture	Craftsman Bungalow	built-in wood honest joinery	TY-SLAB	chunk-border	oak-timber	warm dark type	US craftsman
+industrial-loft	architecture	Industrial Loft	brick iron factory conversion	TY-INDUSTRIAL-COND	chunk-border	brick-industrial	dark loft contrast	interiors
+biophilic	architecture	Biophilic	plants daylight organic calm	TY-HUMANIST	soft-rect	leaf-wood	green not only cue	wellness
+solarpunk	architecture	Solarpunk	hopeful green tech craft	TY-HUMANIST	chunk-border	leaf-solar	optimistic contrast	aesthetic
+cyberpunk-ui	architecture	Cyberpunk UI	neon rain dense HUD	TY-MONO-DATA	sharp-0	neon-on-wet	neon AA hard	sci-fi
+dieselpunk	architecture	Dieselpunk	interwar machines grit oil	TY-INDUSTRIAL-COND	chunk-border	oil-metal	sepia+steel	alt-history
+steampunk	architecture	Steampunk	brass gears Victorian tech	TY-OLDSTYLE-SERIF	ticket	brass-leather	ornament secondary	aesthetic
+atompunk	architecture	Atompunk	atomic age optimism raygun	TY-GEOMETRIC	pill	chrome-metal	pastel atomic	aesthetic
+broadsheet-news	print-editorial	Broadsheet Newspaper	columns rules authority	TY-SERIF-TEXT	ink-underline	newsprint	column measure	news
+tabloid-scream	print-editorial	Tabloid	loud headlines red boxes	TY-INDUSTRIAL-COND	filled-block	newsprint	scream but readable	news
+magazine-vogue	print-editorial	Fashion Magazine	whitespace full-bleed photo	TY-DIDONE-LUX	ink-underline	photo-led	thin type size up	fashion edit
+magazine-natgeo	print-editorial	Documentary Magazine	photo essay maps captions	TY-HUMANIST	ink-underline	photo-led	caption contrast	editorial
+zine-diy	print-editorial	DIY Zine	photocopy cut-up tape	TY-MIXED-HIGH-CONTRAST	ticket	toner	hierarchy in chaos	zines
+risograph-print	print-editorial	Risograph	misregister limited inks	TY-GROTESQUE	chunk-border	risograph	spot colour contrast	print
+swiss-poster	print-editorial	Swiss Poster	monumental type one idea	TY-GROTESQUE	sharp-0	paper-ink	huge type	poster
+polish-poster	print-editorial	Polish School of Posters	metaphor illustration bold	TY-DISPLAY-EXTREME	sharp-0	screenprint	concept image	poster art
+japanese-editorial	print-editorial	Japanese Editorial	quiet gaps precise type	TY-SERIF-TEXT	ink-underline	sumi-ink	generous space	JP edit
+chinese-ink-modern	print-editorial	Modern Ink Tradition	ink wash empty space	TY-SERIF-TEXT	ink-underline	sumi-ink	red seal accent only	East Asian
+korean-webtoon-clean	print-editorial	Clean Webtoon/App KR	soft cards large type mobile	TY-ROUNDED	pill	soft-grey	mobile targets	KR product
+scientific-atlas	print-editorial	Scientific Atlas	plates figures captions	TY-SERIF-TEXT	sharp-0	atlas-plate	figure labels	science print
+field-guide	print-editorial	Field Guide	specimen + key	TY-HUMANIST	ink-underline	specimen-paper	species labels	naturalist
+recipe-card	print-editorial	Recipe Card Classic	index card steps	TY-SLAB	ticket	index-card	step clarity	food print
+sheet-music	print-editorial	Sheet Music	staves notation rhythm	TY-SERIF-TEXT	ink-underline	staff-paper	not only motif	music
+map-ordnance	print-editorial	Ordnance Survey Map	contour information density	TY-HUMANIST	sharp-0	map-paper	legend contrast	cartography
+blueprint	print-editorial	Blueprint	cyanotype technical lines	TY-MONO-DATA	sharp-0	blueprint-cyan	cyan bg text white/black	tech draw
+patent-drawing	print-editorial	Patent Drawing	line invention figures	TY-SYSTEM-RAW	sharp-0	line-ink	figure numbers	legal invent
+yearbook-retro	print-editorial	Retro Yearbook	portrait grids signatures	TY-SCRIPT-SPARSE	soft-rect	photo-grid	grid captions	school
+mail-order-catalog	print-editorial	Mail-Order Catalogue	dense product grid prices	TY-SYSTEM-RAW	ink-underline	catalog-paper	price legible	commerce print
+vaporwave	internet-aesthetic	Vaporwave	retro computing pastel classical glitch	TY-GEOMETRIC	soft-rect	crt-pastel	glitch not text	internet aesthetic
+synthwave	internet-aesthetic	Synthwave	80s sunset grid neon	TY-DISPLAY-EXTREME	sharp-0	neon-grid	neon AA	internet
+outrun	internet-aesthetic	Outrun	retro racer sun stripes	TY-DISPLAY-EXTREME	sharp-0	sunset-chrome	stripe contrast	internet
+cottagecore	internet-aesthetic	Cottagecore	pastoral soft rural romance	TY-OLDSTYLE-SERIF	soft-rect	linen-meadow	soft contrast watch	internet
+dark-academia	internet-aesthetic	Dark Academia	moody library scholarly gothic	TY-OLDSTYLE-SERIF	ink-underline	library-oak	dark brown text risk	internet
+light-academia	internet-aesthetic	Light Academia	sunny scholarly cream linen	TY-OLDSTYLE-SERIF	ink-underline	cream-cotton	cream contrast	internet
+chaotic-academia	internet-aesthetic	Chaotic Academia	messy notes stacked papers	TY-MIXED-HIGH-CONTRAST	ticket	manila-folder	mess with hierarchy	internet
+romantic-academia	internet-aesthetic	Romantic Academia	soft scholarly florals	TY-OLDSTYLE-SERIF	ink-underline	vellum	soft	internet
+goblincore	internet-aesthetic	Goblincore	shiny trash nature hoard	TY-SYSTEM-RAW	chunk-border	moss-pebble	earthy contrast	internet
+fairycore	internet-aesthetic	Fairycore	ethereal glitter forest soft	TY-SCRIPT-SPARSE	pill	dew-forest	glitter not body	internet
+angelcore	internet-aesthetic	Angelcore	soft white gold ethereal	TY-DIDONE-LUX	pill	cloud-gold	white-on-white risk	internet
+devilcore	internet-aesthetic	Devilcore	red black occult drama	TY-DISPLAY-EXTREME	sharp-0	black-red	red on black AA	internet
+witchcore	internet-aesthetic	Witchcore	herbs candles mystic dark	TY-OLDSTYLE-SERIF	ink-underline	herb-candle	dark contrast	internet
+cottagegoth	internet-aesthetic	Cottagegoth	pastoral gothic hybrid	TY-OLDSTYLE-SERIF	chunk-border	dark-linen	hybrid	internet
+grandmacore	internet-aesthetic	Grandmacore	doilies knits cozy vintage	TY-OLDSTYLE-SERIF	soft-rect	doily-knit	pattern contrast	internet
+weirdcore	internet-aesthetic	Weirdcore	liminal uncanny low-fi	TY-SYSTEM-RAW	sharp-0	jpeg-artifact	uncanny still usable	internet
+traumacore	internet-aesthetic	Traumacore	glitch diary sensitive	TY-SYSTEM-RAW	ink-underline	diary	careful content; contrast	internet-sensitive
+dreamcore	internet-aesthetic	Dreamcore	soft surreal dream logic	TY-ROUNDED	pill	fog-pastel	fog contrast	internet
+kidcore	internet-aesthetic	Kidcore	primary toys loud play	TY-ROUNDED	pill	toy-plastic	loud but clear	internet
+babycore	internet-aesthetic	Babycore	pastel soft infant cute	TY-ROUNDED	pill	pastel-soft	pastel AA	internet
+animecore	internet-aesthetic	Animecore	anime screencap energy	TY-DISPLAY-EXTREME	pill	anime-cel	not unreadable sakuga	internet
+kawaii	internet-aesthetic	Kawaii	cute pastel rounded JP	TY-ROUNDED	pill	pastel-plastic	cute+legible	JP culture
+yami-kawaii	internet-aesthetic	Yami Kawaii	cute dark medical twist	TY-ROUNDED	pill	pastel-menace	sensitive motifs careful	JP
+gurokawaii	internet-aesthetic	Gurokawa	cute grotesque	TY-MIXED-HIGH-CONTRAST	chunk-border	cute-horror	content care	JP
+pastel-goth	internet-aesthetic	Pastel Goth	pastel + black occult	TY-DISPLAY-EXTREME	chunk-border	pastel-black	contrast	internet
+health-goth	internet-aesthetic	Health Goth	athletic black techwear	TY-INDUSTRIAL-COND	sharp-0	techwear-black	dark AA	internet
+normcore	internet-aesthetic	Normcore	aggressively ordinary	TY-SYSTEM-RAW	soft-rect	mall-basic	ordinary not low contrast	internet
+balletcore	internet-aesthetic	Balletcore	soft pink tulle poise	TY-DIDONE-LUX	pill	tulle-pink	pink contrast	internet
+coquette	internet-aesthetic	Coquette	bows lace hyper-femme	TY-SCRIPT-SPARSE	pill	lace-pink	decoration secondary	internet
+blokecore	internet-aesthetic	Blokecore	football kits terrace energy	TY-INDUSTRIAL-COND	sharp-0	kit-stripes	stripe text careful	internet
+gorpcore	internet-aesthetic	Gorpcore	outdoor tech fleece trail	TY-HUMANIST	chunk-border	goretex	utility	internet
+coastal-grandmother	internet-aesthetic	Coastal Grandmother	linen sea calm wealthy calm	TY-HUMANIST	soft-rect	linen-sea	beige contrast	internet
+clean-girl	internet-aesthetic	Clean Girl	minimal sleek neutral beauty	TY-GROTESK-SOFT	pill	neutral-beauty	beige AA	internet
+old-money	internet-aesthetic	Old Money	heritage quiet wealth	TY-TRANSITIONAL-SERIF	ink-underline	navy-cream	restraint	internet
+new-money	internet-aesthetic	New Money	loud luxury logos shine	TY-DIDONE-LUX	filled-block	chrome-gold	shine not body	internet
+dark-feminine	internet-aesthetic	Dark Feminine	glamour power black red	TY-DIDONE-LUX	sharp-0	black-velvet	dark glamour AA	internet
+soft-boy	internet-aesthetic	Soft Boy	pastel indie soft masc	TY-HUMANIST	soft-rect	pastel-denim	soft	internet
+egirl-eboy	internet-aesthetic	E-girl / E-boy	alt platform indie dark cute	TY-MIXED-HIGH-CONTRAST	chunk-border	alt-platform	contrast	internet
+scene-emo	internet-aesthetic	Scene / Emo revival	sharp hair colours myspace	TY-DISPLAY-EXTREME	chunk-border	neon-black	myspace energy	internet
+y2k-cyber	internet-aesthetic	Y2K Cyber	futuristic chrome early web	TY-GEOMETRIC	pill	chrome-ice	gloss	internet
+frutiger-aero	internet-aesthetic	Frutiger Aero	glossy nature tech optimistic 2000s	TY-HUMANIST	pill	aqua-sky	gloss+nature	internet revival
+frutiger-metro	internet-aesthetic	Frutiger Metro	metro icons soft 2010s	TY-GROTESK-SOFT	soft-rect	metro-icon	icon clarity	internet
+heliotrope	internet-aesthetic	Heliotrope / Aero cousins	bright sky water bubbles	TY-ROUNDED	pill	sky-water	bright AA	internet
+cassette-futurism	internet-aesthetic	Cassette Futurism	chunky buttons CRT no touch glass	TY-SYSTEM-RAW	chunk-border	crt-plastic	chunky targets good	internet
+sovietwave	internet-aesthetic	Sovietwave	socialist modern nostalgia	TY-GROTESQUE	sharp-0	concrete-red	poster modern	internet
+laborwave	internet-aesthetic	Laborwave	worker poster vapor hybrid	TY-INDUSTRIAL-COND	chunk-border	poster-red	poster	internet
+dinosauriac	internet-aesthetic	Dinosauriac	museum fossil educational	TY-SLAB	chunk-border	fossil-sand	edu clear	internet
+tropicalcore	internet-aesthetic	Tropicalcore	lush fruit humid bright	TY-DISPLAY-EXTREME	pill	fruit-leaf	bright	internet
+desertcore	internet-aesthetic	Desertcore	arid sun adobe dust	TY-HUMANIST	sharp-0	sandstone	sun glare text	internet
+arcticcore	internet-aesthetic	Arcticcore	ice blue sparse cold	TY-GROTESK-SOFT	sharp-0	ice-white	white-on-ice risk	internet
+ocean-core	internet-aesthetic	Ocean core	deep sea foam maritime	TY-HUMANIST	chunk-border	sea-glass	blue contrast	internet
+forestcore	internet-aesthetic	Forestcore	deep green moss canopy	TY-OLDSTYLE-SERIF	ink-underline	moss	dark green AA	internet
+citycore	internet-aesthetic	Citycore	urban night dense signage	TY-INDUSTRIAL-COND	sharp-0	neon-street	signage hierarchy	internet
+liminal-space	internet-aesthetic	Liminal Space	empty transitional eerie	TY-SYSTEM-RAW	sharp-0	fluorescent-empty	eerie still usable	internet
+backrooms	internet-aesthetic	Backrooms	yellow rooms endless fluorescent	TY-SYSTEM-RAW	sharp-0	yellow-room	yellow bg text dark	internet
+poolcore	internet-aesthetic	Poolcore	empty pools tile water echo	TY-GEOMETRIC	sharp-0	pool-tile	tile contrast	internet
+abandoned-mall	internet-aesthetic	Abandoned Mallwave	dead mall nostalgia	TY-GROTESK-SOFT	soft-rect	mall-tile	faded contrast boost	internet
+vapor-noir	internet-aesthetic	Vapor Noir	vaporwave + noir	TY-DISPLAY-EXTREME	sharp-0	neon-noir	dark neon	hybrid
+danish-pastel	internet-aesthetic	Danish Pastel	soft scandi pastel blocks	TY-ROUNDED	soft-rect	pastel-block	pastel AA	internet
+mob-wife	internet-aesthetic	Mob Wife Aesthetic	fur glam animal print drama	TY-DIDONE-LUX	filled-block	fur-gold	drama hierarchy	internet
+tomato-girl	internet-aesthetic	Tomato Girl Summer	mediterranean red green sun	TY-HUMANIST	soft-rect	tomato-olive	warm contrast	internet
+blueberry-girl	internet-aesthetic	Blueberry Girl	cool blue soft summer	TY-HUMANIST	pill	blueberry	blue AA	internet
+office-siren	internet-aesthetic	Office Siren	Y2K corporate glam	TY-GROTESK-SOFT	soft-rect	corp-gloss	gloss	internet
+ballet-aesthetic	internet-aesthetic	Ballet Aesthetic UI	rehearsal sparse soft discipline	TY-DIDONE-LUX	ink-underline	studio-wood	soft	internet
+punk-flyer	music-subculture	Punk Flyer	ransom type xerox anger	TY-MIXED-HIGH-CONTRAST	chunk-border	xerox	readable anger	punk
+post-punk	music-subculture	Post-Punk	stark mono angular	TY-GROTESQUE	sharp-0	black-white	stark	music
+goth-romantic	music-subculture	Goth Romantic	black lace Victorian dark	TY-OLDSTYLE-SERIF	ink-underline	black-lace	dark AA	goth
+industrial-music	music-subculture	Industrial	cold machine harsh	TY-MONO-DATA	sharp-0	steel-rust	harsh contrast good	music
+techno-warehouse	music-subculture	Techno Warehouse	dark strobe minimal type	TY-GROTESQUE	sharp-0	warehouse-black	no real strobe	music
+rave-flyer-90s	music-subculture	90s Rave Flyer	acid colours chaos type	TY-DISPLAY-EXTREME	chunk-border	acid-print	chaos hierarchy	music
+disco-studio54	music-subculture	Disco Glam	mirrorball gold night	TY-DIDONE-LUX	pill	mirror-gold	shine	music
+hip-hop-gold-era	music-subculture	Hip-Hop Gold Era	bold type brick city	TY-INDUSTRIAL-COND	chunk-border	brick-gold	bold	music
+graffiti-wildstyle	music-subculture	Graffiti Wildstyle	letter complexity street	TY-DISPLAY-EXTREME	chunk-border	spray-brick	body not wildstyle	street
+skater-zine	music-subculture	Skater Zine	photo crash diy type	TY-MIXED-HIGH-CONTRAST	chunk-border	polaroid-grit	diy	skate
+surf-poster	music-subculture	Surf Poster	wave sun beach type	TY-DISPLAY-EXTREME	pill	wave-sun	bright	surf
+metal-album	music-subculture	Metal Album	blackletter chrome dark	TY-BLACKLETTER-SPARSE	sharp-0	chrome-black	body readable	metal
+jazz-blue-note	music-subculture	Blue Note Jazz	duotone photo bold type	TY-GROTESQUE	sharp-0	blue-note	duotone classic	jazz
+folk-revival	music-subculture	Folk Revival	woodcut acoustic warm	TY-OLDSTYLE-SERIF	ink-underline	woodcut	warm	folk
+country-western	music-subculture	Country Western	barnwood rope spur	TY-SLAB	ticket	barn-wood	western not comic	country
+reggae-dub	music-subculture	Reggae / Dub	roots colours vinyl warm	TY-HUMANIST	chunk-border	vinyl-warm	Rasta colours careful meaning	reggae
+k-pop-idol	music-subculture	K-pop Idol	high gloss idol photocard	TY-ROUNDED	pill	gloss-pastel	photocard grid	K-pop
+j-rock-visual-kei	music-subculture	Visual Kei	dramatic makeup theatrical	TY-DISPLAY-EXTREME	sharp-0	stage-black	drama	J-rock
+city-pop	music-subculture	City Pop	80s JP soft luxury leisure	TY-GEOMETRIC	pill	city-dusk	soft luxury	JP music
+lofi-beats	music-subculture	Lo-fi Beats	study girl vinyl dust soft	TY-HUMANIST	soft-rect	vinyl-dust	soft contrast	music meme
+fintech-trust	industry	Fintech Trust	calm numbers serious blue	TY-GROTESK-SOFT	soft-rect	cool-grey	numbers tabular	
+fintech-crypto-neon	industry	Crypto Neon	dark neon charts hype	TY-MONO-DATA	sharp-0	neon-dark	hype not illegible	
+banking-classic	industry	Classic Banking	heritage navy serif trust	TY-TRANSITIONAL-SERIF	ink-underline	navy-cream	trust	
+insurance-plain	industry	Insurance Plain Language	clear forms low drama	TY-HUMANIST	soft-rect	plain-white	forms labels	
+health-clinical	industry	Clinical Health	sterile calm precise	TY-HUMANIST	soft-rect	clinic-white	status not colour-only	
+health-wellness	industry	Wellness Soft	calm mint breathy	TY-ROUNDED	pill	mint-sand	pastel AA	
+pharma-pack	industry	Pharma Packaging	regulated clear hierarchy	TY-HUMANIST	sharp-0	pack-white	legibility first	
+edu-primary	industry	Primary Education	large type playful clear	TY-ROUNDED	pill	school-primary	targets large	
+edu-university	industry	University Academic	crest scholarship calm	TY-OLDSTYLE-SERIF	ink-underline	crest-paper	academic	
+gov-uk-like	industry	Civic GOV-like	plain language black yellow	TY-HUMANIST	sharp-0	gov-yellow	focus strong	
+gov-us-formal	industry	US Federal Formal	formal seal structured	TY-TRANSITIONAL-SERIF	sharp-0	seal-blue	formal	
+legal-chambers	industry	Legal Chambers	dense text authority	TY-OLDSTYLE-SERIF	ink-underline	law-paper	long text measure	
+real-estate-luxury	industry	Luxury Real Estate	photo-first sparse type	TY-DIDONE-LUX	ink-underline	photo-arch	photo	
+real-estate-portal	industry	Property Portal	filters cards map hybrid	TY-GROTESK-SOFT	soft-rect	portal-grey	filters	
+travel-ota	industry	OTA Travel	deals cards trust badges careful	TY-GROTESK-SOFT	pill	sky-deal	avoid badge spam	
+airline	industry	Airline	wayfinding seats status	TY-HUMANIST	sharp-0	airline-blue	status clear	
+hotel-boutique	industry	Boutique Hotel	tactile local material	TY-SERIF-TEXT	ink-underline	local-material	local	
+restaurant-fine	industry	Fine Dining	menu quiet luxury	TY-DIDONE-LUX	ink-underline	menu-paper	menu hierarchy	
+restaurant-diner	industry	Diner	chrome neon menu board	TY-DISPLAY-EXTREME	chunk-border	diner-chrome	menu board	
+cafe-third-wave	industry	Third Wave Café	craft minimal origin story	TY-HUMANIST	soft-rect	craft-paper	origin	
+qsr-fast	industry	Quick Service	speed menu big calories	TY-INDUSTRIAL-COND	filled-block	qsr-bright	speed	
+grocery	industry	Grocery Retail	aisles promos dense	TY-HUMANIST	soft-rect	retail-white	promo not chaos	
+fashion-luxury	industry	Luxury Fashion	campaign image type quiet	TY-DIDONE-LUX	ink-underline	campaign-photo	image	
+fashion-street	industry	Streetwear	drop hype bold type	TY-INDUSTRIAL-COND	sharp-0	drop-black	hype	
+sports-retail	industry	Sports Retail	energy motion athletes	TY-INDUSTRIAL-COND	sharp-0	volt-black	energy	
+sports-broadcast	industry	Sports Broadcast	score bug live urgency	TY-INDUSTRIAL-COND	sharp-0	broadcast-black	live	
+gaming-aaa	industry	AAA Gaming HUD	immersive diegetic HUD	TY-INDUSTRIAL-COND	sharp-0	hud-metal	HUD contrast	
+gaming-cozy	industry	Cozy Game	soft stickers warm	TY-ROUNDED	pill	cozy-wool	soft	
+gaming-retro	industry	Retro Game UI	pixel frames limited colour	TY-PIXEL	sharp-0	pixel-crt	pixel readable	
+dev-tool	industry	Developer Tool	dense mono panels	TY-MONO-DATA	sharp-0	terminal-dark	not triple AI desk default	
+design-tool	industry	Design Tool	canvas infinite artboard	TY-GROTESK-SOFT	soft-rect	artboard	canvas	
+music-daw	industry	DAW / Music Tool	timeline tracks transport	TY-SYSTEM-RAW	sharp-0	daw-dark	timeline	
+photo-editor	industry	Photo Editor	preview first tools dock	TY-GROTESK-SOFT	soft-rect	preview-stage	preview	
+maps-nav	industry	Maps Navigation	map is UI chrome minimal	TY-HUMANIST	pill	map-stage	map contrast	
+iot-dashboard	industry	IoT Dashboard	device status tiles	TY-GROTESK-SOFT	soft-rect	device-tile	status	
+industrial-scada	industry	SCADA Industrial	mimic panels alarms	TY-MONO-DATA	sharp-0	panel-grey	alarm not colour-only	
+lab-lims	industry	Lab LIMS	samples chain of custody	TY-MONO-DATA	sharp-0	lab-laminate	sample IDs	
+logistics	industry	Logistics Ops	manifests lanes ETAs	TY-INDUSTRIAL-COND	chunk-border	warehouse	ETA clear	
+warehouse-wms	industry	Warehouse WMS	bins scans rugged	TY-INDUSTRIAL-COND	chunk-border	rugged-handheld	large targets	
+maritime-ops	industry	Maritime Ops	tide berths signals	TY-HUMANIST	chunk-border	navy-signal	signal colours meaningful	
+aviation-ops	industry	Aviation Ops	gates turns safety	TY-HUMANIST	sharp-0	aviation-grey	safety	
+energy-grid	industry	Energy Grid	network status load	TY-MONO-DATA	sharp-0	grid-blue	load	
+agritech	industry	Agritech	fields sensors seasons	TY-HUMANIST	chunk-border	field-green	season	
+climate-data	industry	Climate Data	charts earth tones serious	TY-GROTESK-SOFT	sharp-0	earth-data	charts	
+nonprofit-campaign	industry	Nonprofit Campaign	urgency story donate	TY-HUMANIST	filled-block	campaign-photo	donate clear	
+museum	industry	Museum	collection quiet captions	TY-SERIF-TEXT	ink-underline	gallery-white	captions	
+theatre	industry	Theatre	dark house marquee	TY-DISPLAY-EXTREME	ticket	marquee	marquee	
+cinema	industry	Cinema	poster stills showtimes	TY-DISPLAY-EXTREME	sharp-0	cinema-dark	showtimes	
+publishing-house	industry	Publishing House	bookish typographic	TY-SERIF-TEXT	ink-underline	book-cloth	type	
+newsroom-cms	industry	Newsroom CMS	deadlines queues desks	TY-GROTESQUE	sharp-0	newsroom	queues	
+church-parish	industry	Parish / Church	communal quiet liturgical	TY-OLDSTYLE-SERIF	ink-underline	stone-wood	respectful	
+sports-club	industry	Local Sports Club	kit colours fixtures	TY-INDUSTRIAL-COND	chunk-border	kit	fixtures	
+union-labour	industry	Labour Union	solidarity bold simple	TY-INDUSTRIAL-COND	chunk-border	poster-red-black	solidarity	
+swiss-grid-regional	regional	Swiss Grid Regional	Basel grid precision	TY-GROTESQUE	ink-underline	paper-ink	objectivity	
+dutch-modern	regional	Dutch Modern	bold type conceptual NL	TY-GROTESQUE	sharp-0	bold-print	concept	
+scandi-lagom	regional	Scandi Lagom	just enough calm	TY-HUMANIST	soft-rect	birch	calm	
+german-industrial	regional	German Industrial	precise engineering type	TY-GROTESQUE	sharp-0	engineering-grey	precise	
+italian-fashion	regional	Italian Fashion Print	elegance sensual type	TY-DIDONE-LUX	ink-underline	fashion-print	elegance	
+french-editorial	regional	French Editorial	intellectual airy type	TY-MODERN-SERIF	ink-underline	cream-edit	airy	
+iberian-azulejo	regional	Iberian Azulejo	tile patterns ceramic blue	TY-HUMANIST	chunk-border	azulejo	pattern secondary	
+nordic-runelike	regional	Nordic Stark	cold stark nature type	TY-GROTESQUE	sharp-0	fjord-stone	stark	
+east-euro-poster	regional	Eastern European Poster	metaphor bold concept	TY-DISPLAY-EXTREME	sharp-0	poster-print	concept	
+soviet-construct-poster	regional	Soviet Poster Tradition	worker geometry slogan	TY-INDUSTRIAL-COND	chunk-border	red-black	historical care	
+middle-east-geometric	regional	Islamic Geometric Influence	pattern geometry calligraphy care	TY-GEOMETRIC	ink-underline	geometric-tile	calligraphy respectful	
+west-african-textile	regional	West African Textile Inspired	bold pattern rhythm colour	TY-DISPLAY-EXTREME	chunk-border	ankara-inspired	pattern not stereotype	
+east-african-urban	regional	East African Urban Contemporary	city colour bold type	TY-HUMANIST	chunk-border	urban-colour	contemporary	
+indic-modern	regional	Indic Modern	festive colour modern type	TY-HUMANIST	pill	festive-colour	not exoticism	
+se-asian-tropical-modern	regional	SE Asian Tropical Modern	humid green modern calm	TY-HUMANIST	soft-rect	tropical-modern	climate	
+latin-american-modern	regional	Latin American Modern	bold colour mural energy	TY-DISPLAY-EXTREME	chunk-border	mural-colour	energy	
+brazilian-tropicalia	regional	Tropicália Inspired	clash tropical modern	TY-MIXED-HIGH-CONTRAST	chunk-border	tropical-clash	clash	
+mexican-muralist	regional	Mexican Muralist Inspired	public narrative bold figures	TY-DISPLAY-EXTREME	filled-block	mural	narrative	
+us-roadside	regional	US Roadside Vernacular	motel signs big type	TY-DISPLAY-EXTREME	chunk-border	motel-neon	vernacular	
+us-national-park	regional	US National Park Service	badge poster nature type	TY-SLAB	chunk-border	park-poster	nature	
+canadian-modern	regional	Canadian Modern Public	clear bilingual calm	TY-HUMANIST	soft-rect	public-clear	clear	
+australian-modern	regional	Australian Modern	sun beach urban mix	TY-HUMANIST	soft-rect	sun-urban	bright	
+nz-clean-green	regional	NZ Clean Green	nature clarity open	TY-HUMANIST	soft-rect	green-clean	open	
+uk-brutal-public	regional	UK Public Brutal	civic concrete practical	TY-GROTESQUE	sharp-0	civic-concrete	practical	
+uk-railway	regional	UK Railway Poster	travel lithograph charm	TY-HUMANIST	ticket	lithograph	travel	
+london-underground	regional	London Underground	Johnston-like wayfinding	TY-HUMANIST	sharp-0	roundel-wayfinding	wayfinding	
+paris-metro	regional	Paris Métro	Guimard curves / modern hybrid	TY-DISPLAY-EXTREME	ink-underline	metro-iron	metro	
+tokyo-dense	regional	Tokyo Dense Urban UI	information dense precise	TY-GROTESK-SOFT	sharp-0	dense-signage	density careful	
+seoul-soft-product	regional	Seoul Soft Product	polished soft app cards	TY-ROUNDED	pill	soft-card	soft product	
+shanghai-neon	regional	Shanghai Neon Night	neon hanzi skyline energy	TY-DISPLAY-EXTREME	sharp-0	neon-night	neon AA	
+letterpress	craft-material	Letterpress	impression ink paper bite	TY-OLDSTYLE-SERIF	chunk-border	letterpress	impression	
+woodblock	craft-material	Woodblock	carved ink grain	TY-DISPLAY-EXTREME	sharp-0	woodblock	grain	
+screenprint-poster	craft-material	Screenprint Poster	flat ink layers registration	TY-INDUSTRIAL-COND	chunk-border	screenprint	layers	
+embroidery-ui	craft-material	Embroidery Inspired	stitch texture folk	TY-HUMANIST	soft-rect	stitch	texture secondary	
+ceramics-studio	craft-material	Ceramics Studio	glaze clay kiln calm	TY-HUMANIST	pill	ceramic-glaze	glaze	
+glassblowing	craft-material	Glass Studio	transparent colour heat	TY-GROTESK-SOFT	pill	hot-glass	transparency contrast	
+blacksmith	craft-material	Blacksmith	forge iron heat spark	TY-INDUSTRIAL-COND	chunk-border	forged-iron	heat	
+bookbinding	craft-material	Bookbinding	cloth boards endpapers	TY-OLDSTYLE-SERIF	ink-underline	book-cloth	book	
+stationery-luxe	craft-material	Luxury Stationery	foil deboss paper grades	TY-DIDONE-LUX	ink-underline	deboss-foil	foil	
+packing-tape-warehouse	craft-material	Warehouse Packing	tape labels stencil	TY-STENCIL	chunk-border	packing-tape	stencil	
+saas-default-anti	digital-product	SaaS Default (BAN often)	Inter soft cards purple accent — use as refuse	TY-GROTESK-SOFT	soft-rect	saas-white	this is the median to refuse	
+docs-site	digital-product	Docs Site	TOC content code	TY-GROTESK-SOFT	ink-underline	docs-grey	TOC	
+marketing-launch	digital-product	Launch Marketing	hero proof CTA	TY-GROTESK-SOFT	soft-rect	launch	hero	
+waitlist-minimal	digital-product	Waitlist Minimal	almost nothing email	TY-SANS-ONLY-TIGHT	ink-underline	void	min	
+onboarding-friendly	digital-product	Friendly Onboarding	steps illustration calm	TY-ROUNDED	pill	friendly	steps	
+empty-state-art	digital-product	Empty-State Artful	empty as designed moment	TY-HUMANIST	soft-rect	empty-art	empty	
+settings-dense	digital-product	Settings Dense	groups search shortcuts	TY-SYSTEM-RAW	sharp-0	settings	not candy pills	
+analytics-serious	digital-product	Analytics Serious	charts first quiet chrome	TY-MONO-DATA	sharp-0	chart-ink	charts	
+social-feed	digital-product	Social Feed	cards infinite careful	TY-GROTESK-SOFT	pill	feed	feed	
+marketplace	digital-product	Marketplace	search grid trust	TY-GROTESK-SOFT	soft-rect	market-grid	trust	
+booking-calendar	digital-product	Booking Calendar	availability spine	TY-HUMANIST	soft-rect	calendar	dates	
+chat-support	digital-product	Support Chat	thread + context not triple AI	TY-HUMANIST	pill	support	thread	
+email-client	digital-product	Email Client	list reading pane	TY-HUMANIST	sharp-0	mail	master-detail	
+notes-plain	digital-product	Plain Notes	writing first almost no chrome	TY-SERIF-TEXT	ink-underline	paper	writing	
+wiki-internal	digital-product	Internal Wiki	tree content breadcrumbs	TY-SYSTEM-RAW	ink-underline	wiki	tree	
+status-page	digital-product	Status Page	uptime honest plain	TY-SYSTEM-RAW	sharp-0	status	honest	
+error-playful	digital-product	Playful Error	404 character without cruelty	TY-ROUNDED	pill	error-play	still clear	
+paywall-fair	digital-product	Fair Paywall	clear offer no dark patterns	TY-HUMANIST	filled-block	paywall	fair	
+accessibility-first	digital-product	Accessibility-First Chrome	high contrast large targets explicit	TY-HUMANIST	chunk-border	a11y-high	floor amplified	
+low-bandwidth	digital-product	Low Bandwidth	few assets system fonts	TY-SYSTEM-RAW	ink-underline	system	fast	
+print-stylesheet-web	digital-product	Print-First Web	designed to print clean	TY-SERIF-TEXT	ink-underline	print-paper	print	
+amp-bare	digital-product	Bare Content	reader mode aesthetic	TY-SERIF-TEXT	ink-underline	reader	content	
+newsletter-html	digital-product	HTML Newsletter	single column email constraints	TY-HUMANIST	filled-block	email-safe	email limits	
+pwa-install	digital-product	PWA Utility	app-like simple install	TY-GROTESK-SOFT	pill	pwa	simple	
+ar-overlay	digital-product	AR Overlay UI	transparent HUD real world	TY-GROTESK-SOFT	pill	hud-clear	overlay contrast	
+watch-complication	digital-product	Watch-scale	tiny dense complications	TY-SYSTEM-RAW	sharp-0	watch	tiny type limits	
+tv-10foot	digital-product	10-foot UI	huge focus living room	TY-GROTESQUE	soft-rect	tv-dark	focus large	
+kiosk	digital-product	Kiosk	touch first timeout	TY-HUMANIST	filled-block	kiosk	touch 44px+	
+pos-till	digital-product	POS Till	fast keys total	TY-INDUSTRIAL-COND	chunk-border	till	speed	
+signage-digital	digital-product	Digital Signage	distance legible loop	TY-INDUSTRIAL-COND	sharp-0	signage	distance	
+acid-graphix	internet-expanded	Acid Graphics	chaotic gradient mesh 90s revival	TY-DISPLAY-EXTREME	chunk-border	acid-mesh	style-specific contrast	expanded research list
+afrofuturism	internet-expanded	Afrofuturism	black futures tech myth	TY-DISPLAY-EXTREME	sharp-0	futurist-pattern	style-specific contrast	expanded research list
+analog-horror	internet-expanded	Analog Horror	VHS threat static	TY-SYSTEM-RAW	sharp-0	vhs-static	style-specific contrast	expanded research list
+androgyne	internet-expanded	Androgynous Fashion UI	fluid minimal fashion	TY-GROTESK-SOFT	ink-underline	fashion-min	style-specific contrast	expanded research list
+arcade-carpet	internet-expanded	Arcade Carpet	wild pattern dark play	TY-PIXEL	chunk-border	arcade-carpet	style-specific contrast	expanded research list
+art-hoe	internet-expanded	Art Hoe	creative colour plant collage	TY-MIXED-HIGH-CONTRAST	soft-rect	plant-collage	style-specific contrast	expanded research list
+barbiecore	internet-expanded	Barbiecore	hot pink plastic glamour	TY-ROUNDED	pill	pink-plastic	style-specific contrast	expanded research list
+basement-swamp	internet-expanded	Basement Swamp	damp low-fi gross cute	TY-SYSTEM-RAW	chunk-border	damp	style-specific contrast	expanded research list
+beatnik	internet-expanded	Beatnik	black turtleneck jazz type	TY-OLDSTYLE-SERIF	ink-underline	black-coffee	style-specific contrast	expanded research list
+bioluminescent	internet-expanded	Bioluminescent	deep ocean glow	TY-GROTESK-SOFT	pill	deep-glow	style-specific contrast	expanded research list
+bookstore	internet-expanded	Bookstore	stacks stickers handwritten	TY-OLDSTYLE-SERIF	ink-underline	book-stack	style-specific contrast	expanded research list
+bubblegum-crisis	internet-expanded	Bubblegum 80s Anime	80s JP chrome pink	TY-GEOMETRIC	pill	chrome-pink	style-specific contrast	expanded research list
+cabincore	internet-expanded	Cabincore	log cabin cozy forest	TY-SLAB	chunk-border	log-cabin	style-specific contrast	expanded research list
+carnival	internet-expanded	Carnival	tickets stripes loud fun	TY-DISPLAY-EXTREME	ticket	carnival	style-specific contrast	expanded research list
+cartography-fantasy	internet-expanded	Fantasy Map	parchment compass roses	TY-OLDSTYLE-SERIF	ticket	parchment-map	style-specific contrast	expanded research list
+celtic-knot	internet-expanded	Celtic Inspired	knots stone green	TY-OLDSTYLE-SERIF	ink-underline	knot-stone	style-specific contrast	expanded research list
+chalkboard-menu	internet-expanded	Chalkboard Menu	hand chalk specials	TY-SCRIPT-SPARSE	chunk-border	chalkboard	style-specific contrast	expanded research list
+circus-vintage	internet-expanded	Vintage Circus	rings posters spectacle	TY-DISPLAY-EXTREME	ticket	circus	style-specific contrast	expanded research list
+clockpunk	internet-expanded	Clockpunk	clockwork precision	TY-OLDSTYLE-SERIF	ticket	clockwork	style-specific contrast	expanded research list
+cloudcore	internet-expanded	Cloudcore	soft sky dream clouds	TY-ROUNDED	pill	cloud	style-specific contrast	expanded research list
+clowncore	internet-expanded	Clowncore	chaotic primary silly	TY-DISPLAY-EXTREME	chunk-border	clown-primary	style-specific contrast	expanded research list
+coral-reef	internet-expanded	Coral Reef	underwater saturated life	TY-ROUNDED	pill	coral	style-specific contrast	expanded research list
+corporate-grunge	internet-expanded	Corporate Grunge	office decay irony	TY-MIXED-HIGH-CONTRAST	chunk-border	office-decay	style-specific contrast	expanded research list
+cozy-game-ui	internet-expanded	Cozy Stardew-like	farm soft pixel-adjacent	TY-ROUNDED	pill	cozy-farm	style-specific contrast	expanded research list
+cyber-pretty	internet-expanded	Cyber Pretty	cute tech pink chrome	TY-ROUNDED	pill	pink-chrome	style-specific contrast	expanded research list
+dark-ocean	internet-expanded	Dark Ocean	abyss pressure blue-black	TY-GROTESK-SOFT	sharp-0	abyss	style-specific contrast	expanded research list
+desert-modern	internet-expanded	Desert Modern	adobe midcentury heat	TY-HUMANIST	sharp-0	adobe	style-specific contrast	expanded research list
+diesel-workshop	internet-expanded	Diesel Workshop	oil tools manuals	TY-INDUSTRIAL-COND	chunk-border	oil-rag	style-specific contrast	expanded research list
+diner-americana	internet-expanded	Americana Diner	checkered cherry red	TY-DISPLAY-EXTREME	chunk-border	checkered	style-specific contrast	expanded research list
+dungeon-synth	internet-expanded	Dungeon Synth	lo-fi medieval dark	TY-BLACKLETTER-SPARSE	sharp-0	dungeon	style-specific contrast	expanded research list
+editorial-new-york	internet-expanded	NY Editorial	intellectual black white	TY-MODERN-SERIF	ink-underline	ny-edit	style-specific contrast	expanded research list
+egyptian-revival	internet-expanded	Egyptian Revival	deco nile geometry	TY-GEOMETRIC	sharp-0	nile-gold	style-specific contrast	expanded research list
+electroclash	internet-expanded	Electroclash	2000s club irony	TY-DISPLAY-EXTREME	sharp-0	club-irony	style-specific contrast	expanded research list
+elfcore	internet-expanded	Elfcore	ethereal forest elegant	TY-DIDONE-LUX	ink-underline	forest-ethereal	style-specific contrast	expanded research list
+equestrian	internet-expanded	Equestrian	leather brass riding	TY-TRANSITIONAL-SERIF	chunk-border	leather-brass	style-specific contrast	expanded research list
+estate-sale	internet-expanded	Estate Sale	thrifted mixed decades	TY-MIXED-HIGH-CONTRAST	ticket	thrift	style-specific contrast	expanded research list
+fantasy-rpg-ui	internet-expanded	Fantasy RPG UI	parchment bars spells	TY-OLDSTYLE-SERIF	ticket	rpg-parchment	style-specific contrast	expanded research list
+fauvist	internet-expanded	Fauvist Colour	wild non-natural colour	TY-DISPLAY-EXTREME	chunk-border	wild-colour	style-specific contrast	expanded research list
+festival-boho	internet-expanded	Festival Boho	fringe dust sunset	TY-HUMANIST	pill	dust-sunset	style-specific contrast	expanded research list
+film-noir	internet-expanded	Film Noir	venetian blinds shadow	TY-TRANSITIONAL-SERIF	sharp-0	noir-shadow	style-specific contrast	expanded research list
+flatwood	internet-expanded	Flatwoods	cryptid fog rural	TY-SYSTEM-RAW	sharp-0	fog-rural	style-specific contrast	expanded research list
+floral-maximal	internet-expanded	Floral Maximal	wall-to-wall botanicals	TY-OLDSTYLE-SERIF	soft-rect	floral-max	style-specific contrast	expanded research list
+forest-punk	internet-expanded	Forest Punk	green anarchic nature tech	TY-MIXED-HIGH-CONTRAST	chunk-border	green-tech	style-specific contrast	expanded research list
+frozen-dairy	internet-expanded	Ice Cream Parlour	pastel scoops chrome	TY-ROUNDED	pill	ice-cream	style-specific contrast	expanded research list
+garage-kit	internet-expanded	Garage Kit	hobby model paint	TY-SYSTEM-RAW	chunk-border	model-paint	style-specific contrast	expanded research list
+garden-formal	internet-expanded	Formal Garden	symmetry hedges paths	TY-TRANSITIONAL-SERIF	ink-underline	hedge	style-specific contrast	expanded research list
+gas-station-night	internet-expanded	Night Gas Station	fluorescent loneliness	TY-SYSTEM-RAW	sharp-0	fluorescent	style-specific contrast	expanded research list
+glitch-art	internet-expanded	Glitch Art	corruption RGB split	TY-MONO-DATA	sharp-0	rgb-split	style-specific contrast	expanded research list
+gothic-revival	internet-expanded	Gothic Revival	pointed arches romantic	TY-BLACKLETTER-SPARSE	ink-underline	gothic-stone	style-specific contrast	expanded research list
+grand-budapest	internet-expanded	Grand Budapest-like	pastel symmetric hotel	TY-DIDONE-LUX	soft-rect	pastel-hotel	style-specific contrast	expanded research list
+greenhouse	internet-expanded	Greenhouse	glass humidity plants	TY-HUMANIST	soft-rect	greenhouse	style-specific contrast	expanded research list
+grocery-90s	internet-expanded	90s Grocery	loud promo clipart	TY-SYSTEM-RAW	filled-block	promo-clip	style-specific contrast	expanded research list
+grunge-90s	internet-expanded	90s Grunge	flannel dirt type	TY-MIXED-HIGH-CONTRAST	chunk-border	flannel	style-specific contrast	expanded research list
+halloween-classic	internet-expanded	Classic Halloween	orange black cutout	TY-DISPLAY-EXTREME	chunk-border	orange-black	style-specific contrast	expanded research list
+harbor-fog	internet-expanded	Harbor Fog	grey wet horns	TY-HUMANIST	chunk-border	fog-harbour	style-specific contrast	expanded research list
+harlem-renaissance	internet-expanded	Harlem Renaissance Inspired	jazz art deco black culture	TY-DIDONE-LUX	ink-underline	jazz-gold	style-specific contrast	expanded research list
+haunted-mansion	internet-expanded	Haunted Mansion	victorian gloom fun	TY-OLDSTYLE-SERIF	ink-underline	haunted-victorian	style-specific contrast	expanded research list
+hedgewitch	internet-expanded	Hedge Witch	herbal practical mystic	TY-OLDSTYLE-SERIF	ink-underline	herb	style-specific contrast	expanded research list
+hikecore	internet-expanded	Hikecore	trail maps layers packs	TY-HUMANIST	chunk-border	trail-map	style-specific contrast	expanded research list
+holiday-resort	internet-expanded	Holiday Resort	brochure pool blue	TY-HUMANIST	pill	resort-blue	style-specific contrast	expanded research list
+horror-pulp	internet-expanded	Pulp Horror	lurid covers type	TY-DISPLAY-EXTREME	chunk-border	pulp	style-specific contrast	expanded research list
+hospital-retro	internet-expanded	Retro Hospital	mint tile midcentury med	TY-HUMANIST	soft-rect	mint-tile	style-specific contrast	expanded research list
+hot-rod	internet-expanded	Hot Rod	flames chrome racing	TY-DISPLAY-EXTREME	sharp-0	flame-chrome	style-specific contrast	expanded research list
+iceberg	internet-expanded	Iceberg	cold minimal tip deep	TY-GROTESK-SOFT	sharp-0	iceberg	style-specific contrast	expanded research list
+indie-folk-web	internet-expanded	Indie Folk Web	handdrawn soft acoustic	TY-OLDSTYLE-SERIF	soft-rect	handdrawn	style-specific contrast	expanded research list
+industrial-ballet	internet-expanded	Industrial Ballet	grace in machinery	TY-MIXED-HIGH-CONTRAST	sharp-0	machine-grace	style-specific contrast	expanded research list
+ink-bleed	internet-expanded	Ink Bleed	wet paper spread	TY-OLDSTYLE-SERIF	ink-underline	wet-ink	style-specific contrast	expanded research list
+jazz-club	internet-expanded	Jazz Club	low light brass smoke	TY-DIDONE-LUX	ink-underline	brass-smoke	style-specific contrast	expanded research list
+journal-bullet	internet-expanded	Bullet Journal	dotted grids habit	TY-HUMANIST	soft-rect	dot-grid	style-specific contrast	expanded research list
+jungle-modern	internet-expanded	Jungle Modern	lush leaf modern furniture	TY-HUMANIST	soft-rect	jungle-modern	style-specific contrast	expanded research list
+kayak-outdoor	internet-expanded	Paddle Outdoor	river bright functional	TY-HUMANIST	chunk-border	river	style-specific contrast	expanded research list
+kitchen-70s	internet-expanded	1970s Kitchen	avocado harvest gold	TY-GEOMETRIC	soft-rect	avocado-gold	style-specific contrast	expanded research list
+lab-core	internet-expanded	Labcore	beakers clean curiosity	TY-MONO-DATA	sharp-0	beaker	style-specific contrast	expanded research list
+library-public	internet-expanded	Public Library	 Dewey calm helpful	TY-HUMANIST	ink-underline	library-public	style-specific contrast	expanded research list
+lighthouse	internet-expanded	Lighthouse	beam night sea	TY-HUMANIST	chunk-border	lighthouse	style-specific contrast	expanded research list
+linen-spa	internet-expanded	Linen Spa	beige calm wellness	TY-HUMANIST	pill	linen-spa	style-specific contrast	expanded research list
+lipstick-print	internet-expanded	Lipstick Pop	beauty print bold	TY-DIDONE-LUX	pill	lipstick	style-specific contrast	expanded research list
+loft-artist	internet-expanded	Artist Loft	paint splatter white space	TY-MIXED-HIGH-CONTRAST	sharp-0	paint-loft	style-specific contrast	expanded research list
+lumberjack	internet-expanded	Lumberjack	plaid timber axe	TY-SLAB	chunk-border	plaid	style-specific contrast	expanded research list
+lunar	internet-expanded	Lunar	moon dust silver quiet	TY-GROTESK-SOFT	sharp-0	moon-dust	style-specific contrast	expanded research list
+magic-marker	internet-expanded	Magic Marker	hand thick marker	TY-DISPLAY-EXTREME	chunk-border	marker	style-specific contrast	expanded research list
+marine-biology	internet-expanded	Marine Biology	specimen blue scientific	TY-SERIF-TEXT	sharp-0	specimen-blue	style-specific contrast	expanded research list
+marketplace-bazaar	internet-expanded	Bazaar	dense stalls colour	TY-MIXED-HIGH-CONTRAST	chunk-border	bazaar	style-specific contrast	expanded research list
+meadow	internet-expanded	Meadow	wildflower soft horizontal	TY-OLDSTYLE-SERIF	soft-rect	wildflower	style-specific contrast	expanded research list
+medical-flat	internet-expanded	Medical Flat Iconic	clean clinical flat	TY-HUMANIST	soft-rect	medical-flat	style-specific contrast	expanded research list
+memphis-lite	internet-expanded	Memphis Lite	softer memphis shapes	TY-GEOMETRIC	pill	memphis-soft	style-specific contrast	expanded research list
+military-surplus	internet-expanded	Military Surplus	olive stencil util	TY-STENCIL	chunk-border	olive-drab	style-specific contrast	expanded research list
+mineral	internet-expanded	Mineral	geodes crystal facets	TY-GEOMETRIC	sharp-0	crystal	style-specific contrast	expanded research list
+minimal-swiss-dark	internet-expanded	Dark Swiss	swiss on near-black	TY-GROTESQUE	ink-underline	dark-swiss	style-specific contrast	expanded research list
+modular-synth	internet-expanded	Modular Synth	patch cables knobs	TY-MONO-DATA	chunk-border	synth-panel	style-specific contrast	expanded research list
+monastic	internet-expanded	Monastic	quiet stone script spare	TY-OLDSTYLE-SERIF	ink-underline	stone-quiet	style-specific contrast	expanded research list
+monochrome-red	internet-expanded	Red Monochrome	one red ink system	TY-GROTESQUE	sharp-0	red-ink	style-specific contrast	expanded research list
+motel-seedy	internet-expanded	Seedy Motel	neon vacancy loneliness	TY-DISPLAY-EXTREME	chunk-border	vacancy-neon	style-specific contrast	expanded research list
+mountain-badge	internet-expanded	Mountain Badge	park badge patches	TY-SLAB	ticket	badge-patch	style-specific contrast	expanded research list
+movie-prop	internet-expanded	Movie Prop UI	diegetic fake interfaces	TY-MONO-DATA	sharp-0	prop-ui	style-specific contrast	expanded research list
+municipal	internet-expanded	Municipal	forms stamps civic beige	TY-SYSTEM-RAW	sharp-0	municipal	style-specific contrast	expanded research list
+museum-label	internet-expanded	Museum Label	tiny captions rigor	TY-SERIF-TEXT	ink-underline	label	style-specific contrast	expanded research list
+mushroom	internet-expanded	Mushroom	forest fungi soft weird	TY-ROUNDED	pill	mushroom	style-specific contrast	expanded research list
+nautical-flag	internet-expanded	Nautical Flag	signal flags code	TY-HUMANIST	chunk-border	signal-flags	style-specific contrast	expanded research list
+neo-geo	internet-expanded	Neo-Geo 80s	memphis geometry cousin	TY-GEOMETRIC	sharp-0	neo-geo	style-specific contrast	expanded research list
+neo-tokyo	internet-expanded	Neo Tokyo	anime rain neon density	TY-DISPLAY-EXTREME	sharp-0	neo-tokyo	style-specific contrast	expanded research list
+newspaper-sports	internet-expanded	Sports Page	stats columns bold	TY-INDUSTRIAL-COND	sharp-0	sports-page	style-specific contrast	expanded research list
+night-market	internet-expanded	Night Market	lanterns steam stalls	TY-MIXED-HIGH-CONTRAST	chunk-border	lantern	style-specific contrast	expanded research list
+noir-detective	internet-expanded	Detective Noir	case files stamps	TY-TRANSITIONAL-SERIF	ticket	case-file	style-specific contrast	expanded research list
+nordic-noir	internet-expanded	Nordic Noir	cold crime quiet	TY-GROTESQUE	sharp-0	cold-crime	style-specific contrast	expanded research list
+notebook-lab	internet-expanded	Lab Notebook	grid ink stains	TY-MONO-DATA	sharp-0	lab-notebook	style-specific contrast	expanded research list
+observatory	internet-expanded	Observatory	stars charts navy	TY-SERIF-TEXT	ink-underline	star-chart	style-specific contrast	expanded research list
+office-90s	internet-expanded	90s Office	clipart beige CRT	TY-SYSTEM-RAW	soft-rect	office-beige	style-specific contrast	expanded research list
+oil-paint-gallery	internet-expanded	Oil Gallery	heavy frames varnish	TY-OLDSTYLE-SERIF	ink-underline	varnish	style-specific contrast	expanded research list
+olive-garden-italian-american	internet-expanded	Italian-American Red Sauce	checkered warm family	TY-HUMANIST	soft-rect	check-red	style-specific contrast	expanded research list
+opera	internet-expanded	Opera	velvet gold drama	TY-DIDONE-LUX	ink-underline	velvet-gold	style-specific contrast	expanded research list
+oracle-mystic	internet-expanded	Oracle Mystic	cards symbols dusk	TY-OLDSTYLE-SERIF	ticket	oracle	style-specific contrast	expanded research list
+organic-grocery	internet-expanded	Organic Grocery	kraft green leaf	TY-HUMANIST	soft-rect	kraft-green	style-specific contrast	expanded research list
+origami	internet-expanded	Origami	folded paper geometry	TY-GEOMETRIC	sharp-0	folded-paper	style-specific contrast	expanded research list
+ornithology	internet-expanded	Ornithology	bird plates field	TY-SERIF-TEXT	ink-underline	bird-plate	style-specific contrast	expanded research list
+outdoor-brands	internet-expanded	Outdoor Brand	topo maps functional	TY-HUMANIST	chunk-border	topo	style-specific contrast	expanded research list
+pagan-folk	internet-expanded	Pagan Folk	symbols seasons earth	TY-OLDSTYLE-SERIF	ink-underline	season-earth	style-specific contrast	expanded research list
+paintball	internet-expanded	Paintball	splatter sport energy	TY-INDUSTRIAL-COND	chunk-border	splatter	style-specific contrast	expanded research list
+palace	internet-expanded	Palace	ornate symmetry gold	TY-DIDONE-LUX	ink-underline	palace-gold	style-specific contrast	expanded research list
+papercraft	internet-expanded	Papercraft	cut layers shadow boxes	TY-HUMANIST	soft-rect	paper-layer	style-specific contrast	expanded research list
+parade	internet-expanded	Parade	confetti floats bright	TY-DISPLAY-EXTREME	pill	confetti	style-specific contrast	expanded research list
+park-municipal	internet-expanded	Municipal Park	signs maps green	TY-HUMANIST	chunk-border	park-sign	style-specific contrast	expanded research list
+pastel-memphis	internet-expanded	Pastel Memphis	memphis pastel soft	TY-GEOMETRIC	pill	pastel-memphis	style-specific contrast	expanded research list
+patio	internet-expanded	Patio	terracotta sun leisure	TY-HUMANIST	soft-rect	terracotta	style-specific contrast	expanded research list
+pattern-liberation	internet-expanded	Pattern Liberation	loud textile proud	TY-DISPLAY-EXTREME	chunk-border	textile-loud	style-specific contrast	expanded research list
+pavilion	internet-expanded	Pavilion	expo temporary architecture	TY-GEOMETRIC	sharp-0	expo	style-specific contrast	expanded research list
+pebble-beach	internet-expanded	Pebble Beach	stones seafoam calm	TY-HUMANIST	soft-rect	pebble	style-specific contrast	expanded research list
+pencil-sketch	internet-expanded	Pencil Sketch	graphite construction lines	TY-SYSTEM-RAW	ink-underline	graphite	style-specific contrast	expanded research list
+persian-miniature-inspired	internet-expanded	Miniature Inspired	dense narrative detail care	TY-OLDSTYLE-SERIF	ink-underline	miniature	style-specific contrast	expanded research list
+pharmacy-retro	internet-expanded	Retro Pharmacy	green cross vintage	TY-HUMANIST	soft-rect	pharmacy-green	style-specific contrast	expanded research list
+photobooth	internet-expanded	Photobooth	strips curtains fun	TY-ROUNDED	pill	photo-strip	style-specific contrast	expanded research list
+picnic	internet-expanded	Picnic	gingham basket sun	TY-HUMANIST	soft-rect	gingham	style-specific contrast	expanded research list
+pixel-office	internet-expanded	Pixel Office	16-bit cubicle humor	TY-PIXEL	sharp-0	pixel-office	style-specific contrast	expanded research list
+planetarium	internet-expanded	Planetarium	dome stars education	TY-GROTESK-SOFT	sharp-0	dome-stars	style-specific contrast	expanded research list
+plant-shop	internet-expanded	Plant Shop	pots humidity labels	TY-HUMANIST	soft-rect	plant-pots	style-specific contrast	expanded research list
+polar	internet-expanded	Polar	expedition red on white	TY-GROTESQUE	chunk-border	expedition	style-specific contrast	expanded research list
+police-procedural	internet-expanded	Procedural	evidence boards pins	TY-SYSTEM-RAW	sharp-0	evidence-board	style-specific contrast	expanded research list
+pop-surreal	internet-expanded	Pop Surreal	lowbrow gallery weird	TY-DISPLAY-EXTREME	chunk-border	pop-surreal	style-specific contrast	expanded research list
+porcelain	internet-expanded	Porcelain	fragile blue white	TY-DIDONE-LUX	ink-underline	porcelain-blue	style-specific contrast	expanded research list
+postal	internet-expanded	Postal	stamps cancels airmail	TY-HUMANIST	ticket	airmail	style-specific contrast	expanded research list
+pottery-barn-soft	internet-expanded	Soft Retail Home	safe lifestyle catalog	TY-HUMANIST	soft-rect	home-catalog	style-specific contrast	expanded research list
+power-station	internet-expanded	Power Station	warning stripes industrial	TY-INDUSTRIAL-COND	chunk-border	warning-stripe	style-specific contrast	expanded research list
+prairie	internet-expanded	Prairie	horizontal land sky	TY-HUMANIST	soft-rect	prairie	style-specific contrast	expanded research list
+preppy	internet-expanded	Preppy	navy stripes collegiate	TY-TRANSITIONAL-SERIF	soft-rect	navy-stripe	style-specific contrast	expanded research list
+printers-workshop	internet-expanded	Printers Workshop	type cases ink	TY-OLDSTYLE-SERIF	chunk-border	type-case	style-specific contrast	expanded research list
+protest-poster	internet-expanded	Protest Poster	urgent one demand	TY-INDUSTRIAL-COND	filled-block	protest	style-specific contrast	expanded research list
+psychedelic-modern	internet-expanded	Modern Psychedelic	controlled chaos colour	TY-DISPLAY-EXTREME	chunk-border	psych-modern	style-specific contrast	expanded research list
+public-access	internet-expanded	Public Access TV	low budget crawl	TY-SYSTEM-RAW	sharp-0	public-access	style-specific contrast	expanded research list
+pulp-sci-fi	internet-expanded	Pulp Sci-Fi	rocket covers lurid	TY-DISPLAY-EXTREME	chunk-border	pulp-rocket	style-specific contrast	expanded research list
+quarry	internet-expanded	Quarry	stone cut dust	TY-GROTESQUE	sharp-0	stone-cut	style-specific contrast	expanded research list
+quilt	internet-expanded	Quilt	block patterns warm	TY-HUMANIST	soft-rect	quilt-block	style-specific contrast	expanded research list
+racing-livery	internet-expanded	Racing Livery	sponsor stripes speed	TY-INDUSTRIAL-COND	sharp-0	livery	style-specific contrast	expanded research list
+radio-ham	internet-expanded	Ham Radio	dials meters frequencies	TY-MONO-DATA	chunk-border	radio-dial	style-specific contrast	expanded research list
+rainy-city	internet-expanded	Rainy City	reflections umbrellas	TY-GROTESK-SOFT	soft-rect	rain-reflect	style-specific contrast	expanded research list
+ranch	internet-expanded	Ranch	leather fence open	TY-SLAB	chunk-border	ranch-leather	style-specific contrast	expanded research list
+record-shop	internet-expanded	Record Shop	bins sleeves stickers	TY-MIXED-HIGH-CONTRAST	chunk-border	record-sleeve	style-specific contrast	expanded research list
+red-envelope	internet-expanded	Festive Red Envelope	celebration gold red care	TY-DISPLAY-EXTREME	ticket	red-gold	style-specific contrast	expanded research list
+research-institute	internet-expanded	Research Institute	papers diagrams calm	TY-SERIF-TEXT	sharp-0	research-paper	style-specific contrast	expanded research list
+resort-brutal	internet-expanded	Brutalist Resort	concrete holiday contrast	TY-GROTESQUE	sharp-0	concrete-holiday	style-specific contrast	expanded research list
+retro-future-50s	internet-expanded	50s Retrofuture	atom cars optimism	TY-GEOMETRIC	pill	atom-car	style-specific contrast	expanded research list
+ribbon	internet-expanded	Ribbon	banners awards ceremonial	TY-DIDONE-LUX	ticket	ribbon	style-specific contrast	expanded research list
+riverboat	internet-expanded	Riverboat	paddle steam mark twain	TY-OLDSTYLE-SERIF	ticket	riverboat	style-specific contrast	expanded research list
+road-atlas	internet-expanded	Road Atlas	highways legends	TY-HUMANIST	sharp-0	road-atlas	style-specific contrast	expanded research list
+robot-toy	internet-expanded	Toy Robot	tin litho cute machine	TY-GEOMETRIC	chunk-border	tin-toy	style-specific contrast	expanded research list
+rock-climbing	internet-expanded	Climbing Gym	holds chalk bright	TY-INDUSTRIAL-COND	chunk-border	climbing-hold	style-specific contrast	expanded research list
+rococo-pastel	internet-expanded	Rococo Pastel Soft	pastel scroll soft UI	TY-SCRIPT-SPARSE	pill	rococo-pastel	style-specific contrast	expanded research list
+romantic-comedy	internet-expanded	Romcom	warm soft focus type	TY-HUMANIST	pill	warm-soft	style-specific contrast	expanded research list
+rooftop-bar	internet-expanded	Rooftop Bar	night skyline cocktails	TY-DIDONE-LUX	pill	skyline-night	style-specific contrast	expanded research list
+rubber-hose	internet-expanded	Rubber Hose Animation	1920s bouncy characters	TY-ROUNDED	pill	rubber-hose	style-specific contrast	expanded research list
+rust-belt	internet-expanded	Rust Belt	decay industry honest	TY-INDUSTRIAL-COND	chunk-border	rust	style-specific contrast	expanded research list
+safari-colonial-careful	internet-expanded	Field Safari Graphic	field notes careful not stereotype	TY-HUMANIST	ink-underline	field-note	style-specific contrast	expanded research list
+sailcloth	internet-expanded	Sailcloth	nautical fabric hardware	TY-HUMANIST	chunk-border	sailcloth	style-specific contrast	expanded research list
+salon-hair	internet-expanded	Hair Salon	gloss mirrors fashion	TY-DIDONE-LUX	pill	salon-gloss	style-specific contrast	expanded research list
+sandcastle	internet-expanded	Sandcastle	temporary playful grain	TY-ROUNDED	pill	sand	style-specific contrast	expanded research list
+sauna	internet-expanded	Sauna	wood heat steam calm	TY-HUMANIST	soft-rect	sauna-wood	style-specific contrast	expanded research list
+sci-fi-minimal	internet-expanded	Minimal Sci-Fi	clean future sparse	TY-GROTESK-SOFT	sharp-0	future-white	style-specific contrast	expanded research list
+scrapbook	internet-expanded	Scrapbook	photos tape ephemera	TY-MIXED-HIGH-CONTRAST	ticket	scrapbook	style-specific contrast	expanded research list
+scuba	internet-expanded	Scuba	depth gauges blue	TY-MONO-DATA	chunk-border	depth-gauge	style-specific contrast	expanded research list
+sculptural	internet-expanded	Sculptural UI	forms as structure 3D	TY-GROTESK-SOFT	soft-rect	sculpture-form	style-specific contrast	expanded research list
+seafood-shack	internet-expanded	Seafood Shack	picnic tables salt	TY-SLAB	chunk-border	shack	style-specific contrast	expanded research list
+secret-society	internet-expanded	Secret Society	seals wax mystery	TY-OLDSTYLE-SERIF	ticket	wax-seal	style-specific contrast	expanded research list
+seersucker	internet-expanded	Seersucker Summer	striped light south	TY-HUMANIST	soft-rect	seersucker	style-specific contrast	expanded research list
+sewer	internet-expanded	Sewer Punk	underground pipes grime	TY-MONO-DATA	chunk-border	pipes	style-specific contrast	expanded research list
+sewing-pattern	internet-expanded	Sewing Pattern	tissue notches grainlines	TY-SYSTEM-RAW	sharp-0	pattern-tissue	style-specific contrast	expanded research list
+shipyard	internet-expanded	Shipyard	cranes steel harbour	TY-INDUSTRIAL-COND	chunk-border	shipyard	style-specific contrast	expanded research list
+shoegaze	internet-expanded	Shoegaze	blur dream guitar	TY-GROTESK-SOFT	soft-rect	blur-dream	style-specific contrast	expanded research list
+shop-front	internet-expanded	High Street Shopfront	awnings painted wood	TY-HUMANIST	chunk-border	shopfront	style-specific contrast	expanded research list
+sixties-mod	internet-expanded	60s Mod	target circles sharp fashion	TY-GEOMETRIC	sharp-0	mod-target	style-specific contrast	expanded research list
+sketch-app	internet-expanded	Sketch App Classic	artboard layers light	TY-GROTESK-SOFT	soft-rect	artboard-light	style-specific contrast	expanded research list
+ski-resort	internet-expanded	Ski Resort	snow red lift	TY-INDUSTRIAL-COND	sharp-0	ski-red	style-specific contrast	expanded research list
+sky-writing	internet-expanded	Sky Writing	air type ephemeral	TY-DISPLAY-EXTREME	ink-underline	sky	style-specific contrast	expanded research list
+slate	internet-expanded	Slate	stone chalk grey-blue	TY-GROTESQUE	sharp-0	slate	style-specific contrast	expanded research list
+smog-city	internet-expanded	Smog City	polluted orange dusk	TY-GROTESK-SOFT	sharp-0	smog	style-specific contrast	expanded research list
+soda-fountain	internet-expanded	Soda Fountain	chrome stools pastel	TY-ROUNDED	pill	soda-chrome	style-specific contrast	expanded research list
+soft-grunge	internet-expanded	Soft Grunge	muted 2014 tumblr	TY-MIXED-HIGH-CONTRAST	soft-rect	tumblr-mute	style-specific contrast	expanded research list
+solar	internet-expanded	Solar	panels sun yellow tech	TY-GEOMETRIC	sharp-0	solar-yellow	style-specific contrast	expanded research list
+spa-japanese	internet-expanded	Onsen Minimal	stone water steam quiet	TY-SERIF-TEXT	ink-underline	onsen	style-specific contrast	expanded research list
+space-agency	internet-expanded	Space Agency	patches mission type	TY-GROTESQUE	sharp-0	mission-patch	style-specific contrast	expanded research list
+speakeasy	internet-expanded	Speakeasy	hidden door gold dark	TY-DIDONE-LUX	ink-underline	speakeasy	style-specific contrast	expanded research list
+spice-market	internet-expanded	Spice Market	warm piles colour	TY-HUMANIST	chunk-border	spice	style-specific contrast	expanded research list
+sportswear-90s	internet-expanded	90s Sportswear	neon windbreaker	TY-INDUSTRIAL-COND	pill	windbreaker	style-specific contrast	expanded research list
+stained-glass	internet-expanded	Stained Glass	lead lines coloured light	TY-OLDSTYLE-SERIF	ink-underline	stained-glass	style-specific contrast	expanded research list
+stationers	internet-expanded	Stationers	ruled pads stamps	TY-HUMANIST	ink-underline	stationery	style-specific contrast	expanded research list
+steam-railway	internet-expanded	Steam Railway	timetables enamel	TY-HUMANIST	ticket	enamel-railway	style-specific contrast	expanded research list
+steel-mill	internet-expanded	Steel Mill	heat orange industry	TY-INDUSTRIAL-COND	chunk-border	steel-heat	style-specific contrast	expanded research list
+stencil-street	internet-expanded	Street Stencil	protest spray quick	TY-STENCIL	sharp-0	spray	style-specific contrast	expanded research list
+stone-circle	internet-expanded	Stone Circle	ancient quiet land	TY-OLDSTYLE-SERIF	ink-underline	standing-stone	style-specific contrast	expanded research list
+subway-map	internet-expanded	Subway Map	lines transfers colour code	TY-HUMANIST	sharp-0	subway-map	style-specific contrast	expanded research list
+sugar-high	internet-expanded	Sugar High	candy hyper colour	TY-ROUNDED	pill	candy	style-specific contrast	expanded research list
+summit	internet-expanded	Summit	alpine sparse air	TY-GROTESQUE	sharp-0	alpine	style-specific contrast	expanded research list
+supermarket-japan	internet-expanded	JP Supermarket	dense labels polite	TY-GROTESK-SOFT	soft-rect	jp-dense-label	style-specific contrast	expanded research list
+surf-shack	internet-expanded	Surf Shack	wax boards salt wood	TY-HUMANIST	chunk-border	surf-wood	style-specific contrast	expanded research list
+surgical	internet-expanded	Surgical	extreme clinical precision	TY-MONO-DATA	sharp-0	surgical	style-specific contrast	expanded research list
+swamp	internet-expanded	Swamp	humid green murk	TY-HUMANIST	chunk-border	swamp-green	style-specific contrast	expanded research list
+sweater-weather	internet-expanded	Sweater Weather	knit warm autumn	TY-HUMANIST	soft-rect	knit	style-specific contrast	expanded research list
+synthetic-biology	internet-expanded	Synbio	lab future organic tech	TY-MONO-DATA	sharp-0	synbio	style-specific contrast	expanded research list
+tableau-classic	internet-expanded	Classic Infographic	charticle 2010s	TY-GROTESK-SOFT	soft-rect	infographic	style-specific contrast	expanded research list
+tavern	internet-expanded	Tavern	wood ale warm	TY-OLDSTYLE-SERIF	chunk-border	tavern-wood	style-specific contrast	expanded research list
+taxi	internet-expanded	Taxi	yellow black city	TY-INDUSTRIAL-COND	sharp-0	taxi-yellow	style-specific contrast	expanded research list
+tea-ceremony	internet-expanded	Tea Ceremony Inspired	spare ritual calm	TY-SERIF-TEXT	ink-underline	tea-spare	style-specific contrast	expanded research list
+techwear	internet-expanded	Techwear	black modular utility	TY-GROTESK-SOFT	sharp-0	techwear	style-specific contrast	expanded research list
+temple-quiet	internet-expanded	Temple Quiet	stone quiet threshold	TY-SERIF-TEXT	ink-underline	temple-stone	style-specific contrast	expanded research list
+tennis-club	internet-expanded	Tennis Club	white green preppy sport	TY-HUMANIST	soft-rect	tennis-white	style-specific contrast	expanded research list
+terminal-amber	internet-expanded	Amber Terminal	warm phosphor classic	TY-MONO-DATA	sharp-0	amber-crt	style-specific contrast	expanded research list
+terminal-green	internet-expanded	Green Terminal	classic phosphor	TY-MONO-DATA	sharp-0	green-crt	style-specific contrast	expanded research list
+terracotta-army	internet-expanded	Terracotta Inspired	earth ranks pattern care	TY-HUMANIST	sharp-0	terracotta-earth	style-specific contrast	expanded research list
+textile-mill	internet-expanded	Textile Mill	looms thread industry	TY-INDUSTRIAL-COND	chunk-border	loom	style-specific contrast	expanded research list
+theater-backstage	internet-expanded	Backstage	glow tape black	TY-SYSTEM-RAW	chunk-border	glow-tape	style-specific contrast	expanded research list
+tide-pool-sci	internet-expanded	Tide Pool Science	creatures catalog	TY-SERIF-TEXT	ink-underline	tide-pool	style-specific contrast	expanded research list
+tin-ceiling	internet-expanded	Tin Ceiling	pressed metal ornate	TY-DIDONE-LUX	ink-underline	tin-ceiling	style-specific contrast	expanded research list
+toolbox	internet-expanded	Toolbox	foam cutouts tools	TY-INDUSTRIAL-COND	chunk-border	tool-foam	style-specific contrast	expanded research list
+topo-only	internet-expanded	Topo Only	contour lines pure	TY-HUMANIST	sharp-0	contours	style-specific contrast	expanded research list
+toy-store	internet-expanded	Toy Store	primary shelves joy	TY-ROUNDED	pill	toy-shelf	style-specific contrast	expanded research list
+trade-show	internet-expanded	Trade Show	booth banners leads	TY-GROTESK-SOFT	filled-block	booth	style-specific contrast	expanded research list
+train-compartment	internet-expanded	Train Compartment	window seats timetable	TY-HUMANIST	ticket	compartment	style-specific contrast	expanded research list
+trench	internet-expanded	Trench	mud util military careful	TY-STENCIL	chunk-border	trench	style-specific contrast	expanded research list
+tribal-tech	internet-expanded	Tribal-Tech Hybrid careful	pattern + HUD careful	TY-MIXED-HIGH-CONTRAST	sharp-0	pattern-hud	style-specific contrast	expanded research list
+tropical-modernism	internet-expanded	Tropical Modernism	climate modern shade	TY-HUMANIST	soft-rect	shade-modern	style-specific contrast	expanded research list
+truck-stop	internet-expanded	Truck Stop	highway coffee neon	TY-INDUSTRIAL-COND	chunk-border	highway-neon	style-specific contrast	expanded research list
+typewriter	internet-expanded	Typewriter	monospace letters ink	TY-MONO-DATA	ink-underline	typewriter	style-specific contrast	expanded research list
+typography-only	internet-expanded	Typography Only	no images type composition	TY-DISPLAY-EXTREME	ink-underline	type-only	style-specific contrast	expanded research list
+underground-club	internet-expanded	Underground Club	black light low fi	TY-DISPLAY-EXTREME	sharp-0	blacklight	style-specific contrast	expanded research list
+university-lab	internet-expanded	University Lab	grant posters diagrams	TY-SERIF-TEXT	sharp-0	grant-poster	style-specific contrast	expanded research list
+urban-gardening	internet-expanded	Urban Gardening	planters city green	TY-HUMANIST	soft-rect	planter	style-specific contrast	expanded research list
+utility-bill	internet-expanded	Utility Bill	tables due dates plain	TY-SYSTEM-RAW	sharp-0	utility-form	style-specific contrast	expanded research list
+utopia	internet-expanded	Utopia	soft future hopeful diagrams	TY-GEOMETRIC	soft-rect	utopia	style-specific contrast	expanded research list
+vacation-slideshow	internet-expanded	Vacation Slideshow	kodak carousels	TY-HUMANIST	soft-rect	kodak	style-specific contrast	expanded research list
+valley	internet-expanded	Valley	vineyard rows calm	TY-HUMANIST	soft-rect	vineyard	style-specific contrast	expanded research list
+vaudeville	internet-expanded	Vaudeville	stage lights variety	TY-DISPLAY-EXTREME	ticket	vaudeville	style-specific contrast	expanded research list
+vector-flat-2013	internet-expanded	2013 Flat Vector	long shadow icons	TY-GROTESK-SOFT	soft-rect	long-shadow	style-specific contrast	expanded research list
+velour	internet-expanded	Velour	soft luxe 70s	TY-DIDONE-LUX	pill	velour	style-specific contrast	expanded research list
+venetian	internet-expanded	Venetian	canals ornate decay beauty	TY-DIDONE-LUX	ink-underline	venetian	style-specific contrast	expanded research list
+video-store	internet-expanded	Video Store	VHS walls neon	TY-DISPLAY-EXTREME	chunk-border	vhs-wall	style-specific contrast	expanded research list
+villa	internet-expanded	Villa	mediterranean leisure	TY-HUMANIST	soft-rect	villa	style-specific contrast	expanded research list
+vintage-computer	internet-expanded	Vintage Computer	beige CRT UI	TY-SYSTEM-RAW	sharp-0	beige-crt	style-specific contrast	expanded research list
+vintage-sports	internet-expanded	Vintage Sports	letterman patches	TY-INDUSTRIAL-COND	ticket	letterman	style-specific contrast	expanded research list
+volcanic	internet-expanded	Volcanic	basalt lava heat	TY-GROTESQUE	sharp-0	basalt-lava	style-specific contrast	expanded research list
+voyager	internet-expanded	Voyager	golden record space	TY-GROTESQUE	sharp-0	golden-record	style-specific contrast	expanded research list
+wallpaper-william-morris	internet-expanded	Morris Wallpaper	dense botanical craft	TY-OLDSTYLE-SERIF	ink-underline	morris-botanical	style-specific contrast	expanded research list
+warehouse-rave	internet-expanded	Warehouse Rave	industrial dance	TY-GROTESQUE	sharp-0	rave-warehouse	style-specific contrast	expanded research list
+watercolor-soft	internet-expanded	Soft Watercolour	washes edges bleed	TY-HUMANIST	soft-rect	watercolour	style-specific contrast	expanded research list
+weather-channel-90s	internet-expanded	90s Weather	maps gradients local	TY-SYSTEM-RAW	soft-rect	weather-map	style-specific contrast	expanded research list
+wedding-stationery	internet-expanded	Wedding Stationery	calligraphy suites	TY-SCRIPT-SPARSE	ink-underline	wedding-paper	style-specific contrast	expanded research list
+weird-nature	internet-expanded	Weird Nature	uncanny plants	TY-MIXED-HIGH-CONTRAST	chunk-border	weird-plant	style-specific contrast	expanded research list
+western-saloon	internet-expanded	Western Saloon	wood swinging doors	TY-SLAB	chunk-border	saloon	style-specific contrast	expanded research list
+wet-market-careful	internet-expanded	Market Fresh Graphic	produce abundance careful	TY-HUMANIST	chunk-border	produce	style-specific contrast	expanded research list
+whale	internet-expanded	Whale	deep blue scale awe	TY-SERIF-TEXT	ink-underline	whale-blue	style-specific contrast	expanded research list
+wheatpaste	internet-expanded	Wheatpaste	street posters layers	TY-INDUSTRIAL-COND	chunk-border	wheatpaste	style-specific contrast	expanded research list
+whimsical-map	internet-expanded	Whimsical Map	illustrated lands labels	TY-OLDSTYLE-SERIF	ticket	whimsy-map	style-specific contrast	expanded research list
+white-cube	internet-expanded	White Cube Gallery	neutral art container	TY-GROTESK-SOFT	ink-underline	white-cube	style-specific contrast	expanded research list
+wilderness	internet-expanded	Wilderness	topo trail risk	TY-HUMANIST	chunk-border	wilderness	style-specific contrast	expanded research list
+windmill	internet-expanded	Windmill	dutch landscape type	TY-HUMANIST	soft-rect	windmill	style-specific contrast	expanded research list
+winter-cabin	internet-expanded	Winter Cabin	fire snow wood	TY-SLAB	chunk-border	cabin-winter	style-specific contrast	expanded research list
+wireframe-aesthetic	internet-expanded	Wireframe Aesthetic	intentionally unfinished	TY-SYSTEM-RAW	sharp-0	wireframe	style-specific contrast	expanded research list
+woodcut-modern	internet-expanded	Modern Woodcut	bold carved contemporary	TY-DISPLAY-EXTREME	chunk-border	modern-woodcut	style-specific contrast	expanded research list
+workshop-manual	internet-expanded	Workshop Manual	exploded diagrams	TY-MONO-DATA	sharp-0	exploded-diagram	style-specific contrast	expanded research list
+world-fair	internet-expanded	World Fair	expo optimism pavilions	TY-GEOMETRIC	ticket	expo-fair	style-specific contrast	expanded research list
+wreck	internet-expanded	Shipwreck	salt decay salvage	TY-MIXED-HIGH-CONTRAST	chunk-border	salvage	style-specific contrast	expanded research list
+writing-desk	internet-expanded	Writing Desk	blotter pen inkwell	TY-OLDSTYLE-SERIF	ink-underline	blotter	style-specific contrast	expanded research list
+xray	internet-expanded	X-Ray	ghost anatomy blue	TY-MONO-DATA	sharp-0	xray	style-specific contrast	expanded research list
+yacht	internet-expanded	Yacht	navy white rope polish	TY-HUMANIST	soft-rect	yacht-navy	style-specific contrast	expanded research list
+yard-sale	internet-expanded	Yard Sale	handwritten prices chaos	TY-MIXED-HIGH-CONTRAST	ticket	yard-sale	style-specific contrast	expanded research list
+yellow-pages	internet-expanded	Yellow Pages	dense directories ads	TY-SYSTEM-RAW	ink-underline	yellow-pages	style-specific contrast	expanded research list
+zen-garden	internet-expanded	Zen Garden	raked gravel spare	TY-SERIF-TEXT	ink-underline	raked-gravel	style-specific contrast	expanded research list
+zero-waste	internet-expanded	Zero Waste	kraft repair reuse	TY-HUMANIST	chunk-border	repair-kraft	style-specific contrast	expanded research list
+zoo-signage	internet-expanded	Zoo Signage	species panels kids adult	TY-HUMANIST	chunk-border	species-panel	style-specific contrast	expanded research list
+zine-music	internet-expanded	Music Zine	interviews xerox photos	TY-MIXED-HIGH-CONTRAST	chunk-border	music-zine	style-specific contrast	expanded research list
+airline-lcc	industry-expanded	Low-Cost Carrier	bright fees clear	TY-INDUSTRIAL-COND	filled-block	lcc-bright	domain contrast	industry research expansion
+airline-legacy	industry-expanded	Legacy Carrier	trust blue calm	TY-HUMANIST	soft-rect	legacy-blue	domain contrast	industry research expansion
+airport-wayfinding	industry-expanded	Airport Wayfinding	pictograms distances	TY-HUMANIST	sharp-0	airport	domain contrast	industry research expansion
+ambulance-dispatch	industry-expanded	Ambulance Dispatch	urgency calm clarity	TY-HUMANIST	chunk-border	dispatch	domain contrast	industry research expansion
+architecture-portfolio	industry-expanded	Architecture Portfolio	project grids plans	TY-GROTESQUE	ink-underline	portfolio-arch	domain contrast	industry research expansion
+art-school	industry-expanded	Art School	critique walls mess creative	TY-MIXED-HIGH-CONTRAST	chunk-border	critique-wall	domain contrast	industry research expansion
+auction-house	industry-expanded	Auction House	lot numbers paddles	TY-TRANSITIONAL-SERIF	ticket	auction	domain contrast	industry research expansion
+auto-dealer	industry-expanded	Auto Dealer	inventory hero finance	TY-GROTESK-SOFT	soft-rect	dealer	domain contrast	industry research expansion
+auto-repair	industry-expanded	Auto Repair	work orders grease	TY-INDUSTRIAL-COND	chunk-border	garage	domain contrast	industry research expansion
+bakery	industry-expanded	Bakery	warm type flour	TY-OLDSTYLE-SERIF	soft-rect	bakery	domain contrast	industry research expansion
+barbershop	industry-expanded	Barbershop	stripes classic chairs	TY-DISPLAY-EXTREME	chunk-border	barber	domain contrast	industry research expansion
+bike-shop	industry-expanded	Bike Shop	parts racks grease	TY-HUMANIST	chunk-border	bike-shop	domain contrast	industry research expansion
+biotech	industry-expanded	Biotech	DNA calm science	TY-GROTESK-SOFT	soft-rect	biotech	domain contrast	industry research expansion
+bookstore-indie	industry-expanded	Indie Bookstore	staff picks shelves	TY-OLDSTYLE-SERIF	ink-underline	indie-books	domain contrast	industry research expansion
+brewery	industry-expanded	Brewery	taps grain industrial craft	TY-SLAB	chunk-border	brewery	domain contrast	industry research expansion
+broadcast-news	industry-expanded	Broadcast News	lower thirds urgency	TY-INDUSTRIAL-COND	sharp-0	lower-third	domain contrast	industry research expansion
+builders-merchant	industry-expanded	Builders Merchant	SKU dense trade	TY-INDUSTRIAL-COND	chunk-border	trade-counter	domain contrast	industry research expansion
+butcher	industry-expanded	Butcher	classic shop tiles	TY-SLAB	chunk-border	butcher-tile	domain contrast	industry research expansion
+campus-portal	industry-expanded	Campus Portal	courses deadlines	TY-HUMANIST	soft-rect	campus	domain contrast	industry research expansion
+car-share	industry-expanded	Car Share	map unlock trip	TY-GROTESK-SOFT	pill	car-share	domain contrast	industry research expansion
+care-home	industry-expanded	Care Home	calm large type dignity	TY-HUMANIST	soft-rect	care	domain contrast	industry research expansion
+charity-kids	industry-expanded	Kids Charity	hopeful careful not exploitative	TY-ROUNDED	pill	charity-kids	domain contrast	industry research expansion
+chemist-uk	industry-expanded	UK Chemist	green cross practical	TY-HUMANIST	soft-rect	chemist	domain contrast	industry research expansion
+childcare	industry-expanded	Childcare	schedules bright clear	TY-ROUNDED	pill	childcare	domain contrast	industry research expansion
+cinema-arthouse	industry-expanded	Arthouse Cinema	poster critical	TY-DIDONE-LUX	ink-underline	arthouse	domain contrast	industry research expansion
+city-council	industry-expanded	City Council	services plain	TY-HUMANIST	sharp-0	council	domain contrast	industry research expansion
+cleaning-service	industry-expanded	Cleaning Service	fresh simple trust	TY-HUMANIST	pill	clean	domain contrast	industry research expansion
+clinic-dental	industry-expanded	Dental Clinic	bright clean calm	TY-HUMANIST	pill	dental	domain contrast	industry research expansion
+co-working	industry-expanded	Co-working	community boards booking	TY-GROTESK-SOFT	soft-rect	cowork	domain contrast	industry research expansion
+coffee-roaster	industry-expanded	Coffee Roaster	origin cards craft	TY-HUMANIST	chunk-border	roaster	domain contrast	industry research expansion
+construction	industry-expanded	Construction	site safety orange	TY-INDUSTRIAL-COND	chunk-border	site-orange	domain contrast	industry research expansion
+consultancy	industry-expanded	Consultancy	thought leadership calm	TY-GROTESK-SOFT	soft-rect	consult	domain contrast	industry research expansion
+courier	industry-expanded	Courier	tracking plain fast	TY-HUMANIST	sharp-0	courier	domain contrast	industry research expansion
+craft-beer-bar	industry-expanded	Craft Beer Bar	taps boards industrial	TY-SLAB	chunk-border	taproom	domain contrast	industry research expansion
+creche	industry-expanded	Creche	soft large targets	TY-ROUNDED	pill	creche	domain contrast	industry research expansion
+crypto-exchange	industry-expanded	Crypto Exchange	dense pairs dark	TY-MONO-DATA	sharp-0	exchange-dark	domain contrast	industry research expansion
+cycling-club	industry-expanded	Cycling Club	routes elevation	TY-HUMANIST	chunk-border	cycling	domain contrast	industry research expansion
+dark-kitchen	industry-expanded	Dark Kitchen	ops tickets speed	TY-INDUSTRIAL-COND	chunk-border	dark-kitchen	domain contrast	industry research expansion
+dating-app	industry-expanded	Dating App	cards profiles careful	TY-ROUNDED	pill	dating	domain contrast	industry research expansion
+delivery-driver	industry-expanded	Driver App	nav big buttons	TY-HUMANIST	filled-block	driver	domain contrast	industry research expansion
+dentist-pediatric	industry-expanded	Pediatric Dental	friendly not scary	TY-ROUNDED	pill	pedo-dental	domain contrast	industry research expansion
+design-agency	industry-expanded	Design Agency	case studies bold	TY-GROTESQUE	sharp-0	agency	domain contrast	industry research expansion
+distillery	industry-expanded	Distillery	cask heritage liquid	TY-OLDSTYLE-SERIF	chunk-border	cask	domain contrast	industry research expansion
+diy-store	industry-expanded	DIY Store	aisles how-to	TY-HUMANIST	chunk-border	diy	domain contrast	industry research expansion
+doctor-gp	industry-expanded	GP Surgery	bookings clinical calm	TY-HUMANIST	soft-rect	gp	domain contrast	industry research expansion
+dog-groomer	industry-expanded	Dog Groomer	playful clean	TY-ROUNDED	pill	groomer	domain contrast	industry research expansion
+domain-registrar	industry-expanded	Domain Registrar	search technical retail	TY-MONO-DATA	sharp-0	domains	domain contrast	industry research expansion
+driving-school	industry-expanded	Driving School	lessons progress	TY-HUMANIST	soft-rect	driving	domain contrast	industry research expansion
+electronics-store	industry-expanded	Electronics Retail	spec grids	TY-GROTESK-SOFT	soft-rect	electronics	domain contrast	industry research expansion
+emergency-services	industry-expanded	Emergency Services	clear critical	TY-HUMANIST	chunk-border	emergency	domain contrast	industry research expansion
+energy-supplier	industry-expanded	Energy Supplier	bills usage	TY-HUMANIST	soft-rect	energy-bill	domain contrast	industry research expansion
+estate-agent-uk	industry-expanded	UK Estate Agent	listings rooms	TY-HUMANIST	soft-rect	estate-agent	domain contrast	industry research expansion
+event-ticketing	industry-expanded	Event Ticketing	dates venues QR	TY-GROTESK-SOFT	ticket	ticketing	domain contrast	industry research expansion
+farm-shop	industry-expanded	Farm Shop	produce seasons	TY-HUMANIST	chunk-border	farm-shop	domain contrast	industry research expansion
+fashion-rental	industry-expanded	Fashion Rental	wardrobe grid	TY-DIDONE-LUX	pill	rental-fashion	domain contrast	industry research expansion
+ferry	industry-expanded	Ferry	timetables weather	TY-HUMANIST	chunk-border	ferry	domain contrast	industry research expansion
+festival-org	industry-expanded	Festival Organiser	lineups maps	TY-DISPLAY-EXTREME	ticket	festival	domain contrast	industry research expansion
+film-production	industry-expanded	Film Production	call sheets sides	TY-SYSTEM-RAW	sharp-0	callsheet	domain contrast	industry research expansion
+fishmonger	industry-expanded	Fishmonger	slate ice catch	TY-SLAB	chunk-border	fish-slate	domain contrast	industry research expansion
+fitness-budget	industry-expanded	Budget Gym	hard sell energy	TY-INDUSTRIAL-COND	filled-block	budget-gym	domain contrast	industry research expansion
+fitness-boutique	industry-expanded	Boutique Fitness	aspirational calm sweat	TY-GROTESK-SOFT	pill	boutique-fit	domain contrast	industry research expansion
+florist	industry-expanded	Florist	seasonal delicate	TY-OLDSTYLE-SERIF	soft-rect	florist	domain contrast	industry research expansion
+food-bank	industry-expanded	Food Bank	dignity practical stock	TY-HUMANIST	chunk-border	foodbank	domain contrast	industry research expansion
+football-club	industry-expanded	Football Club	crest fixtures	TY-INDUSTRIAL-COND	chunk-border	football	domain contrast	industry research expansion
+funeral	industry-expanded	Funeral Director	quiet respectful	TY-OLDSTYLE-SERIF	ink-underline	funeral	domain contrast	industry research expansion
+furniture-scandi	industry-expanded	Scandi Furniture	product air wood	TY-HUMANIST	soft-rect	furniture-wood	domain contrast	industry research expansion
+gallery-commercial	industry-expanded	Commercial Gallery	artists exhibitions	TY-GROTESK-SOFT	ink-underline	gallery-comm	domain contrast	industry research expansion
+game-studio	industry-expanded	Game Studio	ship roadmap	TY-GROTESK-SOFT	sharp-0	gamedev	domain contrast	industry research expansion
+garden-centre	industry-expanded	Garden Centre	plants seasons	TY-HUMANIST	soft-rect	garden-centre	domain contrast	industry research expansion
+gas-utility	industry-expanded	Gas Utility	safety safety safety	TY-HUMANIST	chunk-border	gas-safety	domain contrast	industry research expansion
+golf-club	industry-expanded	Golf Club	green traditional	TY-TRANSITIONAL-SERIF	soft-rect	golf	domain contrast	industry research expansion
+greengrocer	industry-expanded	Greengrocer	chalkboard prices	TY-HUMANIST	chunk-border	greengrocer	domain contrast	industry research expansion
+gym-climbing	industry-expanded	Climbing Gym Ops	routes grades	TY-INDUSTRIAL-COND	chunk-border	climbing-ops	domain contrast	industry research expansion
+hair-salon-barber-modern	industry-expanded	Modern Salon	booking glam	TY-DIDONE-LUX	pill	salon-modern	domain contrast	industry research expansion
+hardware-iot	industry-expanded	Hardware IoT Brand	product renders specs	TY-GROTESK-SOFT	sharp-0	hardware	domain contrast	industry research expansion
+heritage-railway	industry-expanded	Heritage Railway	timetable nostalgia	TY-HUMANIST	ticket	heritage-rail	domain contrast	industry research expansion
+hospital-internal	industry-expanded	Hospital Internal	wards tasks	TY-HUMANIST	sharp-0	hospital-ops	domain contrast	industry research expansion
+hostel	industry-expanded	Hostel	bunks social cheap clear	TY-HUMANIST	pill	hostel	domain contrast	industry research expansion
+hotel-budget	industry-expanded	Budget Hotel	deals clean simple	TY-GROTESK-SOFT	soft-rect	budget-hotel	domain contrast	industry research expansion
+hr-portal	industry-expanded	HR Portal	policies leave	TY-HUMANIST	soft-rect	hr	domain contrast	industry research expansion
+hvac	industry-expanded	HVAC Service	jobs routes	TY-INDUSTRIAL-COND	chunk-border	hvac	domain contrast	industry research expansion
+ice-cream-brand	industry-expanded	Ice Cream Brand	joy colour	TY-ROUNDED	pill	icecream-brand	domain contrast	industry research expansion
+immigration-help	industry-expanded	Immigration Help	calm clear steps careful	TY-HUMANIST	soft-rect	immigration	domain contrast	industry research expansion
+insurance-claims	industry-expanded	Insurance Claims	status plain	TY-HUMANIST	sharp-0	claims	domain contrast	industry research expansion
+interior-design	industry-expanded	Interior Design Studio	moodboards rooms	TY-DIDONE-LUX	ink-underline	interiors	domain contrast	industry research expansion
+jewellery	industry-expanded	Jewellery	sparkle restraint photo	TY-DIDONE-LUX	ink-underline	jewellery	domain contrast	industry research expansion
+job-board	industry-expanded	Job Board	listings filters	TY-GROTESK-SOFT	soft-rect	jobs	domain contrast	industry research expansion
+juice-bar	industry-expanded	Juice Bar	fresh bright	TY-ROUNDED	pill	juice	domain contrast	industry research expansion
+karaoke	industry-expanded	Karaoke	neon song lists	TY-DISPLAY-EXTREME	pill	karaoke	domain contrast	industry research expansion
+kitchen-retail	industry-expanded	Kitchen Retail	cabinets showroom	TY-HUMANIST	soft-rect	kitchen-retail	domain contrast	industry research expansion
+language-school	industry-expanded	Language School	lessons progress	TY-HUMANIST	soft-rect	language-school	domain contrast	industry research expansion
+laundry	industry-expanded	Laundry	tickets machines	TY-HUMANIST	chunk-border	laundry	domain contrast	industry research expansion
+law-firm-corporate	industry-expanded	Corporate Law	serious navy	TY-TRANSITIONAL-SERIF	ink-underline	law-corp	domain contrast	industry research expansion
+library-public-ops	industry-expanded	Library Ops	loans fines holds	TY-HUMANIST	sharp-0	library-ops	domain contrast	industry research expansion
+lighting-store	industry-expanded	Lighting Store	glow dark showroom	TY-GROTESK-SOFT	soft-rect	lighting	domain contrast	industry research expansion
+live-music-venue	industry-expanded	Live Music Venue	listings posters	TY-DISPLAY-EXTREME	ticket	venue	domain contrast	industry research expansion
+local-news	industry-expanded	Local News	hyperlocal trust	TY-SERIF-TEXT	ink-underline	local-news	domain contrast	industry research expansion
+locksmith	industry-expanded	Locksmith	emergency clear	TY-HUMANIST	filled-block	locksmith	domain contrast	industry research expansion
+logistics-last-mile	industry-expanded	Last Mile	stops map	TY-HUMANIST	chunk-border	last-mile	domain contrast	industry research expansion
+makeup-brand	industry-expanded	Makeup Brand	swatches glam	TY-DIDONE-LUX	pill	makeup	domain contrast	industry research expansion
+marina	industry-expanded	Marina	berths tides	TY-HUMANIST	chunk-border	marina	domain contrast	industry research expansion
+marketplace-handmade	industry-expanded	Handmade Marketplace	maker stories	TY-HUMANIST	soft-rect	handmade-mkt	domain contrast	industry research expansion
+meat-delivery	industry-expanded	Butcher Delivery	cuts schedules	TY-SLAB	chunk-border	meat-delivery	domain contrast	industry research expansion
+medical-device	industry-expanded	Medical Device UI	regulated clear	TY-HUMANIST	sharp-0	med-device	domain contrast	industry research expansion
+mental-health	industry-expanded	Mental Health App	gentle careful	TY-HUMANIST	pill	mental-health	domain contrast	industry research expansion
+military-recruit-careful	industry-expanded	Recruitment Careful	formal clear not manipulative	TY-HUMANIST	sharp-0	recruit	domain contrast	industry research expansion
+mining-ops	industry-expanded	Mining Ops	safety heavy	TY-INDUSTRIAL-COND	chunk-border	mining	domain contrast	industry research expansion
+mobile-network	industry-expanded	Mobile Network	plans coverage	TY-GROTESK-SOFT	soft-rect	telco	domain contrast	industry research expansion
+mosque-community	industry-expanded	Community Faith Centre careful	respectful calm	TY-HUMANIST	ink-underline	community-faith	domain contrast	industry research expansion
+moving-company	industry-expanded	Movers	quotes inventory	TY-HUMANIST	chunk-border	movers	domain contrast	industry research expansion
+music-school	industry-expanded	Music School	lessons recitals	TY-OLDSTYLE-SERIF	soft-rect	music-school	domain contrast	industry research expansion
+nail-salon	industry-expanded	Nail Salon	colour glossy	TY-ROUNDED	pill	nails	domain contrast	industry research expansion
+national-park	industry-expanded	National Park	maps rules nature	TY-SLAB	chunk-border	nat-park	domain contrast	industry research expansion
+news-aggregator	industry-expanded	News Aggregator	sources river	TY-GROTESK-SOFT	sharp-0	news-agg	domain contrast	industry research expansion
+nightclub	industry-expanded	Nightclub	guestlist dark	TY-DISPLAY-EXTREME	sharp-0	nightclub	domain contrast	industry research expansion
+nursery-plants	industry-expanded	Plant Nursery	stock seasons	TY-HUMANIST	soft-rect	nursery	domain contrast	industry research expansion
+nutrition	industry-expanded	Nutrition Coaching	plans progress	TY-HUMANIST	pill	nutrition	domain contrast	industry research expansion
+office-supplies	industry-expanded	Office Supplies	catalog SKUs	TY-SYSTEM-RAW	soft-rect	office-supplies	domain contrast	industry research expansion
+oil-gas	industry-expanded	Oil and Gas Ops	safety industrial	TY-INDUSTRIAL-COND	chunk-border	oilgas	domain contrast	industry research expansion
+online-bank	industry-expanded	Online Bank	balances clear	TY-GROTESK-SOFT	soft-rect	online-bank	domain contrast	industry research expansion
+optician	industry-expanded	Optician	frames try-on	TY-HUMANIST	soft-rect	optician	domain contrast	industry research expansion
+orchestra	industry-expanded	Orchestra	season programmes	TY-DIDONE-LUX	ink-underline	orchestra	domain contrast	industry research expansion
+organic-csa	industry-expanded	CSA Box	shares seasons	TY-HUMANIST	chunk-border	csa	domain contrast	industry research expansion
+parking	industry-expanded	Parking	spaces payments	TY-HUMANIST	sharp-0	parking	domain contrast	industry research expansion
+passport-office	industry-expanded	Passport Office	steps documents	TY-HUMANIST	sharp-0	passport	domain contrast	industry research expansion
+patisserie	industry-expanded	Patisserie	delicate type cream	TY-DIDONE-LUX	soft-rect	patisserie	domain contrast	industry research expansion
+pawn-shop	industry-expanded	Pawn Shop	tickets categories	TY-SYSTEM-RAW	chunk-border	pawn	domain contrast	industry research expansion
+payroll	industry-expanded	Payroll	runs payslips	TY-MONO-DATA	sharp-0	payroll	domain contrast	industry research expansion
+pet-adoption	industry-expanded	Pet Adoption	profiles careful joy	TY-ROUNDED	pill	pets	domain contrast	industry research expansion
+pharmacy-ops	industry-expanded	Pharmacy Ops	scripts queues	TY-HUMANIST	sharp-0	pharmacy-ops	domain contrast	industry research expansion
+photo-studio	industry-expanded	Photo Studio	booking gallery	TY-GROTESK-SOFT	soft-rect	photo-studio	domain contrast	industry research expansion
+physiotherapy	industry-expanded	Physio	exercises progress	TY-HUMANIST	soft-rect	physio	domain contrast	industry research expansion
+pizza-chain	industry-expanded	Pizza Chain	menu deals	TY-DISPLAY-EXTREME	filled-block	pizza	domain contrast	industry research expansion
+plumbing	industry-expanded	Plumbing	jobs emergency	TY-INDUSTRIAL-COND	chunk-border	plumbing	domain contrast	industry research expansion
+podcast-network	industry-expanded	Podcast Network	shows episodes	TY-GROTESK-SOFT	pill	podcast	domain contrast	industry research expansion
+police-community	industry-expanded	Community Policing Careful	info not fear	TY-HUMANIST	sharp-0	community-police	domain contrast	industry research expansion
+pool-service	industry-expanded	Pool Service	routes chemicals	TY-HUMANIST	chunk-border	pool-service	domain contrast	industry research expansion
+port-authority	industry-expanded	Port Authority	vessels schedules	TY-HUMANIST	chunk-border	port	domain contrast	industry research expansion
+pottery-studio	industry-expanded	Pottery Studio	classes kiln	TY-HUMANIST	soft-rect	pottery-class	domain contrast	industry research expansion
+print-shop	industry-expanded	Print Shop	jobs specs	TY-MONO-DATA	chunk-border	printshop	domain contrast	industry research expansion
+private-security	industry-expanded	Private Security	logs sites	TY-INDUSTRIAL-COND	sharp-0	security	domain contrast	industry research expansion
+property-management	industry-expanded	Property Management	tickets tenants	TY-HUMANIST	soft-rect	prop-mgmt	domain contrast	industry research expansion
+pub-uk	industry-expanded	UK Pub	ale boards cosy	TY-OLDSTYLE-SERIF	chunk-border	pub	domain contrast	industry research expansion
+publishing-journal	industry-expanded	Academic Journal	abstracts peer	TY-SERIF-TEXT	ink-underline	journal	domain contrast	industry research expansion
+radio-station	industry-expanded	Radio Station	schedule playlists	TY-INDUSTRIAL-COND	sharp-0	radio-station	domain contrast	industry research expansion
+rail-operator	industry-expanded	Rail Operator	disruption clear	TY-HUMANIST	sharp-0	rail-op	domain contrast	industry research expansion
+recruitment-agency	industry-expanded	Recruitment Agency	roles candidates	TY-GROTESK-SOFT	soft-rect	recruitment	domain contrast	industry research expansion
+recycling-centre	industry-expanded	Recycling Centre	streams rules	TY-HUMANIST	chunk-border	recycling	domain contrast	industry research expansion
+removals	industry-expanded	Removals	inventory days	TY-HUMANIST	chunk-border	removals	domain contrast	industry research expansion
+rental-cars	industry-expanded	Car Rental	classes extras	TY-GROTESK-SOFT	soft-rect	car-rental	domain contrast	industry research expansion
+repair-cafe	industry-expanded	Repair Café	fix don't replace	TY-HUMANIST	chunk-border	repair-cafe	domain contrast	industry research expansion
+research-lab-ops	industry-expanded	Research Lab Ops	equipment bookings	TY-MONO-DATA	sharp-0	lab-ops	domain contrast	industry research expansion
+restaurant-chain	industry-expanded	Restaurant Chain	menu locations	TY-GROTESK-SOFT	pill	resto-chain	domain contrast	industry research expansion
+retirement	industry-expanded	Retirement Community	dignity clear	TY-HUMANIST	soft-rect	retirement	domain contrast	industry research expansion
+riding-school	industry-expanded	Riding School	lessons horses	TY-TRANSITIONAL-SERIF	soft-rect	riding	domain contrast	industry research expansion
+roofing	industry-expanded	Roofing	quotes jobs	TY-INDUSTRIAL-COND	chunk-border	roofing	domain contrast	industry research expansion
+rowing-club	industry-expanded	Rowing Club	sessions water	TY-HUMANIST	chunk-border	rowing	domain contrast	industry research expansion
+saas-vertical-legal	industry-expanded	Legal SaaS	matters documents	TY-GROTESK-SOFT	soft-rect	legal-saas	domain contrast	industry research expansion
+saas-vertical-clinic	industry-expanded	Clinic SaaS	appointments charts	TY-HUMANIST	soft-rect	clinic-saas	domain contrast	industry research expansion
+sailing-club	industry-expanded	Sailing Club	races tide	TY-HUMANIST	chunk-border	sailing-club	domain contrast	industry research expansion
+school-primary-uk	industry-expanded	UK Primary School	parents homework	TY-ROUNDED	pill	primary-school	domain contrast	industry research expansion
+school-secondary	industry-expanded	Secondary School	timetables grades	TY-HUMANIST	soft-rect	secondary	domain contrast	industry research expansion
+scrapyard	industry-expanded	Scrapyard	inventory metal	TY-INDUSTRIAL-COND	chunk-border	scrap	domain contrast	industry research expansion
+scuba-school	industry-expanded	Scuba School	courses dives	TY-HUMANIST	pill	scuba-school	domain contrast	industry research expansion
+seafood-restaurant	industry-expanded	Seafood Restaurant	catch menu	TY-HUMANIST	soft-rect	seafood-resto	domain contrast	industry research expansion
+security-soc	industry-expanded	Security SOC	alerts dark	TY-MONO-DATA	sharp-0	soc	domain contrast	industry research expansion
+self-storage	industry-expanded	Self Storage	units access	TY-HUMANIST	soft-rect	storage	domain contrast	industry research expansion
+sewage-utility	industry-expanded	Water Utility	outages maps	TY-HUMANIST	chunk-border	water-utility	domain contrast	industry research expansion
+shoe-brand	industry-expanded	Shoe Brand	product drops	TY-GROTESK-SOFT	pill	shoes	domain contrast	industry research expansion
+skate-shop	industry-expanded	Skate Shop	decks video	TY-MIXED-HIGH-CONTRAST	chunk-border	skate-shop	domain contrast	industry research expansion
+ski-school	industry-expanded	Ski School	lessons passes	TY-HUMANIST	pill	ski-school	domain contrast	industry research expansion
+social-housing	industry-expanded	Social Housing	repairs dignity	TY-HUMANIST	sharp-0	social-housing	domain contrast	industry research expansion
+solarium-careful	industry-expanded	Tanning Careful	retail not harm promo	TY-GROTESK-SOFT	pill	tanning	domain contrast	industry research expansion
+spa-day	industry-expanded	Day Spa	packages calm	TY-HUMANIST	pill	day-spa	domain contrast	industry research expansion
+specialty-coffee-sub	industry-expanded	Subscription Coffee	roasts deliveries	TY-HUMANIST	soft-rect	coffee-sub	domain contrast	industry research expansion
+sports-league	industry-expanded	Sports League	tables fixtures	TY-INDUSTRIAL-COND	sharp-0	league	domain contrast	industry research expansion
+stadium	industry-expanded	Stadium	seats wayfinding	TY-INDUSTRIAL-COND	chunk-border	stadium	domain contrast	industry research expansion
+startup-seed	industry-expanded	Seed Startup	scrappy bold	TY-GROTESQUE	sharp-0	startup	domain contrast	industry research expansion
+stationery-brand	industry-expanded	Stationery Brand	paper product	TY-OLDSTYLE-SERIF	ink-underline	stationery-brand	domain contrast	industry research expansion
+steakhouse	industry-expanded	Steakhouse	dark wood meat	TY-TRANSITIONAL-SERIF	chunk-border	steakhouse	domain contrast	industry research expansion
+stock-broker	industry-expanded	Brokerage	blotters numbers	TY-MONO-DATA	sharp-0	brokerage	domain contrast	industry research expansion
+street-food	industry-expanded	Street Food	stalls maps	TY-DISPLAY-EXTREME	chunk-border	street-food	domain contrast	industry research expansion
+student-union	industry-expanded	Student Union	events services	TY-ROUNDED	pill	student-union	domain contrast	industry research expansion
+supermarket-premium	industry-expanded	Premium Supermarket	quality calm	TY-HUMANIST	soft-rect	premium-grocery	domain contrast	industry research expansion
+surgery-cosmetic-careful	industry-expanded	Cosmetic Clinic Careful	informed not hype	TY-HUMANIST	soft-rect	cosmetic-careful	domain contrast	industry research expansion
+surveying	industry-expanded	Surveying	plans plots	TY-MONO-DATA	sharp-0	survey	domain contrast	industry research expansion
+sushi	industry-expanded	Sushi Restaurant	minimal precise	TY-GROTESK-SOFT	ink-underline	sushi-min	domain contrast	industry research expansion
+swimming-pool-public	industry-expanded	Public Pool	timetables lanes	TY-HUMANIST	chunk-border	public-pool	domain contrast	industry research expansion
+synagogue-community	industry-expanded	Community Centre Faith careful	respectful	TY-HUMANIST	ink-underline	faith-community	domain contrast	industry research expansion
+takeaway	industry-expanded	Takeaway	menu cart speed	TY-GROTESK-SOFT	filled-block	takeaway	domain contrast	industry research expansion
+tattoo-studio	industry-expanded	Tattoo Studio	flash portfolios	TY-MIXED-HIGH-CONTRAST	chunk-border	tattoo	domain contrast	industry research expansion
+tax-advisor	industry-expanded	Tax Advisor	forms calm	TY-HUMANIST	soft-rect	tax	domain contrast	industry research expansion
+taxi-dispatch	industry-expanded	Taxi Dispatch	jobs map	TY-INDUSTRIAL-COND	chunk-border	taxi-dispatch	domain contrast	industry research expansion
+tea-shop	industry-expanded	Tea Shop	blends calm	TY-OLDSTYLE-SERIF	soft-rect	tea-shop	domain contrast	industry research expansion
+tech-conference	industry-expanded	Tech Conference	agenda speakers	TY-GROTESK-SOFT	sharp-0	tech-conf	domain contrast	industry research expansion
+theatre-tickets	industry-expanded	Theatre Tickets	seats shows	TY-DIDONE-LUX	ticket	theatre-tix	domain contrast	industry research expansion
+theme-park	industry-expanded	Theme Park	maps rides joy	TY-ROUNDED	pill	theme-park	domain contrast	industry research expansion
+thrift-store	industry-expanded	Thrift Store	racks finds	TY-MIXED-HIGH-CONTRAST	chunk-border	thrift-store	domain contrast	industry research expansion
+tile-shop	industry-expanded	Tile Shop	grids samples	TY-GEOMETRIC	soft-rect	tiles	domain contrast	industry research expansion
+tools-brand	industry-expanded	Tools Brand	tough clear	TY-INDUSTRIAL-COND	chunk-border	tools-brand	domain contrast	industry research expansion
+tour-operator	industry-expanded	Tour Operator	itineraries	TY-HUMANIST	soft-rect	tours	domain contrast	industry research expansion
+toy-brand	industry-expanded	Toy Brand	play safe colour	TY-ROUNDED	pill	toy-brand	domain contrast	industry research expansion
+trade-union	industry-expanded	Trade Union	campaigns solidarity	TY-INDUSTRIAL-COND	chunk-border	union	domain contrast	industry research expansion
+trainers-brand	industry-expanded	Sneaker Brand	drops hype	TY-INDUSTRIAL-COND	sharp-0	sneakers	domain contrast	industry research expansion
+translation	industry-expanded	Translation Agency	languages clear	TY-HUMANIST	soft-rect	translation	domain contrast	industry research expansion
+transport-for-city	industry-expanded	City Transport	status lines	TY-HUMANIST	sharp-0	city-transport	domain contrast	industry research expansion
+travel-agent-indie	industry-expanded	Indie Travel Agent	stories itineraries	TY-HUMANIST	soft-rect	indie-travel	domain contrast	industry research expansion
+tree-surgery	industry-expanded	Tree Surgery	jobs risk	TY-HUMANIST	chunk-border	tree-surgery	domain contrast	industry research expansion
+university-admissions	industry-expanded	Uni Admissions	deadlines forms	TY-HUMANIST	soft-rect	admissions	domain contrast	industry research expansion
+vape-careful	industry-expanded	Vape Retail Careful	adult clear not youth	TY-GROTESK-SOFT	soft-rect	adult-retail	domain contrast	industry research expansion
+vegan-cafe	industry-expanded	Vegan Café	fresh ethical	TY-HUMANIST	soft-rect	vegan-cafe	domain contrast	industry research expansion
+venture-capital	industry-expanded	Venture Capital	portfolio sparse	TY-GROTESK-SOFT	ink-underline	vc	domain contrast	industry research expansion
+vet	industry-expanded	Veterinary	pets care calm	TY-HUMANIST	soft-rect	vet	domain contrast	industry research expansion
+video-production	industry-expanded	Video Production	showreels	TY-GROTESK-SOFT	soft-rect	video-prod	domain contrast	industry research expansion
+vintage-shop	industry-expanded	Vintage Shop	decades racks	TY-MIXED-HIGH-CONTRAST	ticket	vintage-shop	domain contrast	industry research expansion
+vineyard	industry-expanded	Vineyard	terroir bottles	TY-OLDSTYLE-SERIF	ink-underline	vineyard	domain contrast	industry research expansion
+virtual-event	industry-expanded	Virtual Event	agenda stage	TY-GROTESK-SOFT	soft-rect	virtual-event	domain contrast	industry research expansion
+vocational-college	industry-expanded	Vocational College	courses practical	TY-HUMANIST	soft-rect	vocational	domain contrast	industry research expansion
+volunteer-platform	industry-expanded	Volunteer Platform	shifts impact	TY-HUMANIST	pill	volunteer	domain contrast	industry research expansion
+vpn-privacy	industry-expanded	VPN Privacy	trust technical	TY-GROTESK-SOFT	soft-rect	vpn	domain contrast	industry research expansion
+warehouse-club	industry-expanded	Warehouse Club	bulk value	TY-INDUSTRIAL-COND	chunk-border	warehouse-club	domain contrast	industry research expansion
+waste-management	industry-expanded	Waste Management	routes bins	TY-HUMANIST	chunk-border	waste	domain contrast	industry research expansion
+watch-brand	industry-expanded	Watch Brand	precision luxury	TY-DIDONE-LUX	ink-underline	watches	domain contrast	industry research expansion
+weather-service	industry-expanded	Weather Service	maps alerts	TY-HUMANIST	sharp-0	weather-svc	domain contrast	industry research expansion
+web-hosting	industry-expanded	Web Hosting	plans status	TY-MONO-DATA	soft-rect	hosting	domain contrast	industry research expansion
+wedding-planner	industry-expanded	Wedding Planner	timelines romantic	TY-SCRIPT-SPARSE	soft-rect	wedding-plan	domain contrast	industry research expansion
+wellness-retreat	industry-expanded	Wellness Retreat	calm nature	TY-HUMANIST	pill	retreat	domain contrast	industry research expansion
+whisky-brand	industry-expanded	Whisky Brand	heritage peat	TY-OLDSTYLE-SERIF	chunk-border	whisky	domain contrast	industry research expansion
+wine-merchant	industry-expanded	Wine Merchant	cellar notes	TY-TRANSITIONAL-SERIF	ink-underline	wine-merchant	domain contrast	industry research expansion
+workspace-booking	industry-expanded	Room Booking	availability	TY-HUMANIST	soft-rect	room-book	domain contrast	industry research expansion
+yacht-charter	industry-expanded	Yacht Charter	fleet calendars	TY-HUMANIST	soft-rect	yacht-charter	domain contrast	industry research expansion
+yoga-studio	industry-expanded	Yoga Studio	timetable calm	TY-HUMANIST	pill	yoga	domain contrast	industry research expansion
+youth-club	industry-expanded	Youth Club	events safe bright	TY-ROUNDED	pill	youth-club	domain contrast	industry research expansion
+zoo	industry-expanded	Zoo	maps animals education	TY-HUMANIST	chunk-border	zoo-map	domain contrast	industry research expansion

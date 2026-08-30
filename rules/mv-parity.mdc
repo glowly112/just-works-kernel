@@ -1,0 +1,40 @@
+---
+description: Multivibe day-to-day parity in Cursor — RESULT, Wax, one boss, lanes
+alwaysApply: true
+---
+
+# Multivibe parity (Cursor)
+
+Thin mirrors of Multivibe desk habits. Law SOT stays `$MULTIVIBE_ROOT/law/`.
+
+## One boss
+
+Per task: **Cursor** (this agent / subagents / Cloud Agent) **or** `multivibe_send` — never both.
+
+## Wax (standing memory)
+
+Multi-step work when Wax MCP is available:
+
+1. Early: `recall` (or `session_open` + recall) with project slug when known
+2. As you go: `remember` short durable facts (decisions, paths, gotchas) — not transcripts
+3. End / rotate: `remember` spine; prefer `session_close` when a session was opened
+
+Skip Wax on one-line Q&A.
+
+## RESULT shape (after hops)
+
+Close implement/review hops with: **PASS/FAIL**, what changed, **verify cmd → exit N**. Do not claim ship without verify.
+
+## Lanes / isolation
+
+Non-trivial edits → `.worktrees/lane-*` first when in a git repo (same idea as Multivibe ⌘N). Cloud Agents already isolate per run.
+
+## Cloud vs Mac
+
+- **Crack Lab / Oracle** — Cloud Agent env Mad Crack Lab OK for walk-away; code ships via git → Oracle.
+- **Multibot** — develop in Cursor; runtime stays Mac mini.
+- Cloud gets Multivibe **skills/rules** via env sync; local IDE also has Multivibe **MCP**.
+
+## GUI
+
+Multi Vibe GUI is **frozen**. Use shipped app only when you need the lane rail / Ship UI. Kernel = this repo’s law/skills/`mv-call`.

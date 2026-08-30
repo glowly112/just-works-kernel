@@ -1,0 +1,217 @@
+axis	value_id	label_or_hint	meta
+skeleton	SK-HERO-SPLIT	50/50 thesis | action	marketing
+skeleton	SK-SINGLE-STICKY	one column sticky CTA	marketing|mobile
+skeleton	SK-EDITORIAL-LONG	magazine long-read late form	marketing
+skeleton	SK-BENTO	asymmetric mosaic one hero tile	marketing|app
+skeleton	SK-TABLE-FIRST	data table owns viewport	app
+skeleton	SK-TIMELINE	process spine is SIGN	app|mobile
+skeleton	SK-MAP-STAGE	map canvas + sheet	app|mobile
+skeleton	SK-BOARD-KANBAN	lanes columns primary	app
+skeleton	SK-TICKET-STUB	whole-page stub geometry	marketing|mobile
+skeleton	SK-LEDGER	ruled register paper	app
+skeleton	SK-TERMINAL	mono prompt log stage	app
+skeleton	SK-POSTER	full-bleed type one idea	marketing
+skeleton	SK-BOTTOM-SHEET	phone content + job sheet	mobile
+skeleton	SK-TAB-DECK	tabs only chrome one pane	mobile|app
+skeleton	SK-WIZARD-STEPS	one step visible	app|mobile
+skeleton	SK-SPLIT-INSPECTOR	list + detail only	app
+skeleton	SK-DASH-METRIC	KPI strip + one focus	app
+skeleton	SK-GALLERY-INDEX	media index grid	marketing|app
+skeleton	SK-ZINE-COLLAGE	overlap stickers DIY	marketing
+skeleton	SK-BRUTAL-BLOCKS	raw stacks thick rules	any
+skeleton	SK-RAIL-DOCK	side dock job only CAP	app
+skeleton	SK-CENTER-STAGE	single focal object	marketing
+skeleton	SK-NEWS-RIVER	chronological stack	app|marketing
+skeleton	SK-CALENDAR-SPINE	calendar is SIGN	app
+skeleton	SK-MASONRY	uneven masonry feed	marketing|app
+skeleton	SK-SPLIT-DIAGONAL	diagonal divide regions	marketing
+skeleton	SK-FRAME-IN-FRAME	nested frames passepartout	marketing
+skeleton	SK-SIDE-SCROLL	horizontal chapters	marketing
+skeleton	SK-FIXED-TOC	left TOC long content	marketing|app
+skeleton	SK-COMMAND-CENTER	search/command is SIGN not triple	app
+skeleton	SK-INBOX-ZERO	queue + triage actions	app
+skeleton	SK-STUDIO-CANVAS	tool rail + blank canvas	app
+skeleton	SK-COMPARISON	A|B columns decision	marketing|app
+skeleton	SK-PRICING-LADDER	vertical plan ladder not 3 cards	marketing
+skeleton	SK-MANIFEST-LIST	shipping manifest lines	app
+skeleton	SK-SCOREBOARD	live scores big numbers	app|marketing
+skeleton	SK-COCKPIT-STRIP	top instruments bottom stage	app
+skeleton	SK-FOLIO-SPREAD	book open two pages	marketing
+skeleton	SK-STAMP-SHEET	grid of stamps/seals	marketing|mobile
+skeleton	SK-DOCKED-FAB	content + one floating primary	mobile
+skeleton	SK-PEEK-CARDS	stacked cards peeks	mobile
+skeleton	SK-RADIO-TUNER	dial/scale metaphor layout	app|marketing
+skeleton	SK-FILMSTRIP	horizontal frames + detail	marketing|app
+skeleton	SK-ORBIT-META	center job orbiting meta chips	marketing|app
+skeleton	SK-SPLIT-DEPTH	parallax layers front job	marketing
+skeleton	SK-CHECKOUT-TUNNEL	no chrome conversion path	marketing|app
+skeleton	SK-CHAT-THREAD	thread primary NOT triple desk	app
+skeleton	SK-NOTIFICATION-STACK	priority stack only	mobile|app
+skeleton	SK-DIRECTORY	A-Z index directory	app|marketing
+skeleton	SK-ATLAS-PLATES	plate/page scientific atlas	marketing|app
+type_era	TY-GROTESQUE	objective sans Akzidenz/Helvetica-like	
+type_era	TY-GEOMETRIC	Futura/Circular geometric	
+type_era	TY-HUMANIST	Frutiger/Gill wayfinding	
+type_era	TY-INDUSTRIAL-COND	condensed gothic sports	
+type_era	TY-OLDSTYLE-SERIF	Garamond editorial	
+type_era	TY-TRANSITIONAL-SERIF	Baskerville Times-like	
+type_era	TY-MODERN-SERIF	Didot/Bodoni fashion	
+type_era	TY-SLAB	Rockwell Egyptienne workshop	
+type_era	TY-MONO-DATA	mono as identity	
+type_era	TY-DISPLAY-EXTREME	poster face + quiet body	
+type_era	TY-SYSTEM-RAW	system-ui Arial Georgia on purpose	
+type_era	TY-ROUNDED	rounded geometric soft	
+type_era	TY-STENCIL	stencil industrial	
+type_era	TY-BLACKLETTER-SPARSE	blackletter accent only	
+type_era	TY-SCRIPT-SPARSE	script accent only	
+type_era	TY-PIXEL	pixel/bitmap display	
+type_era	TY-VARIABLE-EXPRESSIVE	variable font extreme axes	
+type_era	TY-CONDENSED-TALL	ultra condensed tall	
+type_era	TY-EXPANDED-WIDE	wide grotesque	
+type_era	TY-DIDONE-LUX	high contrast fashion didone	
+type_era	TY-GROTESK-SOFT	soft neo-grotesk	
+type_era	TY-SERIF-TEXT	book text serif body-led	
+type_era	TY-SANS-ONLY-TIGHT	single sans tight tracking	
+type_era	TY-MIXED-HIGH-CONTRAST	two eras clashing on purpose	
+control	sharp-0	sharp-0	
+control	soft-rect	soft-rect	
+control	pill	pill	
+control	ink-underline	ink-underline	
+control	chunk-border	chunk-border	
+control	ticket	ticket	
+control	offset-shadow	offset-shadow	
+control	ghost-border	ghost-border	
+control	filled-block	filled-block	
+control	text-link-only	text-link-only	
+material	newsprint	newsprint	
+material	kraft-paper	kraft-paper	
+material	cream-cotton	cream-cotton	
+material	tar-paper	tar-paper	
+material	oak-timber	oak-timber	
+material	teak	teak	
+material	brushed-steel	brushed-steel	
+material	polished-brass	polished-brass	
+material	enamel-sign	enamel-sign	
+material	wet-asphalt	wet-asphalt	
+material	concrete	concrete	
+material	terrazzo	terrazzo	
+material	marble	marble	
+material	granite	granite	
+material	glass-frost	glass-frost	
+material	smoked-glass	smoked-glass	
+material	acrylic	acrylic	
+material	leather-bound	leather-bound	
+material	parchment	parchment	
+material	vellum	vellum	
+material	wool-felt	wool-felt	
+material	denim	denim	
+material	canvas-sail	canvas-sail	
+material	rope-hemp	rope-hemp	
+material	vinyl-black	vinyl-black	
+material	chrome-metal	chrome-metal	
+material	anodised-aluminium	anodised-aluminium	
+material	bakelite	bakelite	
+material	ceramic-glaze	ceramic-glaze	
+material	porcelain	porcelain	
+material	chalkboard	chalkboard	
+material	whiteboard-lab	whiteboard-lab	
+material	crt-phosphor	crt-phosphor	
+material	lcd-blue	lcd-blue	
+material	oled-black	oled-black	
+material	neon-tube	neon-tube	
+material	led-matrix	led-matrix	
+material	holographic-foil	holographic-foil	
+material	iridescent-film	iridescent-film	
+material	bubble-plastic	bubble-plastic	
+material	soft-clay	soft-clay	
+material	rubber-matte	rubber-matte	
+material	silicone	silicone	
+material	carbon-fibre	carbon-fibre	
+material	camo-cloth	camo-cloth	
+material	high-vis-mesh	high-vis-mesh	
+material	safety-yellow-paint	safety-yellow-paint	
+material	signal-flags	signal-flags	
+material	tide-pool	tide-pool	
+material	sea-glass	sea-glass	
+material	sandstone	sandstone	
+material	limestone	limestone	
+material	brick-industrial	brick-industrial	
+material	corrugated-iron	corrugated-iron	
+material	shipping-container	shipping-container	
+material	scaffold	scaffold	
+material	blueprint-cyan	blueprint-cyan	
+material	carbon-paper	carbon-paper	
+material	thermal-receipt	thermal-receipt	
+material	dot-matrix	dot-matrix	
+material	polaroid	polaroid	
+material	film-grain	film-grain	
+material	halftone-print	halftone-print	
+material	risograph	risograph	
+material	screenprint	screenprint	
+material	watercolor-wash	watercolor-wash	
+material	ink-wash	ink-wash	
+material	sumi-ink	sumi-ink	
+material	gold-leaf	gold-leaf	
+material	lacquer	lacquer	
+material	jade	jade	
+material	lacquer-red	lacquer-red	
+material	indigo-dye	indigo-dye	
+material	mudcloth	mudcloth	
+material	batik	batik	
+material	retro-formica	retro-formica	
+material	linoleum	linoleum	
+material	motel-neon	motel-neon	
+material	diner-chrome	diner-chrome	
+material	arcade-cabinet	arcade-cabinet	
+material	pinball-glass	pinball-glass	
+material	flight-case	flight-case	
+material	gaffer-tape	gaffer-tape	
+material	glow-tape	glow-tape	
+material	stage-blackout	stage-blackout	
+material	lab-laminate	lab-laminate	
+material	petri-clear	petri-clear	
+material	hospital-scrub	hospital-scrub	
+material	clinic-white	clinic-white	
+material	school-linoleum	school-linoleum	
+material	gym-floor	gym-floor	
+material	library-oak	library-oak	
+material	archive-box	archive-box	
+material	manila-folder	manila-folder	
+material	passport-cover	passport-cover	
+material	banknote-guilloche	banknote-guilloche	
+material	circuit-board	circuit-board	
+material	server-rack	server-rack	
+material	vacuum-tube	vacuum-tube	
+material	space-blanket	space-blanket	
+material	astronaut-white	astronaut-white	
+material	mission-control	mission-control	
+material	radar-green	radar-green	
+colour_strat	CS-MONO-PLUS	CS-MONO-PLUS	
+colour_strat	CS-DUOTONE	CS-DUOTONE	
+colour_strat	CS-PRIMARY-TRIO	CS-PRIMARY-TRIO	
+colour_strat	CS-TONAL	CS-TONAL	
+colour_strat	CS-PAPER-INK	CS-PAPER-INK	
+colour_strat	CS-DARK-STAGE	CS-DARK-STAGE	
+colour_strat	CS-PASTEL-POP	CS-PASTEL-POP	
+colour_strat	CS-SIGNAL	CS-SIGNAL	
+colour_strat	CS-PHOTO-LED	CS-PHOTO-LED	
+colour_strat	CS-CMYK-PROCESS	CS-CMYK-PROCESS	
+colour_strat	CS-EARTH	CS-EARTH	
+colour_strat	CS-OCEAN	CS-OCEAN	
+colour_strat	CS-NEON-ON-DARK	CS-NEON-ON-DARK	
+colour_strat	CS-DESAT-CORP	CS-DESAT-CORP	
+colour_strat	CS-HIGH-KEY	CS-HIGH-KEY	
+colour_strat	CS-LOW-KEY	CS-LOW-KEY	
+colour_strat	CS-SEPIA	CS-SEPIA	
+colour_strat	CS-INVERTED	CS-INVERTED	
+colour_strat	CS-REGIONAL-FLAG	CS-REGIONAL-FLAG	
+colour_strat	CS-BRAND-LOCKUP	CS-BRAND-LOCKUP	
+chrome	CH-NONE	CH-NONE	
+chrome	CH-MIN	CH-MIN	
+chrome	CH-STANDARD	CH-STANDARD	
+chrome	CH-APP	CH-APP	
+chrome	CH-DENSE	CH-DENSE	
+chrome	CH-IMMERSIVE	CH-IMMERSIVE	
+density	marketing	marketing	
+density	app	app	
+density	mobile-web	mobile-web	

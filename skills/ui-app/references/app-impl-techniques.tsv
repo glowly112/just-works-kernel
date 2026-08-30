@@ -1,0 +1,62 @@
+tech_id	title	rule	platform	layer
+viewport-meta	Viewport meta	width=device-width initial-scale=1	mobile	html
+safe-area-css	Safe area insets	padding: env(safe-area-inset-*)	mobile	css
+dvh-units	Dynamic viewport	dvh/svh for mobile browser chrome	mobile	css
+touch-action	touch-action manipulation	reduce double-tap delay	mobile	css
+tap-highlight	Tap highlight control	-webkit-tap-highlight-color	mobile	css
+overscroll	overscroll-behavior	contain scroll chaining	any	css
+sticky-footer-cta	Sticky footer CTA	position sticky; bottom + safe-area	mobile	css
+bottom-nav-fixed	Fixed bottom nav	z-index; padding-bottom content	mobile	css
+min-touch	Min touch size	min-height/width 44px primary	mobile	css
+focus-visible	focus-visible rings	outline/box-shadow tokens	any	css
+scroll-padding	scroll-padding-top	sticky header offset	any	css
+prefers-reduced-motion	Reduced motion	@media prefers-reduced-motion	any	css
+prefers-color-scheme	Color scheme	light-dark tokens	any	css
+prefers-contrast	More contrast	stronger borders	any	css
+container-queries	Container queries	component density adapt	desktop	css
+grid-app-shell	CSS grid app shell	rail main inspector areas	desktop	css
+flex-phone-column	Flex column phone	header main footer tabs	mobile	css
+virtual-list	Virtualized list	windowing long lists	any	js
+intersection-infinite	Infinite scroll sentinel	IntersectionObserver	any	js
+command-palette-js	Command palette	keydown listener + dialog	desktop	js
+roving-tabindex	Roving tabindex	arrow keys in toolbars/lists	desktop	js
+focus-trap	Focus trap dialog	Tab cycle; Esc; restore	any	js
+live-region	ARIA live regions	polite status updates	any	a11y
+aria-current	aria-current page/step	nav and wizards	any	a11y
+aria-expanded	aria-expanded disclosure	trees menus sheets	any	a11y
+dialog-element	HTML dialog	modal native where possible	any	html
+popover-api	Popover API	non-modal popovers	desktop	html
+form-novalidate	Custom validation only if blocking	Use novalidate ONLY with JS that blocks invalid submit; prefer native constraints	any	js
+inputmode	inputmode attributes	numeric tel email search	mobile	html
+autocomplete	autocomplete tokens	shipping email current-password	any	html
+type-date	Native date/time	with accessible fallback	mobile	html
+file-capture	capture attribute	camera capture where supported	mobile	html
+service-worker-offline	Offline shell	SW cache critical path	mobile	js
+network-information	Online/offline events	banner + queue	mobile	js
+localstorage-prefs	Persist prefs	density theme sidebar width	desktop	js
+url-state	URL as state	shareable deep links	any	js
+history-stack	History API	back button correct	mobile	js
+drag-drop-desktop	Drag and drop	with keyboard alt	desktop	js
+clipboard-api	Clipboard API	copy ids with toast	desktop	js
+hotkeys	Hotkey map	avoid browser reserved	desktop	js
+resize-observer	ResizeObserver	pane breakpoints	desktop	js
+matchmedia	matchMedia breakpoints	nav pattern swap	any	js
+content-visibility	content-visibility	long page perf	any	css
+will-change-sparing	will-change sparingly	composited animations	any	css
+skeleton-css	Skeleton screens	content-shaped placeholders	any	css
+optimistic-ui	Optimistic UI	rollback on fail	any	js
+debounce-search	Debounced search	150–300ms	any	js
+abort-controller	AbortController	cancel stale fetches	any	js
+error-boundary-ui	Route error UI	retry + report	any	js
+csrf-safe	CSRF-safe forms	same-site cookies patterns	any	security
+session-timeout	Session timeout UX	warn extend logout	desktop	js
+biometric-webauthn	WebAuthn	passkeys where appropriate	mobile	js
+push-web	Web Push careful	permission preface	mobile	js
+install-pwa	PWA install	manifest + criteria	mobile	html
+app-badge	App badge API	unread counts careful	mobile	js
+share-api	Web Share API	native share sheet	mobile	js
+vibrate-careful	Vibration API careful	rare meaningful	mobile	js
+pointer-events	Pointer Events	unify mouse/touch/pen	any	js
+hover-media	@media (hover:hover)	progressive pointer UX	any	css
+coarse-pointer	@media (pointer:coarse)	larger targets	mobile	css
+fine-pointer	@media (pointer:fine)	compact density ok	desktop	css

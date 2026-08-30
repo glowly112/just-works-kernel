@@ -1,0 +1,71 @@
+axis	id	label	meta
+platform	mobile-phone	Single-hand phone, portrait primary	
+platform	mobile-tablet	Tablet adaptive, optional split	
+platform	desktop-web	Browser app, resizable window	
+platform	desktop-native-like	Dense desktop tool in web shell	
+platform	responsive-app	One codebase phone→desktop breakpoints	
+navigation	NAV-BOTTOM-TABS	3–5 peer roots; thumb; label+icon	mobile
+navigation	NAV-TOP-TABS	segment within section	mobile|desktop
+navigation	NAV-SIDE-RAIL	icon rail collapse to labels	desktop|tablet
+navigation	NAV-SIDE-TREE	hierarchical tree + content	desktop
+navigation	NAV-STACK-PUSH	push hierarchy with back	mobile
+navigation	NAV-MODAL-SHEET	modal or sheet for task	mobile
+navigation	NAV-BOTTOM-SHEET	partial sheet over content	mobile
+navigation	NAV-DRAWER	overflow secondary destinations	mobile|tablet
+navigation	NAV-COMMAND-PALETTE	⌘K / Ctrl+K jump	desktop
+navigation	NAV-MENUBAR	app menu bar File/Edit…	desktop
+navigation	NAV-TOOLBAR	contextual actions for selection	desktop
+navigation	NAV-BREADCRUMB	deep hierarchy path	desktop|tablet
+navigation	NAV-WIZARD	linear steps one focus	any
+navigation	NAV-MASTER-DETAIL	list | detail split	tablet|desktop
+navigation	NAV-TAB+STACK	tabs each with own stack	mobile
+navigation	NAV-NONE-FOCUS	single task no chrome	any
+shell	SH-PHONE-TABS	header optional | content | bottom tabs	
+shell	SH-PHONE-STACK	nav bar + back | content | optional toolbar	
+shell	SH-PHONE-SHEET	dimmed root | sheet job	
+shell	SH-PHONE-FEED	top bar | infinite list | FAB/sheet	
+shell	SH-PHONE-CANVAS	minimal chrome | canvas | tool dock	
+shell	SH-TABLET-SPLIT	list 1/3 | detail 2/3	
+shell	SH-TABLET-RAIL	rail | main | optional inspector	
+shell	SH-DESK-RAIL-MAIN	side rail | main stage	
+shell	SH-DESK-RAIL-MAIN-INSP	rail | main | inspector (cap; not AI triple default)	
+shell	SH-DESK-TOOL-CANVAS	toolbar | canvas | panels on demand	
+shell	SH-DESK-DATAGRID	filters | dense table | row actions	
+shell	SH-DESK-DASH	kpi strip | primary viz | secondary list	
+shell	SH-DESK-DOCUMENT	menubar/toolbar | document | optional outline	
+shell	SH-DESK-IDE-LITE	activity | editor | util ON DEMAND only	
+shell	SH-RESPONSIVE-COLLAPSE	desktop split → mobile stack	
+interaction	IX-PRIMARY-THUMB	primary action in easy thumb zone	mobile
+interaction	IX-FAB	one floating primary create	mobile
+interaction	IX-SWIPE-ACTIONS	leading/trailing list actions + a11y alt	mobile
+interaction	IX-PULL-REFRESH	refresh list with feedback	mobile
+interaction	IX-LONG-PRESS	context menu with visible alternative	mobile
+interaction	IX-EDGE-BACK	system back / swipe back respect	mobile
+interaction	IX-KEYBOARD-SHORTCUTS	documented shortcuts; focus traps correct	desktop
+interaction	IX-MULTISELECT	bulk actions with clear exit	desktop|tablet
+interaction	IX-INLINE-EDIT	edit in place with save/cancel	desktop
+interaction	IX-DRAG-REORDER	reorder with keyboard alternative	any
+interaction	IX-UNDO-TOAST	destructive with undo window	any
+interaction	IX-AUTOSAVE	status: saving/saved/error	any
+interaction	IX-SEARCH-FIRST	search as primary find	any
+interaction	IX-FILTER-CHIPS	visible filters, clear all	any
+interaction	IX-INFINITE-SCROLL	virtualize; preserve position; end state	mobile|desktop
+interaction	IX-PAGINATION	total count + page size when needed	desktop
+interaction	IX-EMPTY-CTA	empty explains + one action	any
+interaction	IX-SKELETON-LOAD	content-shaped loading	any
+interaction	IX-OPTIMISTIC	optimistic UI with rollback	any
+interaction	IX-OFFLINE-BANNER	offline/queue visible	mobile
+interaction	IX-PERMISSION-RATIONALE	why before system prompt	mobile
+interaction	IX-FORM-SECTIONED	groups; one column mobile	any
+interaction	IX-STICKY-FOOTER-CTA	primary CTA sticky above home indicator	mobile
+interaction	IX-CONTEXT-INSPECTOR	selection drives right panel	desktop
+interaction	IX-SPLIT-RESIZE	resizable panes with min widths	desktop
+interaction	IX-WINDOW-DENSITY	comfortable vs compact density toggle	desktop
+density	D-COMFORTABLE	spacious, marketing-adjacent, large type	
+density	D-DEFAULT	balanced app	
+density	D-COMPACT	power user, tables, short rows	
+density	D-TOUCH-COMFORT	mobile large targets, more padding	
+input	IN-TOUCH	finger primary	
+input	IN-POINTER	mouse/trackpad	
+input	IN-KEYBOARD	keyboard primary navigation	
+input	IN-MIXED	touch + keyboard (tablet/2-in-1)	

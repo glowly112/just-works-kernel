@@ -1,0 +1,252 @@
+pattern_id	family	title	feel	nav	ix_default	shell	density	platform	quarantine	notes
+m-bottom-tabs-5	mobile-structure	Bottom tabs (max 5)	Peer top-level destinations	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	Most consumer apps
+m-bottom-tabs-3	mobile-structure	Bottom tabs (3)	Focused product	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	Simple products
+m-tab-per-stack	mobile-structure	Tab + stack per root	Independent history per tab	NAV-TAB+STACK	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	Standard iOS pattern
+m-hamburger-secondary	mobile-structure	Drawer for secondary only	Not for primary 5 destinations	NAV-DRAWER	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Overflow
+m-hub-and-spoke	mobile-structure	Hub home + spokes	Home launches tasks	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Task apps
+m-single-feed	mobile-structure	Single feed app	Content is the app	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-FEED	D-DEFAULT	mobile-phone	0	Social/news
+m-camera-first	mobile-structure	Camera/capture first	Capture chrome minimal	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-CANVAS	D-TOUCH-COMFORT	mobile-phone	0	Scan/create
+m-map-first	mobile-structure	Map-first mobile	Map stage + sheet	NAV-BOTTOM-SHEET	IX-PRIMARY-THUMB	SH-PHONE-SHEET	D-TOUCH-COMFORT	mobile-phone	0	Nav/local
+m-chat-thread	mobile-structure	Chat thread mobile	Thread + composer bottom	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Messaging
+m-onboarding-pager	mobile-structure	Onboarding pager	3–5 screens skipable	NAV-WIZARD	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-COMFORTABLE	mobile-phone	0	First run
+m-auth-focus	mobile-structure	Auth focus flow	No app chrome	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-COMFORTABLE	mobile-phone	0	Sign-in
+m-checkout-linear	mobile-structure	Mobile checkout linear	Steps, progress, sticky pay	NAV-WIZARD	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	Commerce
+m-settings-grouped	mobile-structure	iOS-like grouped settings	Inset grouped lists	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Settings
+m-profile-me	mobile-structure	Profile / Me tab	Account + prefs entry	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	Consumer
+m-search-tab	mobile-structure	Search as tab	Search is a root job	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	Content apps
+m-create-fab	mobile-structure	Create via FAB	One create affordance	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-FEED	D-TOUCH-COMFORT	mobile-phone	0	Create-heavy
+m-create-sheet	mobile-structure	Create via sheet	Compose in sheet	NAV-BOTTOM-SHEET	IX-PRIMARY-THUMB	SH-PHONE-SHEET	D-DEFAULT	mobile-phone	0	Compose
+m-detail-push	mobile-structure	Detail push	List to detail with back	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Universal
+m-edit-modal	mobile-structure	Edit modal	Block context for edit	NAV-MODAL-SHEET	IX-PRIMARY-THUMB	SH-PHONE-SHEET	D-DEFAULT	mobile-phone	0	Forms
+m-picker-sheet	mobile-structure	Picker sheet	Select without full page	NAV-BOTTOM-SHEET	IX-PRIMARY-THUMB	SH-PHONE-SHEET	D-TOUCH-COMFORT	mobile-phone	0	Pickers
+m-filter-sheet	mobile-structure	Filter sheet	Filters over results	NAV-BOTTOM-SHEET	IX-PRIMARY-THUMB	SH-PHONE-SHEET	D-DEFAULT	mobile-phone	0	Browse
+m-action-sheet	mobile-structure	Action sheet confirm	Destructive choices clear	NAV-MODAL-SHEET	IX-PRIMARY-THUMB	SH-PHONE-SHEET	D-TOUCH-COMFORT	mobile-phone	0	Confirm
+m-wizard-fullscreen	mobile-structure	Fullscreen wizard	Step chrome only	NAV-WIZARD	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-COMFORTABLE	mobile-phone	0	Setup
+m-offline-first-list	mobile-structure	Offline-first list	Cached + sync state	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-FEED	D-DEFAULT	mobile-phone	0	Field apps
+m-biometric-gate	mobile-structure	Biometric gate	Local auth then app	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-COMFORTABLE	mobile-phone	0	Secure
+m-target-44	mobile-touch-a11y	44pt touch targets	Primary controls ≥44×44	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	HIG/Material
+m-target-spacing	mobile-touch-a11y	Target spacing	Avoid mis-taps between actions	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	WCAG spacing
+m-thumb-zone-cta	mobile-touch-a11y	Thumb-zone primary CTA	Primary near bottom	NAV-STACK-PUSH	IX-STICKY-FOOTER-CTA	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	Reachability
+m-no-hover	mobile-touch-a11y	No hover-only	All actions visible/tappable	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Touch
+m-safe-area-chrome	mobile-touch-a11y	Safe-area chrome	Tabs/CTAs above home indicator	NAV-BOTTOM-TABS	IX-STICKY-FOOTER-CTA	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	Notch/home
+m-status-bar-legible	mobile-touch-a11y	Status bar legible	Content not under status	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Insets
+m-keyboard-avoid	mobile-touch-a11y	Keyboard avoidance	Focused field visible	NAV-STACK-PUSH	IX-FORM-SECTIONED	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Forms
+m-large-text	mobile-touch-a11y	Dynamic type / large text	Layout flexes with text size	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-COMFORTABLE	mobile-phone	0	a11y
+m-contrast-outdoor	mobile-touch-a11y	Outdoor contrast	High contrast for sun	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Mobile context
+m-one-hand	mobile-touch-a11y	One-handed path	Critical path without stretch	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	Reach
+m-gesture-alt	mobile-touch-a11y	Gesture + visible alt	Swipe not only path	NAV-STACK-PUSH	IX-SWIPE-ACTIONS	SH-PHONE-FEED	D-DEFAULT	mobile-phone	0	a11y
+m-haptic-meaning	mobile-touch-a11y	Haptics with meaning	Confirm/error/success only	NAV-STACK-PUSH	IX-UNDO-TOAST	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Native/web limited
+m-reduce-motion	mobile-touch-a11y	Respect reduce motion	Essential feedback remains	NAV-STACK-PUSH	IX-SKELETON-LOAD	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	WCAG
+m-screen-reader-order	mobile-touch-a11y	Screen reader order	DOM order matches visual job	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	a11y
+m-focus-visible-mobile	mobile-touch-a11y	Focus visible when keyboard	External keyboard / a11y	NAV-STACK-PUSH	IX-KEYBOARD-SHORTCUTS	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	a11y
+m-list-dense	mobile-content-patterns	Dense mobile list	One primary line + meta	NAV-STACK-PUSH	IX-INFINITE-SCROLL	SH-PHONE-FEED	D-DEFAULT	mobile-phone	0	Queues
+m-list-media	mobile-content-patterns	Media list rows	Thumb + title + meta	NAV-STACK-PUSH	IX-INFINITE-SCROLL	SH-PHONE-FEED	D-DEFAULT	mobile-phone	0	Content
+m-cards-scroll	mobile-content-patterns	Card vertical stack	Scannable cards	NAV-STACK-PUSH	IX-INFINITE-SCROLL	SH-PHONE-FEED	D-COMFORTABLE	mobile-phone	0	Browse
+m-grid-2col	mobile-content-patterns	2-column grid	Gallery/products	NAV-STACK-PUSH	IX-INFINITE-SCROLL	SH-PHONE-FEED	D-DEFAULT	mobile-phone	0	Retail
+m-hero-then-list	mobile-content-patterns	Hero then list	Context then inventory	NAV-STACK-PUSH	IX-EMPTY-CTA	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Home
+m-timeline-vertical	mobile-content-patterns	Vertical timeline	Activity history	NAV-STACK-PUSH	IX-INFINITE-SCROLL	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Activity
+m-stepper-progress	mobile-content-patterns	Stepper progress	Show step n of m	NAV-WIZARD	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-COMFORTABLE	mobile-phone	0	Flows
+m-form-one-column	mobile-content-patterns	One-column form	Labels above fields	NAV-STACK-PUSH	IX-FORM-SECTIONED	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	Input
+m-form-multipage	mobile-content-patterns	Multi-page form	Save draft between pages	NAV-WIZARD	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Long forms
+m-search-results	mobile-content-patterns	Search results mobile	Query sticky + results	NAV-STACK-PUSH	IX-SEARCH-FIRST	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Find
+m-empty-first-run	mobile-content-patterns	First-run empty	Education + CTA	NAV-STACK-PUSH	IX-EMPTY-CTA	SH-PHONE-STACK	D-COMFORTABLE	mobile-phone	0	Activation
+m-error-fullpage	mobile-content-patterns	Full-page error	Retry + support	NAV-STACK-PUSH	IX-EMPTY-CTA	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Failure
+m-permission-preface	mobile-content-patterns	Permission preface	Value prop before OS dialog	NAV-STACK-PUSH	IX-PERMISSION-RATIONALE	SH-PHONE-STACK	D-COMFORTABLE	mobile-phone	0	Privacy
+m-push-pref-center	mobile-content-patterns	Notification prefs	Granular, not all-or-nothing	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Push
+m-media-fullscreen	mobile-content-patterns	Fullscreen media	Swipe dismiss, chrome fade	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-CANVAS	D-DEFAULT	mobile-phone	0	Media
+d-rail-main	desktop-structure	Icon rail + main	Primary desktop shell	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	SaaS
+d-rail-labels	desktop-structure	Rail with labels	Discoverability > icons-only	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	Enterprise
+d-rail-main-inspector	desktop-structure	Rail + main + inspector	Selection details; not idle triple	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-COMPACT	desktop-web	0	Ops tools
+d-master-detail	desktop-structure	Master-detail	List drives detail	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-TABLET-SPLIT	D-DEFAULT	desktop-web	0	Mail/queues
+d-datagrid-app	desktop-structure	Datagrid application	Table is the product	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	Admin
+d-dashboard-ops	desktop-structure	Ops dashboard	KPI + one focus viz	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DASH	D-DEFAULT	desktop-web	0	Monitoring
+d-document-editor	desktop-structure	Document editor	Canvas/document center	NAV-MENUBAR	IX-KEYBOARD-SHORTCUTS	SH-DESK-DOCUMENT	D-DEFAULT	desktop-web	0	Docs
+d-design-canvas	desktop-structure	Design/tool canvas	Tools on demand	NAV-TOOLBAR	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-DEFAULT	desktop-web	0	Creative
+d-ide-lite	desktop-structure	IDE-lite	Editor primary; panels optional	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-IDE-LITE	D-COMPACT	desktop-web	0	Dev tools
+d-command-first	desktop-structure	Command palette first	Keyboard jump primary	NAV-COMMAND-PALETTE	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-COMPACT	desktop-web	0	Power users
+d-menubar-classic	desktop-structure	Classic menubar	File/Edit/View…	NAV-MENUBAR	IX-KEYBOARD-SHORTCUTS	SH-DESK-DOCUMENT	D-DEFAULT	desktop-web	0	Productivity
+d-settings-dialog	desktop-structure	Settings dialog/pages	Searchable settings	NAV-SIDE-TREE	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	Preferences
+d-multi-workspace	desktop-structure	Workspaces/projects switcher	Context switch clear	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	Multi-tenant
+d-breadcrumb-admin	desktop-structure	Admin with breadcrumbs	Deep trees oriented	NAV-BREADCRUMB	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	CMS
+d-wizard-desktop	desktop-structure	Desktop wizard modal	Centered steps	NAV-WIZARD	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-COMFORTABLE	desktop-web	0	Setup
+d-split-compare	desktop-structure	Compare split	A|B decision	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-TABLET-SPLIT	D-DEFAULT	desktop-web	0	Review
+d-timeline-gantt	desktop-structure	Timeline/Gantt	Time as structure	NAV-TOOLBAR	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-COMPACT	desktop-web	0	Planning
+d-kanban-desktop	desktop-structure	Kanban board	Columns + cards	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-DEFAULT	desktop-web	0	Work mgmt
+d-calendar-desktop	desktop-structure	Calendar app	Time grid primary	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-DEFAULT	desktop-web	0	Scheduling
+d-map-desktop	desktop-structure	Map ops desktop	Map + side list	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-TABLET-SPLIT	D-DEFAULT	desktop-web	0	Geo
+d-chat-desktop	desktop-structure	Desktop messaging	List | thread | optional info	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-DEFAULT	desktop-web	0	Chat — info on demand
+d-email-client	desktop-structure	Email client	Folders | list | reading	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-COMPACT	desktop-web	0	Mail
+d-file-manager	desktop-structure	File manager	Tree | files | preview	NAV-SIDE-TREE	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-COMPACT	desktop-web	0	Files
+d-analytics-explore	desktop-structure	Analytics explore	Query builder + results	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	BI
+d-support-console	desktop-structure	Support console	Ticket queue + workspace	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-COMPACT	desktop-web	0	CX
+d-compact-tables	desktop-density-keyboard	Compact tables	Short row height, dense data	NAV-SIDE-RAIL	IX-PAGINATION	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	Power
+d-comfortable-tables	desktop-density-keyboard	Comfortable tables	Readable rows	NAV-SIDE-RAIL	IX-PAGINATION	SH-DESK-DATAGRID	D-DEFAULT	desktop-web	0	General
+d-density-toggle	desktop-density-keyboard	User density toggle	Comfortable/Compact persist	NAV-SIDE-RAIL	IX-WINDOW-DENSITY	SH-DESK-DATAGRID	D-DEFAULT	desktop-web	0	Preference
+d-keyboard-nav	desktop-density-keyboard	Full keyboard nav	Tab order, roving tabindex lists	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	a11y
+d-shortcuts-help	desktop-density-keyboard	? shortcuts cheatsheet	Discoverable shortcuts	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	Learnability
+d-focus-trap-modal	desktop-density-keyboard	Modal focus trap	Esc closes; restore focus	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	a11y
+d-skip-to-main	desktop-density-keyboard	Skip to main	Landmarks + skip link	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	a11y
+d-typeahead	desktop-density-keyboard	Typeahead find	Jump in lists	NAV-SIDE-RAIL	IX-SEARCH-FIRST	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	Speed
+d-bulk-actions	desktop-density-keyboard	Bulk action bar	Appears on selection	NAV-SIDE-RAIL	IX-MULTISELECT	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	Admin
+d-column-custom	desktop-density-keyboard	Column customization	Show/hide/reorder columns	NAV-SIDE-RAIL	IX-INLINE-EDIT	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	Power
+d-resize-panes	desktop-density-keyboard	Resizable panes	Min width; persist	NAV-SIDE-RAIL	IX-SPLIT-RESIZE	SH-DESK-RAIL-MAIN-INSP	D-DEFAULT	desktop-web	0	Layout
+d-multi-window	desktop-density-keyboard	Multi-window ready	Deep links open surfaces	NAV-MENUBAR	IX-KEYBOARD-SHORTCUTS	SH-DESK-DOCUMENT	D-DEFAULT	desktop-web	0	Pro
+d-progressive-more	desktop-density-keyboard	More/Fewer options	Hide rare advanced	NAV-SIDE-RAIL	IX-FILTER-CHIPS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	NN/g progressive disclosure
+d-context-menu	desktop-density-keyboard	Context menu + menu bar	Right-click not only path	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-DEFAULT	desktop-web	0	Discoverability
+d-undo-stack	desktop-density-keyboard	Document undo	⌘Z meaningful	NAV-MENUBAR	IX-UNDO-TOAST	SH-DESK-DOCUMENT	D-DEFAULT	desktop-web	0	Editing
+d-autosave-status	desktop-density-keyboard	Autosave status	Saving/saved/error in chrome	NAV-MENUBAR	IX-AUTOSAVE	SH-DESK-DOCUMENT	D-DEFAULT	desktop-web	0	Trust
+d-window-1024	desktop-density-keyboard	Functional at 1024×768	No dead layouts at laptop	NAV-SIDE-RAIL	IX-SPLIT-RESIZE	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	Win UX guide
+d-large-display	desktop-density-keyboard	Large display use	Don't stretch uselessly	NAV-SIDE-RAIL	IX-SPLIT-RESIZE	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	Desktop
+d-tooltip-labels	desktop-density-keyboard	Icon buttons labelled	Tooltip + aria-label	NAV-TOOLBAR	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-DEFAULT	desktop-web	0	a11y
+d-high-contrast	desktop-density-keyboard	OS high contrast aware	Borders not colour-only	NAV-SIDE-RAIL	IX-PRIMARY-THUMB	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	a11y
+x-state-matrix	cross-platform-app	Full state matrix	default loading empty error success	NAV-NONE-FOCUS	IX-SKELETON-LOAD	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	ui-bp align
+x-responsive-collapse	cross-platform-app	Responsive collapse	Split→stack at breakpoint	NAV-MASTER-DETAIL	IX-EMPTY-CTA	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	One codebase
+x-breakpoint-nav-swap	cross-platform-app	Nav swap by breakpoint	Rail↔tabs	NAV-BOTTOM-TABS	IX-EMPTY-CTA	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	Adaptive
+x-shared-tokens	cross-platform-app	Shared design tokens	Colour type space cross surface	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	System
+x-semantic-status	cross-platform-app	Semantic status colours	+ icon/text not colour only	NAV-NONE-FOCUS	IX-EMPTY-CTA	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	a11y
+x-form-validation	cross-platform-app	Inline validation	On blur/submit plain language	NAV-NONE-FOCUS	IX-FORM-SECTIONED	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	Forms
+x-destructive-confirm	cross-platform-app	Destructive confirm	Typed confirm or undo	NAV-NONE-FOCUS	IX-UNDO-TOAST	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	Safety
+x-toast-queue	cross-platform-app	Toast/queue discipline	Don't stack spam	NAV-NONE-FOCUS	IX-UNDO-TOAST	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	Feedback
+x-permissioned-ui	cross-platform-app	Permissioned UI	Hide vs disable with reason	NAV-NONE-FOCUS	IX-EMPTY-CTA	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	AuthZ
+x-empty-permission	cross-platform-app	Empty by permission	Explain access gap	NAV-NONE-FOCUS	IX-EMPTY-CTA	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	Enterprise
+x-search-global	cross-platform-app	Global search	Entities + actions	NAV-NONE-FOCUS	IX-SEARCH-FIRST	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	Find
+x-notifications-inbox	cross-platform-app	In-app notification inbox	Read state + deep link	NAV-STACK-PUSH	IX-EMPTY-CTA	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	Notify
+x-help-inline	cross-platform-app	Inline help	Contextual, not only docs site	NAV-NONE-FOCUS	IX-EMPTY-CTA	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	Learnability
+x-localization-ready	cross-platform-app	Localization ready	No truncated critical labels	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	i18n
+x-rtl-ready	cross-platform-app	RTL-ready layout	Logical properties	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	i18n
+x-theming-light-dark	cross-platform-app	Light/dark tokens	Semantic surfaces	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	Theme
+x-performance-perceived	cross-platform-app	Perceived performance	Skeleton, optimistic, stale-while-revalidate	NAV-NONE-FOCUS	IX-OPTIMISTIC	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	Perf
+x-error-boundary	cross-platform-app	Error boundary UX	Recover section not white screen	NAV-NONE-FOCUS	IX-EMPTY-CTA	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	Resilience
+x-audit-trail	cross-platform-app	Audit-friendly UI	Who/when visible in ops	NAV-SIDE-RAIL	IX-INLINE-EDIT	SH-DESK-DATAGRID	D-COMPACT	responsive-app	0	Enterprise
+x-role-home	cross-platform-app	Role-based home	Different landing by role	NAV-BOTTOM-TABS	IX-EMPTY-CTA	SH-RESPONSIVE-COLLAPSE	D-DEFAULT	responsive-app	0	Multi-role
+banking-mobile	industry-app	Mobile Banking	balances cards transfers	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+banking-desktop	industry-app	Desktop Banking	accounts table transfers	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-DEFAULT	desktop-web	0	desktop; industry shell
+email-mobile	industry-app	Mobile Email	inbox thread compose	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	mobile; industry shell
+calendar-mobile	industry-app	Mobile Calendar	agenda day create	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+calendar-desktop	industry-app	Desktop Calendar	week grid create	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-DEFAULT	desktop-web	0	desktop; industry shell
+chat-mobile	industry-app	Mobile Chat	threads composer	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	mobile; industry shell
+chat-desktop	industry-app	Desktop Chat	list thread info-on-demand	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-DEFAULT	desktop-web	0	desktop; industry shell
+maps-mobile	industry-app	Mobile Maps	map sheet search	NAV-BOTTOM-SHEET	IX-PRIMARY-THUMB	SH-PHONE-SHEET	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+maps-desktop	industry-app	Desktop Maps	map side list	NAV-MASTER-DETAIL	IX-EMPTY-CTA	SH-TABLET-SPLIT	D-DEFAULT	mobile-tablet	0	desktop; industry shell
+commerce-mobile	industry-app	Mobile Commerce	browse pdp cart checkout	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+commerce-desktop	industry-app	Desktop Commerce	catalog filters pdp	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-DEFAULT	desktop-web	0	desktop; industry shell
+health-mobile	industry-app	Health Tracker Mobile	rings trends log	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+health-clinic-desktop	industry-app	Clinic Desktop	schedule patients notes	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-COMPACT	desktop-web	0	desktop; industry shell
+fitness-mobile	industry-app	Fitness Mobile	workout active timer	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-CANVAS	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+notes-mobile	industry-app	Notes Mobile	list editor	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	mobile; industry shell
+notes-desktop	industry-app	Notes Desktop	sidebar editor	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DOCUMENT	D-DEFAULT	desktop-web	0	desktop; industry shell
+tasks-mobile	industry-app	Tasks Mobile	lists add complete	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+tasks-desktop	industry-app	Tasks Desktop	board/list detail	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-DEFAULT	desktop-web	0	desktop; industry shell
+crm-desktop	industry-app	CRM Desktop	pipeline contacts	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	desktop; industry shell
+crm-mobile	industry-app	CRM Mobile	today queue log call	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+support-desktop	industry-app	Support Desktop	ticket workspace	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-COMPACT	desktop-web	0	desktop; industry shell
+support-mobile	industry-app	Support Mobile	on-call ticket	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	mobile; industry shell
+hr-desktop	industry-app	HR Desktop	people requests	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-DEFAULT	desktop-web	0	desktop; industry shell
+hr-mobile	industry-app	HR Mobile	leave requests	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+erp-desktop	industry-app	ERP Desktop	modules dense tables	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	desktop; industry shell
+inventory-mobile	industry-app	Inventory Mobile	scan count bins	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+inventory-desktop	industry-app	Inventory Desktop	SKU grid adjust	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	desktop; industry shell
+logistics-mobile	industry-app	Driver Mobile	stops nav complete	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+logistics-desktop	industry-app	Dispatch Desktop	board map assign	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-COMPACT	desktop-web	0	desktop; industry shell
+field-service-mobile	industry-app	Field Service Mobile	jobs checklist photo	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+field-service-desktop	industry-app	Field Service Desktop	schedule board	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-COMPACT	desktop-web	0	desktop; industry shell
+education-mobile	industry-app	Learning Mobile	courses lessons	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-COMFORTABLE	mobile-phone	0	mobile; industry shell
+education-desktop	industry-app	LMS Desktop	courses gradebook	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-DEFAULT	desktop-web	0	desktop; industry shell
+media-mobile	industry-app	Media Mobile	player feed	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-FEED	D-DEFAULT	mobile-phone	0	mobile; industry shell
+media-desktop	industry-app	Media Desktop	library player	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-DEFAULT	desktop-web	0	desktop; industry shell
+social-mobile	industry-app	Social Mobile	feed create profile	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-FEED	D-DEFAULT	mobile-phone	0	mobile; industry shell
+social-desktop	industry-app	Social Desktop	feed optional rail	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	desktop; industry shell
+devtool-desktop	industry-app	Developer Tool	editor panels on demand	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-IDE-LITE	D-COMPACT	desktop-web	0	desktop; industry shell
+design-tool-desktop	industry-app	Design Tool	canvas tools	NAV-TOOLBAR	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-DEFAULT	desktop-web	0	desktop; industry shell
+analytics-desktop	industry-app	Analytics Desktop	explore charts	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DASH	D-COMPACT	desktop-web	0	desktop; industry shell
+analytics-mobile	industry-app	Analytics Mobile	kpi cards drill	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	mobile; industry shell
+iot-mobile	industry-app	IoT Mobile	device status control	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+iot-desktop	industry-app	IoT Desktop	fleet grid map	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DASH	D-COMPACT	desktop-web	0	desktop; industry shell
+security-soc-desktop	industry-app	SOC Desktop	alerts timeline	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-COMPACT	desktop-web	0	desktop; industry shell
+password-mobile	industry-app	Password Manager Mobile	vault autofill	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+password-desktop	industry-app	Password Manager Desktop	vault generator	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-DEFAULT	desktop-web	0	desktop; industry shell
+travel-mobile	industry-app	Travel Mobile	trips boarding	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+travel-desktop	industry-app	Travel Desktop	itinerary booking	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	desktop; industry shell
+food-delivery-mobile	industry-app	Food Delivery Mobile	browse cart track	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+food-courier-mobile	industry-app	Courier Mobile	orders nav photo	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+food-merchant-desktop	industry-app	Merchant Desktop	orders kitchen	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-COMPACT	desktop-web	0	desktop; industry shell
+ride-mobile	industry-app	Ride Hail Mobile	map request trip	NAV-BOTTOM-SHEET	IX-PRIMARY-THUMB	SH-PHONE-SHEET	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+ride-driver-mobile	industry-app	Driver Mobile	requests nav	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+realestate-mobile	industry-app	Property Mobile	search map shortlist	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+realestate-desktop	industry-app	Property Desktop	search map table	NAV-MASTER-DETAIL	IX-EMPTY-CTA	SH-TABLET-SPLIT	D-DEFAULT	mobile-tablet	0	desktop; industry shell
+news-mobile	industry-app	News Mobile	sections article	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-FEED	D-DEFAULT	mobile-phone	0	mobile; industry shell
+news-desktop	industry-app	News Desktop	sections article	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DOCUMENT	D-DEFAULT	desktop-web	0	desktop; industry shell
+weather-mobile	industry-app	Weather Mobile	conditions hourly	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-COMFORTABLE	mobile-phone	0	mobile; industry shell
+photos-mobile	industry-app	Photos Mobile	library memories	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-FEED	D-DEFAULT	mobile-phone	0	mobile; industry shell
+photos-desktop	industry-app	Photos Desktop	library edit	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-DEFAULT	desktop-web	0	desktop; industry shell
+music-mobile	industry-app	Music Mobile	player library	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+music-desktop	industry-app	Music Desktop	library player queue	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-DEFAULT	desktop-web	0	desktop; industry shell
+podcast-mobile	industry-app	Podcast Mobile	shows episodes player	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+podcast-desktop	industry-app	Podcast Desktop	library queue	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	desktop; industry shell
+finance-markets-mobile	industry-app	Markets Mobile	watchlist quotes	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+finance-markets-desktop	industry-app	Markets Desktop	blotter charts	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	desktop; industry shell
+trading-desktop	industry-app	Trading Desktop	order entry dense	NAV-TOOLBAR	IX-KEYBOARD-SHORTCUTS	SH-DESK-IDE-LITE	D-COMPACT	desktop-web	0	desktop; industry shell
+insurance-mobile	industry-app	Insurance Mobile	policies claims	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+insurance-desktop	industry-app	Insurance Desktop	policies claims queue	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	desktop; industry shell
+gov-services-mobile	industry-app	Gov Services Mobile	tasks forms status	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+gov-services-desktop	industry-app	Gov Services Desktop	cases queue	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-DEFAULT	desktop-web	0	desktop; industry shell
+tax-desktop	industry-app	Tax Desktop	forms wizard review	NAV-WIZARD	IX-KEYBOARD-SHORTCUTS	SH-DESK-DOCUMENT	D-DEFAULT	desktop-web	0	desktop; industry shell
+tax-mobile	industry-app	Tax Mobile	upload status	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	mobile; industry shell
+legal-desktop	industry-app	Legal Desktop	matters documents	NAV-SIDE-TREE	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-COMPACT	desktop-web	0	desktop; industry shell
+legal-mobile	industry-app	Legal Mobile	deadlines tasks	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+construction-mobile	industry-app	Construction Mobile	site daily photos	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+construction-desktop	industry-app	Construction Desktop	projects drawings	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-COMPACT	desktop-web	0	desktop; industry shell
+manufacturing-desktop	industry-app	MES Desktop	lines work orders	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	desktop; industry shell
+manufacturing-mobile	industry-app	Shop Floor Mobile	scan complete	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+energy-desktop	industry-app	Energy Ops Desktop	grid status alarms	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DASH	D-COMPACT	desktop-web	0	desktop; industry shell
+energy-mobile	industry-app	Energy Field Mobile	assets inspect	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+agriculture-mobile	industry-app	Ag Mobile	fields tasks weather	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+agriculture-desktop	industry-app	Ag Desktop	fields seasons plans	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DASH	D-DEFAULT	desktop-web	0	desktop; industry shell
+nonprofit-mobile	industry-app	Nonprofit Mobile	donate volunteer	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-COMFORTABLE	mobile-phone	0	mobile; industry shell
+nonprofit-desktop	industry-app	Nonprofit Desktop	campaigns donors	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-DEFAULT	desktop-web	0	desktop; industry shell
+event-mobile	industry-app	Event Mobile	agenda tickets map	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+event-desktop	industry-app	Event Desktop	registration agenda	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	desktop; industry shell
+hotel-mobile	industry-app	Hotel Mobile	stay key services	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+hotel-desktop	industry-app	Hotel Desktop	reservations folio	NAV-MASTER-DETAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN-INSP	D-COMPACT	desktop-web	0	desktop; industry shell
+restaurant-pos-tablet	industry-app	Restaurant POS Tablet	tickets menu pay	NAV-NONE-FOCUS	IX-EMPTY-CTA	SH-TABLET-SPLIT	D-TOUCH-COMFORT	mobile-tablet	0	tablet; industry shell
+restaurant-backoffice	industry-app	Restaurant Backoffice	menus labour	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	desktop; industry shell
+school-mobile	industry-app	School Parent Mobile	messages attendance	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+school-desktop	industry-app	School Admin Desktop	roster attendance	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	desktop; industry shell
+university-mobile	industry-app	Uni Mobile	timetable campus	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+university-desktop	industry-app	Uni Admin Desktop	enrolment records	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	desktop; industry shell
+library-mobile	industry-app	Library Mobile	search loans	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+library-desktop	industry-app	Library Desktop	catalogue circulation	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	desktop; industry shell
+museum-mobile	industry-app	Museum Mobile	visit guide audio	NAV-TAB+STACK	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-COMFORTABLE	mobile-phone	0	mobile; industry shell
+museum-desktop	industry-app	Museum Desktop	collections CMS	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-DEFAULT	desktop-web	0	desktop; industry shell
+sports-mobile	industry-app	Sports Mobile	scores follow live	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+sports-desktop	industry-app	Sports Desktop	stats tables live	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DASH	D-COMPACT	desktop-web	0	desktop; industry shell
+betting-careful-mobile	industry-app	Betting UI Careful	clear stakes responsible	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+gaming-mobile	industry-app	Casual Game Shell	play overlay menus	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-CANVAS	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+gaming-desktop	industry-app	PC Game Launcher	library friends	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	desktop; industry shell
+vpn-mobile	industry-app	VPN Mobile	connect status regions	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	mobile; industry shell
+vpn-desktop	industry-app	VPN Desktop	connect routes	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	desktop; industry shell
+backup-desktop	industry-app	Backup Desktop	sources schedule status	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	desktop; industry shell
+backup-mobile	industry-app	Backup Mobile	status restore	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	mobile; industry shell
+smart-home-mobile	industry-app	Smart Home Mobile	rooms scenes devices	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-DEFAULT	mobile-phone	0	mobile; industry shell
+smart-home-desktop	industry-app	Smart Home Desktop	floorplan devices	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-TOOL-CANVAS	D-DEFAULT	desktop-web	0	desktop; industry shell
+printer-admin-desktop	industry-app	Print Admin	queues devices	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	desktop; industry shell
+mdm-desktop	industry-app	Device Management	fleet compliance	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-DATAGRID	D-COMPACT	desktop-web	0	desktop; industry shell
+mdm-mobile	industry-app	Device Enrol Mobile	enrol status	NAV-WIZARD	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	mobile; industry shell
+os-ios-large-title	os-patterns	iOS large title pattern	Collapse on scroll	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-COMFORTABLE	mobile-phone	0	iOS HIG
+os-ios-inset-grouped	os-patterns	iOS inset grouped list	Settings style	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	iOS HIG
+os-ios-swipe-back	os-patterns	iOS interactive pop	Edge swipe back	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	iOS
+os-material-nav-bar	os-patterns	Material bottom nav	3–5 destinations	NAV-BOTTOM-TABS	IX-PRIMARY-THUMB	SH-PHONE-TABS	D-TOUCH-COMFORT	mobile-phone	0	Material
+os-material-top-app-bar	os-patterns	Material top app bar	Nav + actions	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Material
+os-material-fab	os-patterns	Material FAB	Primary create	NAV-STACK-PUSH	IX-FAB	SH-PHONE-FEED	D-TOUCH-COMFORT	mobile-phone	0	Material
+os-material-nav-rail	os-patterns	Material nav rail	Tablet/desktop	NAV-SIDE-RAIL	IX-EMPTY-CTA	SH-TABLET-RAIL	D-DEFAULT	mobile-tablet	0	Material
+os-android-back	os-patterns	Android back affordance	Predictable back stack	NAV-STACK-PUSH	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Android
+os-android-snackbar	os-patterns	Snackbar + action	Undo short	NAV-STACK-PUSH	IX-UNDO-TOAST	SH-PHONE-STACK	D-DEFAULT	mobile-phone	0	Material
+os-win-titlebar	os-patterns	Windows titlebar patterns	App icon caption buttons	NAV-MENUBAR	IX-KEYBOARD-SHORTCUTS	SH-DESK-DOCUMENT	D-DEFAULT	desktop-web	0	WinUI
+os-win-navigation-view	os-patterns	Win NavigationView	Left nav expand	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	WinUI
+os-macos-toolbar	os-patterns	macOS toolbar	Unified titlebar toolbar	NAV-TOOLBAR	IX-KEYBOARD-SHORTCUTS	SH-DESK-DOCUMENT	D-DEFAULT	desktop-web	0	HIG
+os-macos-sidebar	os-patterns	macOS sidebar	Source list	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	HIG
+os-linux-desktop	os-patterns	Linux desktop app	Follow platform toolkit	NAV-SIDE-RAIL	IX-KEYBOARD-SHORTCUTS	SH-DESK-RAIL-MAIN	D-DEFAULT	desktop-web	0	GNOME/KDE
+os-watch-complication	os-patterns	Watch glance	Tiny critical metric	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-CANVAS	D-TOUCH-COMFORT	mobile-phone	1	Wearable — brief only; QUARANTINE brief-only non-web: Wearable — brief only; NOT for combo sampling — brief-only
+os-tv-10foot	os-patterns	10-foot UI	Focus engine large	NAV-NONE-FOCUS	IX-KEYBOARD-SHORTCUTS	SH-DESK-DASH	D-COMFORTABLE	desktop-web	1	TV; QUARANTINE brief-only non-web: TV; NOT for combo sampling — brief-only
+os-kiosk-locked	os-patterns	Kiosk locked session	Timeout reset	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	0	Kiosk
+os-car-glance	os-patterns	Automotive glance	Minimal distraction	NAV-NONE-FOCUS	IX-PRIMARY-THUMB	SH-PHONE-STACK	D-TOUCH-COMFORT	mobile-phone	1	Auto — careful; QUARANTINE brief-only non-web: Auto — careful; NOT for combo sampling — brief-only

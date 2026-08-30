@@ -1,0 +1,60 @@
+---
+description: Works App Builder & Product Pipeline — triage, just-works, ui-thrift, anti-slop, verification
+alwaysApply: true
+---
+
+# Works App Builder & Product Pipeline
+
+SOT: Works app (`/Users/jamie.matheson/src/works/AGENTS.md` + `engine/opencode/DRIVER.md` + Multivibe `just-works` & `ui-thrift`).
+
+When building apps, sites, screens, features, or prototypes, strictly follow this system.
+
+## 1. Triage Before Scaffolding (§0.5)
+
+Classify incoming request before building anything:
+1. **Clear build request** (`build a todo app`, `clone X`) → execute the build pipeline (§2).
+2. **Vague app request** (`something cool`) → pick ONE coherent, broadly-appealing product, state in one line what it is, build it.
+3. **Trivial / empty / no signal** (`hi`, `1`, `.`, `test`) → build nothing. Reply in one short line on what can be built, ask what they want.
+4. **Question / explain / research** → answer directly. Never turn a question into an app unless explicitly asked.
+
+### Auth & Database Defaults (OFF by default)
+- **Auth OFF** by default. Enable ONLY if user explicitly asks for accounts, login/sign-in, per-user auth, cross-device user sync, or user-owned data. (A local high score / personal settings is NOT a reason for auth — use localStorage / Zustand).
+- **Database ON, Auth OFF** when durable cross-device or shared data is needed without accounts (unowned rows).
+- **Neither (Default)**: localStorage / Zustand / client state only (calculators, games, landing pages, one-shot tools, prototypes).
+
+## 2. Product Gate Pipeline (The Works Stack)
+
+Do not mega-merge or skip gates. Take the next gate only:
+
+1. **`read-me`**: Inbound interpretation. Expand short UK English / slang / screenshots silently to **Goal · Artifact · Success · Verify**. User never has to name a skill.
+2. **`repo-memory`**: Read & update `STATE.md`, `CONCEPTS.md`, `LEARNINGS.md` for persistence across chats.
+3. **`feature-plan`**: Accept `FEATURE.md` with Done cases, SOT (number that must not be invented), what OFF looks like, and click-through requirements before building non-trivial features.
+4. **`just-works` (Hard Default on all apps/sites/features)**:
+   - Primary job works on first tap path.
+   - Designed off-state / empty / loading / error (**Empty** in product voice, not generic lorem or empty journal prose).
+   - Phone-width safe, thumb-sized targets, keyboard open without `KB_COVER`.
+   - Fresh proof command / evidence this turn before claiming done.
+5. **`ui-thrift` (Hard Default before any CSS)**:
+   - **LOAD**: L1 skill → L2 process → L3 anti-slop BAN list → L4 Mobbin refs (when visual) → L5 stamp `DESIGN.md` / `thrift-process.md` → L6 implement & self-check.
+   - **PROCESS**: P0 loaded → P1 anti-slop → P2 refs (Mobbin required for desks, boards, landings, redesigns) → P3 ui-lock → P4 memo (SIGN/SKELETON/ANTI/REFUSE) → P5 implement → P6 fail-closed self-check.
+6. **`ui-marks`**: Icons, custom SVG, sprite, portraits, route-in animations. Skip infinite pulse (not "live"). Tape fade is a mask, not glass.
+7. **`tdd-one`**: One RED test per planned step that can run.
+8. **`hammer`**: Test 5–8 glare cases humans swear at before declaring done.
+9. **`verify-done`**: Run a fresh verification command this turn. Evidence before the word "done".
+10. **`debug-once`**: Max 2 targeted patches for bugs; stop circular guessing.
+11. **`unlazy`**: No stubs, no TODO placeholders, optimize first-paint (defer unused fonts, `preload="intent"` on tabs).
+12. **`ship-motion`**: Git commit, push if remote, Vercel deploy if applicable, update `STATE.md`.
+
+## 3. Anti-Slop Bans & UI Standard (`one-ui-factory`)
+
+Maintain one unified UI standard across web, desktop, and iOS:
+- **BAN**: Generic Inter + purple gradient, 3+ identical bordered card walls, emoji glyphs as navigation icons, gratuitous `backdrop-filter` / glass blur on non-bar chrome, coverage pill farms.
+- **BAN**: Generated journal sample copy ("A quiet evening reflection..."). Use real human copy (a realistic name, real items, crisp UK English).
+- **BAN**: System-gray dark mode that notes-ifies a paper/warm palette.
+- **Empty state**: Product voice (e.g. bold "**Empty**" or designed off-state, not blank cards).
+
+## 4. Environment & Dev Server Contract
+
+- **Dev server port**: Default `0.0.0.0:8080` (or repo configured dev port). Always verify it runs and leave it running.
+- **`startup.sh`**: Ensure repo has an idempotent, non-blocking `startup.sh` restart contract.
+- **Proof Requirement**: Never say an app or feature is complete without fresh terminal/browser execution proof this turn.

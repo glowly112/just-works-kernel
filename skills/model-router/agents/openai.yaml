@@ -1,0 +1,4 @@
+interface:
+  display_name: "Model Router"
+  short_description: "Route work across Claude Code, OpenAI (AIRelay), and Gemini"
+  default_prompt: "Use $model-router to choose the best model for this task. If implementation should go to OpenAI via AIRelay, generate the prompt and execute it."

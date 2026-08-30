@@ -1,0 +1,74 @@
+---
+description: Multivibe FORCE_NEW / compact mirror — keep long Cursor lanes fresh
+alwaysApply: true
+---
+
+# Session freshness (Multivibe FORCE_NEW mirror)
+
+SOT: `$MULTIVIBE_ROOT/law/DRIVER_JOB.md` (#53 carry) + Multivibe FORCE_NEW / `/compact`.
+Cursor cannot silent-rotate this chat — **Jamie's deal: stay in one chat; you warn when to refresh.**
+
+## Goal
+
+Long one-chat lanes must not rot. Prefer: **warn → `/summarize`** → if still heavy, **warn → New Agent + HANDOFF**.
+
+## Triggers (act without waiting for the user to ask)
+
+Fire a refresh when **any** of these are true:
+
+1. **Phase boundary** — feature/bug shipped, PR opened, or "next: …" starts a new job.
+2. **Quality soft** — repeats, lost Goal, wrong files, "what were we doing?", slow/confused answers.
+3. **Load** — many tool rounds this chat, large pasted logs, or several big subagent returns.
+4. **User cues** — "fresh", "rotate", "force new", "new session", "context", "you're drifting".
+
+Skip on pure micro (one-line Q&A).
+
+## How to warn (required format)
+
+Lead with this line so it's impossible to miss:
+
+**Soft:** `⚠️ Session soft — please run /summarize`  
+**Hard:** `⚠️ Session rotate — New Agent + paste HANDOFF below`
+
+Then one short why (half a sentence). Then do Wax / HANDOFF work when Wax MCP is available. Do **not** bury the warning at the end of a long reply.
+
+## Soft refresh (like `/compact`)
+
+1. Warn with the soft line above.
+2. Wax `remember` standing Goal + open decisions when Wax MCP is available (best-effort; never block).
+3. Keep the **standing Goal** — do not replace it with the last chat line.
+4. **Keep working** on the user's latest ask unless they say they want to pause. The warning is advisory — do not stall in planning.
+
+## Hard refresh (like FORCE_NEW)
+
+1. Warn with the hard line above.
+2. Wax `remember` the spine when Wax MCP is available.
+3. Emit **HANDOFF** (≤12 lines):
+
+```
+HANDOFF (Cursor FORCE_NEW)
+Goal: …
+Done: …
+Open: …
+Files: …
+Verify: <cmd> → exit N
+Wax: recall "<short query>" project=<slug>
+```
+
+4. Stop grinding the rotten thread unless they decline.
+
+## Carry rules (#53)
+
+Every summarize/FORCE_NEW seed must include: standing Goal, last few user asks, files/branch, last RESULT/verify.
+
+## Tangents
+
+Side questions → suggest `/side` or `/btw`.
+
+## Automation duty
+
+Do **not** wait for "should we rotate?". If a trigger hits, **warn in the same turn** while still doing the user's work. User can decline with one word ("keep going" / "later").
+
+## Never stall
+
+Session freshness must **never** block tool calls, planning, or replies. If Wax/MCP is unavailable, skip memory writes and continue. "Planning next moves" with no output is a failure — prefer acting over rotating.
