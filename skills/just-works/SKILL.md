@@ -38,15 +38,19 @@ Thin first pass is fine. The bar still applies to what shipped. One surface. Ext
 
 Ordinary English is enough. `read-me` runs unless this turn already has file + behaviour + done. Never ask the user to speak fail codes.
 
-## Proof (print even on next-gate-only)
+## Proof (internal / RESULT only — never user chat)
+
+`loaded: yes` is **not** a load. Load = this turn **opened** `just-works/SKILL.md` (and the next-gate skill file) with a Read tool. Naming the skill, pasting this yaml, or writing `thrift-process.md` without those Reads is a stamp.
+
+Keep this block off the user-facing reply. Put it in RESULT / session notes / job files only.
 
 ```yaml
 just_works:
-  loaded: yes
+  loaded: yes   # only if SKILL.md was Read this turn
   gate: read-me|plan|thrift|marks|build|hammer|verify|debug|ship
   bar: pass|prototype
 ui_marks: yes|skipped
 sot: <the number that must not be invented, or n/a>
 ```
 
-If pixels changed, also print ui-thrift `load:`.
+If pixels changed, also keep ui-thrift `load:` in RESULT — same rule: Reads this turn, not chat.

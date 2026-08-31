@@ -47,7 +47,9 @@ Any ask that touches: UI · UX · design · layout · CSS · HTML · landing · 
 | **L5** | Write stamp `thrift-process.md` / DESIGN.md **before first CSS edit** | File on disk with P0–P4 |
 | **L6** | Implement → self-check | `self_check: pass` |
 
-### Proof of load (required in RESULT)
+### Proof of load (required in RESULT — never user chat)
+
+`load:` yaml is **not** a load. Load = this turn **Read** L1–L3 files (and L4 when P2 applies). Stamping `thrift-process.md` / DESIGN.md without those Reads is `THRIFT_NO_LOAD`. Do not paste this block into the human reply.
 
 ```yaml
 load:
@@ -59,7 +61,7 @@ load:
   L6_self_check: pass|fail:<codes>
 ```
 
-Missing `load:` → treat as unloaded → `THRIFT_SKIP` / `THRIFT_NO_LOAD`.
+Missing Reads this turn → treat as unloaded → `THRIFT_SKIP` / `THRIFT_NO_LOAD`. A yaml stamp with no matching Read calls is the same miss.
 
 ## PROCESS (craft after load)
 
@@ -107,6 +109,7 @@ If any is true (and not an explicit Mobbin steal in DESIGN.md Elements) → **FA
 ## Anti-patterns (not a load)
 
 - “Following ui-thrift…” in prose with no Read tool calls
+- Printing `load:` / `just_works:` / `P0 ui-thrift: loaded` in chat instead of opening files
 - Opening only DESIGN.md and coding
 - Stamping PROCESS after CSS already shipped
 - Skipping anti-slop because “I know the bans”
