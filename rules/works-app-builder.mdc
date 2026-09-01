@@ -1,13 +1,13 @@
 ---
 description: Works App Builder & Product Pipeline — triage, just-works, ui-thrift, anti-slop, verification
-alwaysApply: true
+alwaysApply: false
 ---
 
 # Works App Builder & Product Pipeline
 
-SOT: Works app (`/Users/jamie.matheson/src/works/AGENTS.md` + `engine/opencode/DRIVER.md` + Multivibe `just-works` & `ui-thrift`).
+SOT for Just works: the short path in `skills/just-works/SKILL.md`. Kernel does not win on conflict. This overlay’s 12-stage list is **not** a Just works load. `FEATURE.md` / `FEATURE.yaml` stamps are not a load.
 
-When building apps, sites, screens, features, or prototypes, strictly follow this system.
+When building apps, sites, screens, features, or prototypes, follow the short path first. The numbered gates below are the overlay, not the product system.
 
 ## 1. Triage Before Scaffolding (§0.5)
 
@@ -23,6 +23,8 @@ Classify incoming request before building anything:
 - **Neither (Default)**: localStorage / Zustand / client state only (calculators, games, landing pages, one-shot tools, prototypes).
 
 ## 2. Product Gate Pipeline (The Works Stack)
+
+This numbered list is the kernel overlay. It does **not** win over `skills/just-works/SKILL.md`. Do not treat a FEATURE.md / FEATURE.yaml stamp as a load of Just works.
 
 Do not mega-merge or skip gates. Take the next gate only:
 

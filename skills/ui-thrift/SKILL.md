@@ -93,6 +93,9 @@ If any is true (and not an explicit Mobbin steal in DESIGN.md Elements) → **FA
 5. Same radius+padding on every block (card wall)
 6. Inter / Roboto / IBM Plex as primary when a named product face was in scope
 7. Invented desk chrome with no keeper URL when P2 applied
+8. Default Palatino / Georgia / “warm serif on cream” when no named face was locked
+9. Drawing the job’s metaphor in CSS (a scene instead of a usable page)
+10. Empty as poetry or a 0-word Untitled card — Empty is **Empty**
 
 ## FAIL codes
 

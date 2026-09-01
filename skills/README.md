@@ -1,5 +1,7 @@
 # Multivibe skills — single home (SOT)
 
+**Just works SOT:** the short path in `just-works/SKILL.md` is the product system. Kernel does not win on conflict. A 12-stage FEATURE packet or `FEATURE.yaml` stamp is not a load.
+
 **Editable source of truth (only):** `$MULTIVIBE_ROOT/skills/` (this dir — a
 sibling of `law/`, not inside it). Live homes **shim** here;
 they are never a second live copy.

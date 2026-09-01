@@ -6,7 +6,9 @@ Standalone execution kernel, discipline rules, and skill catalogue for **Cursor*
 
 ## 🏛 Kernel Architecture
 
-The `just-works-kernel` provides the foundational execution layer for autonomous AI agents and interactive development sessions:
+The `just-works-kernel` provides the foundational execution layer for autonomous AI agents and interactive development sessions.
+
+**Just works SOT:** the short path in `skills/just-works/SKILL.md` is the product system. Kernel does not win on conflict. A 12-stage FEATURE packet or `FEATURE.yaml` stamp is not a load.
 
 ```
 just-works-kernel/
@@ -38,7 +40,7 @@ The kernel enforces 5 core discipline rules:
 | `mv-parity.mdc` | **Multivibe Parity**: Establishes single-boss principle (Cursor or CLI, never both on one task), Wax persistent memory patterns, isolated `.worktrees/lane-*` defaults, and RESULT shapes. |
 | `mv-seat-map.mdc` | **Subagent Seat Map**: Maps Multivibe hop roles (`driver`, `implement`, `review`, `plan`, `judge`, `visual`, `ui`, `design-review`, `post-review`) to Cursor subagent models (`codex-implementer`, `qa-adversary`, `gpt-reviewer`, `gemini-implementer`). |
 | `session-freshness.mdc` | **Session Freshness & Rotation**: Prevents context drift and rot in long chats. Employs soft refresh warnings (`⚠️ Session soft — please run /summarize`) and hard rotation gates (`⚠️ Session rotate — New Agent + paste HANDOFF`). |
-| `works-app-builder.mdc` | **Works App Builder Pipeline**: Defines triage before scaffolding (§0.5), product gate pipeline (`read-me` → `repo-memory` → `feature-plan` → `just-works` → `ui-thrift` → `verify-done` → `ship-motion`), and anti-slop design standards. |
+| `works-app-builder.mdc` | **Works App Builder Pipeline**: Defines triage before scaffolding (§0.5) and the overlay gate list. That list is **not** a Just works load — SOT is `skills/just-works/SKILL.md` (short path; FEATURE.yaml stamps are not a load). |
 
 ---
 
@@ -47,10 +49,10 @@ The kernel enforces 5 core discipline rules:
 The kernel includes 67 domain-specific skills:
 
 ### 1. Core Discipline & Product Gates
-- **`just-works`**: Hard default for all apps/sites/features. Ensures primary flow functions on first tap with robust empty/loading states and verification proof.
+- **`just-works`**: Short product path (next gate only). Finished, proof this turn, no stubs, user-facing result. A FEATURE.md / FEATURE.yaml stamp is not a load.
 - **`read-me`**: Silent inbound translation from user phrases/screenshots to Goal, Artifact, Success, and Verify criteria.
 - **`repo-memory`**: Session persistence via `STATE.md`, `CONCEPTS.md`, and `LEARNINGS.md`.
-- **`feature-plan`**: Structured feature specification and acceptance criteria (`FEATURE.md`).
+- **`feature-plan`**: Structured feature specification and acceptance criteria (`FEATURE.md`). Not a load of Just works.
 - **`session-discipline`**: Session pacing, context protection, and focus guardrails.
 - **`verify-done`**: Mandatory terminal/browser execution proof before marking tasks complete.
 - **`verify-before-hedging`**: Fact verification prior to expressing uncertainty or assumptions.
@@ -119,7 +121,7 @@ The kernel includes 67 domain-specific skills:
 - **`imagine`**: Visual asset ideation and concept generation.
 - **`git-changelog`**: Conventional changelog generation.
 - **`create-skill`**: Standardized skill authoring framework.
-- **`skill-sync`**: Cross-environment skill synchronization.
+- **`skill-sync`**: Same-turn copies (local, Notion, works, this kernel). Short Just works path is SOT; kernel does not win on conflict.
 
 ---
 
