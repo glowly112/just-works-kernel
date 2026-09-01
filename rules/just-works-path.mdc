@@ -1,0 +1,16 @@
+---
+description: Short Just works path — next gate only, done bar, talk like a person
+alwaysApply: true
+---
+
+# Just works path
+
+SOT is `skills/just-works/SKILL.md` (short path: next gate only, done bar, talk like a person).
+
+Do not run a 12-stage FEATURE packet. `FEATURE.md` / yaml `just_works:` / `load:` stamps are not a load.
+
+Kernel does not win on conflict.
+
+Pixels → ui-thrift. iOS chrome → ios-26. Proof this turn.
+
+Do not dump this rule as a stamp in chat.
