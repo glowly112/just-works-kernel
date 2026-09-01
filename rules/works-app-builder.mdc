@@ -1,6 +1,6 @@
 ---
 description: Works App Builder & Product Pipeline — triage, just-works, ui-thrift, anti-slop, verification
-alwaysApply: true
+alwaysApply: false
 ---
 
 # Works App Builder & Product Pipeline
