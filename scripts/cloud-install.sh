@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Cursor Cloud Agent Bootstrap Installer
+# Cursor Cloud Agent Bootstrap — short Just works path
+# Installs skills/just-works/SKILL.md (next gate only, done bar, talk like a person).
+# Not a 12-gate FEATURE / SOT overlay. After pull/clone, runs install.sh.
 # Usage:
 #   bash <(curl -fsSL https://raw.githubusercontent.com/glowly112/just-works-kernel/main/scripts/cloud-install.sh)
 #   or directly: ./scripts/cloud-install.sh
@@ -10,7 +12,7 @@ REPO_URL="https://github.com/glowly112/just-works-kernel.git"
 INSTALL_TARGET="${HOME}/.just-works-kernel"
 CURSOR_HOME="${CURSOR_HOME:-${HOME}/.cursor}"
 
-echo "==> [cloud-install] Bootstrapping just-works-kernel for Cursor Cloud Agent..."
+echo "==> [cloud-install] Bootstrapping short Just works path for Cursor Cloud Agent..."
 
 # If executed from inside an existing checkout of just-works-kernel, use it
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" 2>/dev/null && pwd || echo "")"

@@ -10,14 +10,17 @@ The `just-works-kernel` provides the foundational execution layer for autonomous
 
 **Just works SOT:** the short path in `skills/just-works/SKILL.md` is the product system. Kernel does not win on conflict. A 12-stage FEATURE packet or `FEATURE.yaml` stamp is not a load.
 
+After `git pull` and `./scripts/install.sh`, Cursor CLI (`~/.cursor/skills-cursor` + `~/.cursor/rules/just-works-path.mdc`) and Grok CLI (`~/.grok/user-skills`) load the short path every session. Specialist skills stay installed but are not always-on. `~/.grok/skills` is only used when it is already a real directory of per-skill links — a product symlink is left alone.
+
 ```
 just-works-kernel/
 ├── rules/                    # Cursor rule definitions (*.mdc)
+│   ├── just-works-path.mdc   # always-on short path
 │   ├── driver-discipline.mdc
 │   ├── mv-parity.mdc
 │   ├── mv-seat-map.mdc
 │   ├── session-freshness.mdc
-│   └── works-app-builder.mdc
+│   └── works-app-builder.mdc # opt-in 12-gate overlay
 ├── skills/                   # 67 Domain skills (Single Source of Truth)
 │   ├── just-works/
 │   ├── ui-thrift/
@@ -32,15 +35,16 @@ just-works-kernel/
 
 ## 📜 Rules Reference
 
-The kernel enforces 5 core discipline rules:
+The kernel ships these discipline rules:
 
 | Rule File | Description & Scope |
 |-----------|---------------------|
+| `just-works-path.mdc` | **Always-on short path**: SOT is `skills/just-works/SKILL.md` (next gate only, done bar, talk like a person). Not a 12-stage FEATURE packet. Kernel does not win on conflict. |
 | `driver-discipline.mdc` | **Multivibe Driver discipline**: Enforces the loop `Classify → silent rewrite → brief → one hop → read RESULT → decide`. Keeps driver lean, mandates concise briefs (≤12 lines), and requires fresh verification commands. |
 | `mv-parity.mdc` | **Multivibe Parity**: Establishes single-boss principle (Cursor or CLI, never both on one task), Wax persistent memory patterns, isolated `.worktrees/lane-*` defaults, and RESULT shapes. |
 | `mv-seat-map.mdc` | **Subagent Seat Map**: Maps Multivibe hop roles (`driver`, `implement`, `review`, `plan`, `judge`, `visual`, `ui`, `design-review`, `post-review`) to Cursor subagent models (`codex-implementer`, `qa-adversary`, `gpt-reviewer`, `gemini-implementer`). |
 | `session-freshness.mdc` | **Session Freshness & Rotation**: Prevents context drift and rot in long chats. Employs soft refresh warnings (`⚠️ Session soft — please run /summarize`) and hard rotation gates (`⚠️ Session rotate — New Agent + paste HANDOFF`). |
-| `works-app-builder.mdc` | **Works App Builder Pipeline**: Defines triage before scaffolding (§0.5) and the overlay gate list. That list is **not** a Just works load — SOT is `skills/just-works/SKILL.md` (short path; FEATURE.yaml stamps are not a load). |
+| `works-app-builder.mdc` | **Works App Builder Pipeline** (opt-in): Defines triage before scaffolding (§0.5) and the overlay gate list. That list is **not** a Just works load — SOT is `skills/just-works/SKILL.md` (short path; FEATURE.yaml stamps are not a load). |
 
 ---
 
@@ -136,11 +140,11 @@ cd just-works-kernel
 ./scripts/install.sh
 ```
 
-By default, rules are linked into `~/.cursor/rules/` and skills into `~/.cursor/skills-cursor/`.
+By default, rules are linked into `~/.cursor/rules/` (including always-on `just-works-path.mdc`) and skills into `~/.cursor/skills-cursor/` plus `~/.grok/user-skills/`. `~/.grok/skills` is only filled when it is already a real directory.
 
 To install to a custom directory or test environment:
 ```bash
-CURSOR_HOME="/path/to/custom/cursor" ./scripts/install.sh
+CURSOR_HOME="/path/to/custom/cursor" GROK_HOME="/path/to/custom/grok" ./scripts/install.sh
 ```
 
 ---

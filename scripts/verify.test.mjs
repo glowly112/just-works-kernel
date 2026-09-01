@@ -38,9 +38,10 @@ runSection('Rules Verification', () => {
   assert(fs.existsSync(rulesDir), 'rules/ directory exists');
 
   const ruleFiles = fs.readdirSync(rulesDir).filter(f => f.endsWith('.mdc'));
-  assert(ruleFiles.length === 5, `Expected 5 rules, found ${ruleFiles.length}`);
+  assert(ruleFiles.length === 6, `Expected 6 rules, found ${ruleFiles.length}`);
 
   const expectedRules = [
+    'just-works-path.mdc',
     'driver-discipline.mdc',
     'mv-parity.mdc',
     'mv-seat-map.mdc',
@@ -56,6 +57,13 @@ runSection('Rules Verification', () => {
     assert(content.includes('alwaysApply:'), `Rule ${expected} has frontmatter alwaysApply`);
     assert(content.trim().length > 100, `Rule ${expected} has substantial content`);
   }
+
+  const shortPath = fs.readFileSync(path.join(rulesDir, 'just-works-path.mdc'), 'utf8');
+  const overlay = fs.readFileSync(path.join(rulesDir, 'works-app-builder.mdc'), 'utf8');
+  assert(shortPath.includes('alwaysApply: true'), 'just-works-path.mdc is always-on');
+  assert(overlay.includes('alwaysApply: false'), 'works-app-builder.mdc stays opt-in');
+  assert(shortPath.includes('skills/just-works/SKILL.md'), 'just-works-path.mdc names the short-path SOT');
+  assert((shortPath.match(/\n/g) || []).length < 25, 'just-works-path.mdc stays thin');
 });
 
 // 2. Verify Skills
@@ -104,18 +112,20 @@ runSection('Scripts Syntax Check', () => {
 // 4. Test Idempotent Installation with Mock CURSOR_HOME
 runSection('Installation Execution and Idempotency', () => {
   const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'cursor-test-'));
+  const grokTmp = fs.mkdtempSync(path.join(os.tmpdir(), 'grok-test-'));
   const installSh = path.join(REPO_ROOT, 'scripts', 'install.sh');
 
   try {
-    // First run
+    // First run — ~/.grok/skills missing: user-skills only
     const res1 = spawnSync('bash', [installSh], {
-      env: { ...process.env, CURSOR_HOME: tmpDir },
+      env: { ...process.env, CURSOR_HOME: tmpDir, GROK_HOME: grokTmp },
       encoding: 'utf8'
     });
     assert(res1.status === 0, `First install run succeeded (exit code ${res1.status})`);
 
     const installedRules = fs.readdirSync(path.join(tmpDir, 'rules'));
-    assert(installedRules.length === 5, `Installed 5 rules in target, found ${installedRules.length}`);
+    assert(installedRules.length === 6, `Installed 6 rules in target, found ${installedRules.length}`);
+    assert(installedRules.includes('just-works-path.mdc'), 'just-works-path.mdc is linked into Cursor rules');
 
     const installedSkills = fs.readdirSync(path.join(tmpDir, 'skills-cursor'));
     assert(installedSkills.length === 67, `Installed 67 skills in target, found ${installedSkills.length}`);
@@ -124,23 +134,74 @@ runSection('Installation Execution and Idempotency', () => {
     const sampleSkillTarget = path.join(tmpDir, 'skills-cursor', 'just-works', 'SKILL.md');
     assert(fs.existsSync(sampleSkillTarget), 'Sample symlinked skill resolves properly');
 
-    const sampleRuleTarget = path.join(tmpDir, 'rules', 'driver-discipline.mdc');
-    assert(fs.existsSync(sampleRuleTarget), 'Sample symlinked rule resolves properly');
+    const sampleRuleTarget = path.join(tmpDir, 'rules', 'just-works-path.mdc');
+    assert(fs.existsSync(sampleRuleTarget), 'just-works-path.mdc symlink resolves properly');
+
+    const grokUserSkills = fs.readdirSync(path.join(grokTmp, 'user-skills'));
+    assert(grokUserSkills.length === 67, `Installed 67 skills into Grok user-skills, found ${grokUserSkills.length}`);
+    const grokJustWorks = path.join(grokTmp, 'user-skills', 'just-works');
+    assert(fs.realpathSync(grokJustWorks) === path.join(REPO_ROOT, 'skills', 'just-works'), 'Grok user-skills/just-works points at the short SKILL.md');
+    assert(!fs.existsSync(path.join(grokTmp, 'skills')), 'Does not create ~/.grok/skills when it is missing');
 
     // Second run (Idempotency check)
     const res2 = spawnSync('bash', [installSh], {
-      env: { ...process.env, CURSOR_HOME: tmpDir },
+      env: { ...process.env, CURSOR_HOME: tmpDir, GROK_HOME: grokTmp },
       encoding: 'utf8'
     });
     assert(res2.status === 0, `Second (idempotent) install run succeeded (exit code ${res2.status})`);
 
     const postRules = fs.readdirSync(path.join(tmpDir, 'rules'));
     const postSkills = fs.readdirSync(path.join(tmpDir, 'skills-cursor'));
-    assert(postRules.length === 5, 'Rule count remains 5 after second run');
+    assert(postRules.length === 6, 'Rule count remains 6 after second run');
     assert(postSkills.length === 67, 'Skill count remains 67 after second run');
+    assert(fs.readdirSync(path.join(grokTmp, 'user-skills')).length === 67, 'Grok user-skills count remains 67 after second run');
 
   } finally {
     fs.rmSync(tmpDir, { recursive: true, force: true });
+    fs.rmSync(grokTmp, { recursive: true, force: true });
+  }
+});
+
+runSection('Grok skills dest: real directory vs product symlink', () => {
+  const installSh = path.join(REPO_ROOT, 'scripts', 'install.sh');
+  const cursorTmp = fs.mkdtempSync(path.join(os.tmpdir(), 'cursor-grok-dest-'));
+  const grokDirHome = fs.mkdtempSync(path.join(os.tmpdir(), 'grok-dir-'));
+  const grokLinkHome = fs.mkdtempSync(path.join(os.tmpdir(), 'grok-link-'));
+  const otherProduct = fs.mkdtempSync(path.join(os.tmpdir(), 'other-product-'));
+
+  try {
+    fs.mkdirSync(path.join(grokDirHome, 'skills'), { recursive: true });
+    const dirRes = spawnSync('bash', [installSh], {
+      env: { ...process.env, CURSOR_HOME: cursorTmp, GROK_HOME: grokDirHome },
+      encoding: 'utf8'
+    });
+    assert(dirRes.status === 0, `Install into real ~/.grok/skills directory succeeded (exit ${dirRes.status})`);
+    assert(
+      fs.realpathSync(path.join(grokDirHome, 'skills', 'just-works')) === path.join(REPO_ROOT, 'skills', 'just-works'),
+      'Real ~/.grok/skills/just-works is a per-skill link to the short path'
+    );
+    assert(!fs.lstatSync(path.join(grokDirHome, 'skills')).isSymbolicLink(), 'Did not replace a real ~/.grok/skills directory');
+
+    fs.writeFileSync(path.join(otherProduct, 'KEEP'), 'do not smash');
+    fs.symlinkSync(otherProduct, path.join(grokLinkHome, 'skills'));
+    const linkRes = spawnSync('bash', [installSh], {
+      env: { ...process.env, CURSOR_HOME: cursorTmp, GROK_HOME: grokLinkHome },
+      encoding: 'utf8'
+    });
+    assert(linkRes.status === 0, `Install with product symlink ~/.grok/skills succeeded (exit ${linkRes.status})`);
+    assert(fs.lstatSync(path.join(grokLinkHome, 'skills')).isSymbolicLink(), 'Left ~/.grok/skills product symlink in place');
+    assert(fs.readlinkSync(path.join(grokLinkHome, 'skills')) === otherProduct, 'Did not retarget ~/.grok/skills');
+    assert(fs.existsSync(path.join(otherProduct, 'KEEP')), 'Did not smash the product tree behind ~/.grok/skills');
+    assert(!fs.existsSync(path.join(otherProduct, 'just-works')), 'Did not ln into a product symlink at ~/.grok/skills');
+    assert(
+      fs.realpathSync(path.join(grokLinkHome, 'user-skills', 'just-works')) === path.join(REPO_ROOT, 'skills', 'just-works'),
+      'Still linked Grok user-skills/just-works when ~/.grok/skills is a product symlink'
+    );
+  } finally {
+    fs.rmSync(cursorTmp, { recursive: true, force: true });
+    fs.rmSync(grokDirHome, { recursive: true, force: true });
+    fs.rmSync(grokLinkHome, { recursive: true, force: true });
+    fs.rmSync(otherProduct, { recursive: true, force: true });
   }
 });
 
@@ -169,10 +230,10 @@ runSection('Sync Execution and SOT Target Validation', () => {
 
     // Verify rules targets
     const cursorRules = fs.readdirSync(path.join(mockCursorHome, 'rules'));
-    assert(cursorRules.length === 5, `Cursor rules count is 5 (found ${cursorRules.length})`);
+    assert(cursorRules.length === 6, `Cursor rules count is 6 (found ${cursorRules.length})`);
 
     const mvRules = fs.readdirSync(path.join(mockMultivibeRoot, 'docs', 'cursor-setup', 'rules'));
-    assert(mvRules.length === 5, `Multivibe rules count is 5 (found ${mvRules.length})`);
+    assert(mvRules.length === 6, `Multivibe rules count is 6 (found ${mvRules.length})`);
 
     // Verify skills targets
     const cursorSkills = fs.readdirSync(path.join(mockCursorHome, 'skills-cursor'));

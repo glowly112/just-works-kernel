@@ -5,18 +5,37 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 
-# Support CURSOR_HOME overrides for testing and cloud agents (default: ~/.cursor)
+# Support CURSOR_HOME / GROK_HOME overrides for testing and cloud agents
 CURSOR_HOME="${CURSOR_HOME:-${HOME}/.cursor}"
+GROK_HOME="${GROK_HOME:-${HOME}/.grok}"
 RULES_DEST="${CURSOR_HOME}/rules"
 SKILLS_DEST="${CURSOR_HOME}/skills-cursor"
+GROK_USER_SKILLS="${GROK_HOME}/user-skills"
+GROK_SKILLS="${GROK_HOME}/skills"
 
-echo "==> Installing just-works-kernel to Cursor environment"
-echo "    Repo root:   ${REPO_ROOT}"
-echo "    Cursor home: ${CURSOR_HOME}"
-echo "    Rules dest:  ${RULES_DEST}"
-echo "    Skills dest: ${SKILLS_DEST}"
+echo "==> Installing just-works-kernel (short Just works path)"
+echo "    Repo root:        ${REPO_ROOT}"
+echo "    Cursor home:      ${CURSOR_HOME}"
+echo "    Rules dest:       ${RULES_DEST}"
+echo "    Cursor skills:    ${SKILLS_DEST}"
+echo "    Grok user-skills: ${GROK_USER_SKILLS}"
 
-mkdir -p "${RULES_DEST}" "${SKILLS_DEST}"
+mkdir -p "${RULES_DEST}" "${SKILLS_DEST}" "${GROK_USER_SKILLS}"
+
+link_skills_into() {
+  local dest="$1"
+  local count=0
+  local skill_path skill_name
+  mkdir -p "${dest}"
+  for skill_path in "${REPO_ROOT}/skills/"*; do
+    if [[ -d "${skill_path}" && -f "${skill_path}/SKILL.md" ]]; then
+      skill_name="$(basename "${skill_path}")"
+      ln -sfn "${skill_path}" "${dest}/${skill_name}"
+      count=$((count + 1))
+    fi
+  done
+  echo "${count}"
+}
 
 # 1. Install / Link Rules (*.mdc)
 echo "==> Linking rules..."
@@ -30,16 +49,26 @@ for rule_file in "${REPO_ROOT}/rules/"*.mdc; do
 done
 echo "    Linked ${RULE_COUNT} rule(s) into ${RULES_DEST}"
 
-# 2. Install / Link Skills
-echo "==> Linking skills..."
-SKILL_COUNT=0
-for skill_path in "${REPO_ROOT}/skills/"*; do
-  if [[ -d "${skill_path}" && -f "${skill_path}/SKILL.md" ]]; then
-    skill_name="$(basename "${skill_path}")"
-    ln -sfn "${skill_path}" "${SKILLS_DEST}/${skill_name}"
-    SKILL_COUNT=$((SKILL_COUNT + 1))
-  fi
-done
+# 2. Cursor CLI skills (~/.cursor/skills-cursor)
+echo "==> Linking Cursor skills..."
+SKILL_COUNT="$(link_skills_into "${SKILLS_DEST}")"
 echo "    Linked ${SKILL_COUNT} skill(s) into ${SKILLS_DEST}"
+
+# 3. Grok CLI extra path (config.toml [skills] paths = ["~/.grok/user-skills"])
+echo "==> Linking Grok user-skills..."
+GROK_USER_COUNT="$(link_skills_into "${GROK_USER_SKILLS}")"
+echo "    Linked ${GROK_USER_COUNT} skill(s) into ${GROK_USER_SKILLS}"
+
+# 4. ~/.grok/skills only when it is a real directory of per-skill links.
+#    If it is a single symlink to another product (e.g. Multivibe GUI), skip it.
+if [[ -L "${GROK_SKILLS}" ]]; then
+  echo "==> Skipping ${GROK_SKILLS} (symlink to another product; will not replace)"
+elif [[ -d "${GROK_SKILLS}" ]]; then
+  echo "==> Linking Grok skills directory..."
+  GROK_SKILLS_COUNT="$(link_skills_into "${GROK_SKILLS}")"
+  echo "    Linked ${GROK_SKILLS_COUNT} skill(s) into ${GROK_SKILLS}"
+else
+  echo "==> Skipping ${GROK_SKILLS} (not a real directory; Grok CLI uses user-skills)"
+fi
 
 echo "==> Installation complete! (${RULE_COUNT} rules, ${SKILL_COUNT} skills)"
