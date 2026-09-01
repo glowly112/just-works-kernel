@@ -1,56 +1,64 @@
 ---
-name: just-works
-description: >
-  PRODUCT PATH from brief to something usable on a phone. HARD DEFAULT for any
-  app/site/feature a person will tap. Load first; ui-thrift stays the pixel path.
-  Use when: app, site, feature, phone, prototype, ship, just works, /just-works.
+name: Just works
+description: >-
+  Use this on any accepted work, not only apps. Load this file when there is a
+  job. Naming it is not a load. Always: finished, proof this turn, no stubs,
+  user-facing result exists. Screens add a picture. iOS ships add Mini sim. This
+  short path is the product system. A 12-gate FEATURE packet is not a load.
 ---
+Anything we do has to actually work. Open this file when there is a job, not only an app. Naming it is not a load. Next gate only.
 
-# just-works
+This file is the **product system**. On conflict with a 12-stage pipeline, a FEATURE.md packet, or yaml `just_works:` / `load:` stamps, this recipe wins. Kernel copies follow this page.
 
-Status: **PRODUCT PATH** · next gate only · does not replace ui-thrift for pixels
+## When
 
-**Grok path** `~/.grok/skills/just-works/` (SOT `$MULTIVIBE_ROOT/skills/just-works/`).
+Any accepted work: a screen, a ship, a skill, a Notion page, a Mini sim, a copy rewrite, a dark mode, a TestFlight. Detect. Do not wait for `/just-works` or the word ship.
 
-## Path
+Skip small talk. Grok Bot efficiency stays cheap. Do not dump iOS insets on a skill-sync turn.
 
-read-me → repo-memory → feature-plan (SOT if an existing system) → **iOS?** ios-26 (native chrome + product charm) → ui-thrift (if pixels) → **ui-marks** (if icons / faces / motion) → build → tdd-one → hammer → verify-done → debug-once if needed → unlazy (first-paint) → STATE.md
+## Load
 
-`ship-motion` is git / Vercel / STATE. In-product animation is **ui-marks**.
+1. Read this file.
+2. Restate the job in one line.
+3. Take **one** next gate, not the whole stack:
+   - Pixels / copy / slop → UI thrift. Visual product: lock 3–5 shipped refs first (Brief to references)
+   - iOS chrome / editor / greeting → iOS 26
+   - Proof command → Verify done
+   - Finish the accepted steps → Unlazy
+   - iOS ship → Sim confirm then Prototype to TestFlight
+4. Have proof this turn before saying it works.
 
-## Bar (all or it is a prototype)
+Do not print `loaded: yes`, `just_works:` yaml, or `load:` yaml in the user chat. Load is a Read of this file this turn. A stamp without that Read is not a load.
 
-1. Primary job works on the first tap path
-2. Empty, loading, error (offline if networked). **Off-state is designed** (OFF, frozen stamp, empty score) — not a spinner
-3. Phone-width, keyboard open, no `KB_COVER`
-4. Thumb-sized controls, not hover-only
-5. Fresh evidence this turn
-6. FEATURE.md Done is true
-7. **iOS:** stock iOS 26 chrome *and* the thrift keepers (paper, type, voice). A web wrap is not just-works. A generic Notes clone that lost the product is not just-works.
-8. Operator lists that have a why / owner **click through** to detail
-9. **iOS ship:** Mini sim-confirm this turn before TestFlight. `linux-hammer` is not a launch pass. Old stores still open after a schema change (`STORE_MIGRATE`). Locked store name is the home-screen name.
+Do not run a 12-stage pipeline. Do not stamp FEATURE.md as a load of this skill. `depth=quick` does not skip proof.
 
-## Speed
+## Bar
 
-Thin first pass is fine. The bar still applies to what shipped. One surface. Extra settings wait **unless they asked for theme, type, or size** — then one Settings screen, this device only. Reuse the stack. Do not load every skill at once. Infinite pulse is not “live.”
+All four, or it is not done.
+
+1. The accepted job finished. No stub, no TODO, no “you can wire this”
+2. Proof this turn (a command, a picture, a live page, a `delivery-uuid`). Not a plan. Not last session
+3. The empty / error / fail path is real, not a placeholder
+4. The user-facing result exists (the page, the build, the skill copy, the screen)
+
+A thin first pass is fine. The bar still applies to what shipped.
+
+## If it is a screen
+
+Look at a picture this turn. Empty is the product (**Empty**, not poetry, not a 0-word Untitled card). Run pictures through thrift (fonts, sample copy, fibre pinstripe, gray Notes dark, cream-on-cream chrome, default Palatino/Georgia on cream).
+
+Keepers are screens of the job’s surface. Look is the feel of a usable page. Do not draw the metaphor in CSS.
+
+User-visible state changes **move**. Snap is a miss. Delete, pin, unpin, focus, undo, first-run open, first-run exit into home, and other list/sheet mutations match that family. Reduce Motion is instant. Fail a mutation that jumps, chrome that pops, or a welcome that cuts to home. Confirm-to-delete is still a miss.
+
+First-run open is a **product event** that owns the screen (the surface arrives, then the mark lands). Not a bigger logo. Lessons show the product in use, not blank frames.
+
+## If it is an iOS ship
+
+Mini sim this turn. `linux-hammer` is not a launch pass. Also fail: `KB_COVER`, `TEXT_OVERLAP`, `GREETING_CLIP`, confirm-to-delete, a snap where motion should be (pin, focus, delete, undo, first-run exit), `STORE_MIGRATE`, listing-only name, web wrap, Notes clone, system-gray dark, cream-on-cream Dark buttons.
+
+A `delivery-uuid` or altool `VALID` is not the ship. The user-facing result is the build **on the Internal group** with `internalBuildState` **IN_BETA_TESTING**, installable in TestFlight. VALID with `MISSING_EXPORT_COMPLIANCE` still shows the old build. Fail that this turn.
 
 ## Input
 
-Ordinary English is enough. `read-me` runs unless this turn already has file + behaviour + done. Never ask the user to speak fail codes.
-
-## Proof (internal / RESULT only — never user chat)
-
-`loaded: yes` is **not** a load. Load = this turn **opened** `just-works/SKILL.md` (and the next-gate skill file) with a Read tool. Naming the skill, pasting this yaml, or writing `thrift-process.md` without those Reads is a stamp.
-
-Keep this block off the user-facing reply. Put it in RESULT / session notes / job files only.
-
-```yaml
-just_works:
-  loaded: yes   # only if SKILL.md was Read this turn
-  gate: read-me|plan|thrift|marks|build|hammer|verify|debug|ship
-  bar: pass|prototype
-ui_marks: yes|skipped
-sot: <the number that must not be invented, or n/a>
-```
-
-If pixels changed, also keep ui-thrift `load:` in RESULT — same rule: Reads this turn, not chat.
+Ordinary English is enough. Never ask the user to speak fail codes.

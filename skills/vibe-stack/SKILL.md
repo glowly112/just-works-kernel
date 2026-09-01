@@ -7,7 +7,7 @@ description: >
 
 # Skill stack — vibe to production
 
-**Load `just-works` first** for any app / site / feature a person will tap. It is the product path. ui-thrift stays the pixel path. Next gate only.
+**Load `just-works` first** for any accepted work. The short path in `skills/just-works/SKILL.md` is SOT. Kernel does not win on conflict. A FEATURE.md / FEATURE.yaml stamp is not a load. ui-thrift stays the pixel path. Next gate only.
 
 Index. How the Grok + Notion skills chain. Not Compound Engineering. Not Superpowers-the-plugin.
 
