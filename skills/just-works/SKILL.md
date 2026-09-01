@@ -12,25 +12,32 @@ This file is the **product system**. On conflict with a 12-stage pipeline, a FEA
 
 ## When
 
-Any accepted work: a screen, a ship, a skill, a Notion page, a Mini sim, a copy rewrite, a dark mode, a TestFlight. Detect. Do not wait for `/just-works` or the word ship.
+Any accepted work: a screen, a dashboard, a game, 3D, sprites, art, a favicon, a ship, a skill, a Notion page, a Mini sim, a copy rewrite, a dark mode, a TestFlight. Detect. Do not wait for `/just-works` or the word ship.
 
 Skip small talk. Grok Bot efficiency stays cheap. Do not dump iOS insets on a skill-sync turn.
 
 ## Load
 
 1. Read this file.
-2. Restate the job in one line.
-3. Take **one** next gate, not the whole stack:
+2. Restate the job in one line. Wait for a nod.
+3. Take **one** next gate, not the whole stack. A dashboard with sprites is two gates (look, then assets), not a mega-merge:
    - Pixels / copy / slop → UI thrift. Visual product: lock 3–5 shipped refs first (Brief to references)
    - iOS chrome / editor / greeting → iOS 26
+   - Icons / SVG / small motion (after the bar) → ui-marks
+   - Favicon / PWA / share card → og (non-blocking; do not wait)
+   - Stills / video art → imagine (not chrome; not exact type or numbers)
+   - Sprites / tiles / HUD / maps → game-asset-core, then the specialist
+   - 3D / WebGL → threejs. Loop / camera / WASD → building-games + controls
+   - Auth → auth. Database → neon. Only when asked
    - Proof command → Verify done
    - Finish the accepted steps → Unlazy
    - iOS ship → Sim confirm then Prototype to TestFlight
+   - Web ship → Ship motion
 4. Have proof this turn before saying it works.
 
 Do not print `loaded: yes`, `just_works:` yaml, or `load:` yaml in the user chat. Load is a Read of this file this turn. A stamp without that Read is not a load.
 
-Do not run a 12-stage pipeline. Do not stamp FEATURE.md as a load of this skill. `depth=quick` does not skip proof.
+Do not run a 12-stage pipeline. Do not stamp FEATURE.md as a load of this skill. `depth=quick` does not skip proof. Do not Imagine the UI. `design-ui` is a kit, not this path.
 
 ## Bar
 
