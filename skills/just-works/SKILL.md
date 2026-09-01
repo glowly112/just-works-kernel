@@ -19,7 +19,7 @@ Skip small talk. Grok Bot efficiency stays cheap. Do not dump iOS insets on a sk
 ## Load
 
 1. Read this file.
-2. Restate the job in one line. Wait for a nod.
+2. Talk like a person. Restate the job in ordinary English: what it is, how they’d use it. Wait. A stamp (“nod? gate: threejs”) is a miss. Short load ≠ short talk.
 3. Take **one** next gate, not the whole stack. A dashboard with sprites is two gates (look, then assets), not a mega-merge:
    - Pixels / copy / slop → UI thrift. Visual product: lock 3–5 shipped refs first (Brief to references)
    - iOS chrome / editor / greeting → iOS 26
@@ -34,6 +34,8 @@ Skip small talk. Grok Bot efficiency stays cheap. Do not dump iOS insets on a sk
    - iOS ship → Sim confirm then Prototype to TestFlight
    - Web ship → Ship motion
 4. Have proof this turn before saying it works.
+
+Suggest the next interaction from a picture, one or two, like a person. Do not brainstorm a list before pixels.
 
 Do not print `loaded: yes`, `just_works:` yaml, or `load:` yaml in the user chat. Load is a Read of this file this turn. A stamp without that Read is not a load.
 
