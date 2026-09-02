@@ -102,11 +102,62 @@ runSection('Scripts Syntax Check', () => {
   const cloudCheck = spawnSync('bash', ['-n', cloudInstallSh], { encoding: 'utf8' });
   assert(cloudCheck.status === 0, 'scripts/cloud-install.sh passes bash syntax check');
 
+  const installSrc = fs.readFileSync(installSh, 'utf8');
+  const cloudSrc = fs.readFileSync(cloudInstallSh, 'utf8');
+  assert(installSrc.includes('KERNEL_LIBRARY_INSTALL'), 'install.sh gates on KERNEL_LIBRARY_INSTALL');
+  assert(cloudSrc.includes('KERNEL_LIBRARY_INSTALL'), 'cloud-install.sh gates on KERNEL_LIBRARY_INSTALL');
+  assert(installSrc.includes('https://github.com/glowly112/works'), 'install.sh points at glowly112/works');
+  assert(cloudSrc.includes('https://github.com/glowly112/works'), 'cloud-install.sh points at glowly112/works');
+
   const syncCheck = spawnSync('node', ['--check', syncMjs], { encoding: 'utf8' });
   assert(syncCheck.status === 0, 'scripts/sync.mjs passes node syntax check');
 
   const driftCheck = spawnSync('node', ['--check', driftCheckMjs], { encoding: 'utf8' });
   assert(driftCheck.status === 0, 'scripts/drift-check.mjs passes node syntax check');
+});
+
+runSection('README is not the Just works installer', () => {
+  const readme = fs.readFileSync(path.join(REPO_ROOT, 'README.md'), 'utf8');
+  const head = readme.slice(0, 900);
+  assert(/do not clone this repo to install just works/i.test(head), 'README opens by refusing a kernel clone as Just works install');
+  assert(head.includes('glowly112/works'), 'README head names glowly112/works as the product path');
+  assert(/does not win on conflict/i.test(head), 'README head says kernel does not win on conflict');
+  assert(/12-stage FEATURE packet is not Just works/i.test(head), 'README head says a 12-stage FEATURE packet is not Just works');
+  assert(!/git clone https:\/\/github\.com\/glowly112\/just-works-kernel/.test(head), 'README head does not lead with clone this repo');
+  assert(!/KERNEL_LIBRARY_INSTALL=1/.test(head), 'README head is not the expert library install');
+});
+
+runSection('Default installers refuse and link nothing', () => {
+  const installSh = path.join(REPO_ROOT, 'scripts', 'install.sh');
+  const cloudInstallSh = path.join(REPO_ROOT, 'scripts', 'cloud-install.sh');
+  const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'cursor-refuse-'));
+  const grokTmp = fs.mkdtempSync(path.join(os.tmpdir(), 'grok-refuse-'));
+
+  try {
+    const env = { ...process.env, CURSOR_HOME: tmpDir, GROK_HOME: grokTmp };
+    delete env.KERNEL_LIBRARY_INSTALL;
+
+    const installRes = spawnSync('bash', [installSh], { env, encoding: 'utf8' });
+    const installOut = `${installRes.stdout || ''}${installRes.stderr || ''}`;
+    assert(installRes.status !== 0, `install.sh without KERNEL_LIBRARY_INSTALL exits non-zero (got ${installRes.status})`);
+    assert(installOut.includes('https://github.com/glowly112/works'), 'install.sh refusal points at glowly112/works');
+    assert(/not the Just works installer/i.test(installOut), 'install.sh says this is not the Just works installer');
+    assert(!fs.existsSync(path.join(tmpDir, 'rules')), 'install.sh refusal does not create Cursor rules');
+    assert(!fs.existsSync(path.join(tmpDir, 'skills-cursor')), 'install.sh refusal does not link Cursor skills');
+    assert(!fs.existsSync(path.join(grokTmp, 'user-skills')), 'install.sh refusal does not link Grok user-skills');
+    assert(!fs.existsSync(path.join(grokTmp, 'skills')), 'install.sh refusal does not touch ~/.grok/skills');
+
+    const cloudRes = spawnSync('bash', [cloudInstallSh], { env, encoding: 'utf8' });
+    const cloudOut = `${cloudRes.stdout || ''}${cloudRes.stderr || ''}`;
+    assert(cloudRes.status !== 0, `cloud-install.sh without KERNEL_LIBRARY_INSTALL exits non-zero (got ${cloudRes.status})`);
+    assert(cloudOut.includes('https://github.com/glowly112/works'), 'cloud-install.sh refusal points at glowly112/works');
+    assert(/not the Just works installer/i.test(cloudOut), 'cloud-install.sh says this is not the Just works installer');
+    assert(!fs.existsSync(path.join(tmpDir, 'rules')), 'cloud-install.sh refusal does not create Cursor rules');
+    assert(!fs.existsSync(path.join(tmpDir, 'skills-cursor')), 'cloud-install.sh refusal does not link Cursor skills');
+  } finally {
+    fs.rmSync(tmpDir, { recursive: true, force: true });
+    fs.rmSync(grokTmp, { recursive: true, force: true });
+  }
 });
 
 // 4. Test Idempotent Installation with Mock CURSOR_HOME
@@ -118,10 +169,10 @@ runSection('Installation Execution and Idempotency', () => {
   try {
     // First run — ~/.grok/skills missing: user-skills only
     const res1 = spawnSync('bash', [installSh], {
-      env: { ...process.env, CURSOR_HOME: tmpDir, GROK_HOME: grokTmp },
+      env: { ...process.env, KERNEL_LIBRARY_INSTALL: '1', CURSOR_HOME: tmpDir, GROK_HOME: grokTmp },
       encoding: 'utf8'
     });
-    assert(res1.status === 0, `First install run succeeded (exit code ${res1.status})`);
+    assert(res1.status === 0, `First library install run succeeded (exit code ${res1.status})`);
 
     const installedRules = fs.readdirSync(path.join(tmpDir, 'rules'));
     assert(installedRules.length === 6, `Installed 6 rules in target, found ${installedRules.length}`);
@@ -145,10 +196,10 @@ runSection('Installation Execution and Idempotency', () => {
 
     // Second run (Idempotency check)
     const res2 = spawnSync('bash', [installSh], {
-      env: { ...process.env, CURSOR_HOME: tmpDir, GROK_HOME: grokTmp },
+      env: { ...process.env, KERNEL_LIBRARY_INSTALL: '1', CURSOR_HOME: tmpDir, GROK_HOME: grokTmp },
       encoding: 'utf8'
     });
-    assert(res2.status === 0, `Second (idempotent) install run succeeded (exit code ${res2.status})`);
+    assert(res2.status === 0, `Second (idempotent) library install run succeeded (exit code ${res2.status})`);
 
     const postRules = fs.readdirSync(path.join(tmpDir, 'rules'));
     const postSkills = fs.readdirSync(path.join(tmpDir, 'skills-cursor'));
@@ -172,7 +223,7 @@ runSection('Grok skills dest: real directory vs product symlink', () => {
   try {
     fs.mkdirSync(path.join(grokDirHome, 'skills'), { recursive: true });
     const dirRes = spawnSync('bash', [installSh], {
-      env: { ...process.env, CURSOR_HOME: cursorTmp, GROK_HOME: grokDirHome },
+      env: { ...process.env, KERNEL_LIBRARY_INSTALL: '1', CURSOR_HOME: cursorTmp, GROK_HOME: grokDirHome },
       encoding: 'utf8'
     });
     assert(dirRes.status === 0, `Install into real ~/.grok/skills directory succeeded (exit ${dirRes.status})`);
@@ -185,7 +236,7 @@ runSection('Grok skills dest: real directory vs product symlink', () => {
     fs.writeFileSync(path.join(otherProduct, 'KEEP'), 'do not smash');
     fs.symlinkSync(otherProduct, path.join(grokLinkHome, 'skills'));
     const linkRes = spawnSync('bash', [installSh], {
-      env: { ...process.env, CURSOR_HOME: cursorTmp, GROK_HOME: grokLinkHome },
+      env: { ...process.env, KERNEL_LIBRARY_INSTALL: '1', CURSOR_HOME: cursorTmp, GROK_HOME: grokLinkHome },
       encoding: 'utf8'
     });
     assert(linkRes.status === 0, `Install with product symlink ~/.grok/skills succeeded (exit ${linkRes.status})`);

@@ -1,18 +1,39 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Cursor Cloud Agent Bootstrap — short Just works path
-# Installs skills/just-works/SKILL.md (next gate only, done bar, talk like a person).
+# This is not the Just works installer. Product path: https://github.com/glowly112/works
+# Expert/library bootstrap only when KERNEL_LIBRARY_INSTALL=1.
+
+if [[ "${KERNEL_LIBRARY_INSTALL:-}" != "1" ]]; then
+  cat >&2 <<'EOF'
+This is not the Just works installer.
+
+just-works-kernel is a specialist skill library. It is not the product path
+and not the installer for a new PC.
+
+Install Just works from:
+  https://github.com/glowly112/works
+  (.grok/skills + scripts/install-just-works.sh)
+
+A 12-stage FEATURE packet is not Just works. This kernel does not win on conflict.
+
+To bootstrap this kernel as an expert/library, set:
+  KERNEL_LIBRARY_INSTALL=1
+EOF
+  exit 1
+fi
+
+# Expert/library Cloud Agent bootstrap — 67 specialist skills.
 # Not a 12-gate FEATURE / SOT overlay. After pull/clone, runs install.sh.
 # Usage:
-#   bash <(curl -fsSL https://raw.githubusercontent.com/glowly112/just-works-kernel/main/scripts/cloud-install.sh)
-#   or directly: ./scripts/cloud-install.sh
+#   KERNEL_LIBRARY_INSTALL=1 bash <(curl -fsSL https://raw.githubusercontent.com/glowly112/just-works-kernel/main/scripts/cloud-install.sh)
+#   or: KERNEL_LIBRARY_INSTALL=1 ./scripts/cloud-install.sh
 
 REPO_URL="https://github.com/glowly112/just-works-kernel.git"
 INSTALL_TARGET="${HOME}/.just-works-kernel"
 CURSOR_HOME="${CURSOR_HOME:-${HOME}/.cursor}"
 
-echo "==> [cloud-install] Bootstrapping short Just works path for Cursor Cloud Agent..."
+echo "==> [cloud-install] Expert/library bootstrap (not the Just works installer)..."
 
 # If executed from inside an existing checkout of just-works-kernel, use it
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" 2>/dev/null && pwd || echo "")"
