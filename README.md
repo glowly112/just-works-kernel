@@ -1,33 +1,37 @@
 # Just Works Kernel (`just-works-kernel`)
 
-Standalone execution kernel, discipline rules, and skill catalogue for **Cursor**, **Cursor Cloud Agents**, and **Multivibe** AI workflows.
+**Do not clone this repo to install Just works.** This is a specialist skill library, not the product path and not the installer for a new PC.
+
+The product path is **[glowly112/works](https://github.com/glowly112/works)** (`.grok/skills` + `scripts/install-just-works.sh`). This kernel does not win on conflict. A 12-stage FEATURE packet is not Just works.
+
+> **Stop.** If a Cursor or Grok CLI said "install just works" and landed here, leave. Clone `https://github.com/glowly112/works` and run `scripts/install-just-works.sh`. Do not run `./scripts/install.sh` from this repo. A 67-skill catalogue and a 12-stage FEATURE packet are not a Just works load.
 
 ---
 
 ## 🏛 Kernel Architecture
 
-The `just-works-kernel` provides the foundational execution layer for autonomous AI agents and interactive development sessions.
+The `just-works-kernel` provides specialist skills, discipline rules, and an expert library install for autonomous AI agents. It is **not** the Just works product path.
 
 **Just works SOT:** the short path in `skills/just-works/SKILL.md` is the product system. Kernel does not win on conflict. A 12-stage FEATURE packet or `FEATURE.yaml` stamp is not a load.
 
-After `git pull` and `./scripts/install.sh`, Cursor CLI (`~/.cursor/skills-cursor` + `~/.cursor/rules/just-works-path.mdc`) and Grok CLI (`~/.grok/user-skills`) load the short path every session. Specialist skills stay installed but are not always-on. `~/.grok/skills` is only used when it is already a real directory of per-skill links — a product symlink is left alone.
+The install door is `glowly112/works`. This repo does not win that job. Specialist skills here stay a library; they are not always-on Just works.
 
 ```
 just-works-kernel/
 ├── rules/                    # Cursor rule definitions (*.mdc)
-│   ├── just-works-path.mdc   # always-on short path
+│   ├── just-works-path.mdc   # always-on short path (library install only)
 │   ├── driver-discipline.mdc
 │   ├── mv-parity.mdc
 │   ├── mv-seat-map.mdc
 │   ├── session-freshness.mdc
-│   └── works-app-builder.mdc # opt-in 12-gate overlay
-├── skills/                   # 67 Domain skills (Single Source of Truth)
+│   └── works-app-builder.mdc # opt-in 12-gate overlay — never always-on
+├── skills/                   # 67 Domain skills (specialist library)
 │   ├── just-works/
 │   ├── ui-thrift/
 │   └── ... (67 total)
-└── scripts/                  # Automated installers and verification
-    ├── install.sh            # Idempotent local/custom installer
-    ├── cloud-install.sh      # Cloud Agent bootstrap script
+└── scripts/                  # Library tools (not the product installer)
+    ├── install.sh            # Expert/library install — refuses unless KERNEL_LIBRARY_INSTALL=1
+    ├── cloud-install.sh      # Same refusal unless KERNEL_LIBRARY_INSTALL=1
     └── verify.test.mjs       # Comprehensive verification test suite
 ```
 
@@ -129,56 +133,45 @@ The kernel includes 67 domain-specific skills:
 
 ---
 
-## 🚀 Installation
+## Install Just works (the product)
 
-### Local Installation
-Clone the repository and run the idempotent installer:
+Do **not** use this repository. The install door is:
 
 ```bash
-git clone https://github.com/glowly112/just-works-kernel.git
-cd just-works-kernel
-./scripts/install.sh
+git clone https://github.com/glowly112/works.git
+cd works
+./scripts/install-just-works.sh
 ```
 
-By default, rules are linked into `~/.cursor/rules/` (including always-on `just-works-path.mdc`) and skills into `~/.cursor/skills-cursor/` plus `~/.grok/user-skills/`. `~/.grok/skills` is only filled when it is already a real directory.
-
-To install to a custom directory or test environment:
-```bash
-CURSOR_HOME="/path/to/custom/cursor" GROK_HOME="/path/to/custom/grok" ./scripts/install.sh
-```
+That loads `.grok/skills` from **glowly112/works**. A 12-stage FEATURE packet is not that load.
 
 ---
 
-## ☁️ Cursor Cloud Agent Setup Guide
+## ⚠️ Expert / library install (not Just works)
 
-### 1. One-Line Bootstrap
-In any Cursor Cloud Agent terminal or bootstrap step:
+`./scripts/install.sh` and `./scripts/cloud-install.sh` **refuse** on a normal run. They print that this is not the Just works installer, point at `https://github.com/glowly112/works`, and exit non-zero. Nothing is linked.
+
+Only set `KERNEL_LIBRARY_INSTALL=1` if you already know you want this 67-skill library, not the product path. That overlay does not win on conflict. `works-app-builder.mdc` stays opt-in (`alwaysApply: false`) so a library install does not force the 12-gate list.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/glowly112/just-works-kernel/main/scripts/cloud-install.sh | bash
+KERNEL_LIBRARY_INSTALL=1 ./scripts/install.sh
 ```
 
-### 2. Environment Configuration (`.cursor/environment.json`)
-Add the bootstrap command to `.cursor/environment.json` in your repository to automatically configure every Cloud Agent VM:
+With that flag, rules are linked into `~/.cursor/rules/` and skills into `~/.cursor/skills-cursor/` plus `~/.grok/user-skills/`. `~/.grok/skills` is only filled when it is already a real directory. A product symlink is left alone.
 
-```json
-{
-  "install": "curl -fsSL https://raw.githubusercontent.com/glowly112/just-works-kernel/main/scripts/cloud-install.sh | bash"
-}
+Custom destinations:
+
+```bash
+KERNEL_LIBRARY_INSTALL=1 CURSOR_HOME="/path/to/custom/cursor" GROK_HOME="/path/to/custom/grok" ./scripts/install.sh
 ```
 
-Or reference it directly from a workspace script:
-```json
-{
-  "install": "bash scripts/cloud-agent-install.sh"
-}
-```
+Cloud Agents: do **not** curl `cloud-install.sh` to install Just works. Use `glowly112/works`. The kernel cloud script is the same expert path (`KERNEL_LIBRARY_INSTALL=1`) and still refuses without that flag.
 
 ---
 
 ## 🧪 Verification & Testing
 
-The repository includes a comprehensive Node.js verification test suite that verifies rules, skills, script syntax, and mock installation idempotency:
+The repository includes a comprehensive Node.js verification test suite that verifies rules, skills, script syntax, default install refusal, and mock library-install idempotency:
 
 ```bash
 node scripts/verify.test.mjs

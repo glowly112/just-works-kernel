@@ -1,6 +1,28 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# This is not the Just works installer. Product path: https://github.com/glowly112/works
+# Expert/library install only when KERNEL_LIBRARY_INSTALL=1.
+
+if [[ "${KERNEL_LIBRARY_INSTALL:-}" != "1" ]]; then
+  cat >&2 <<'EOF'
+This is not the Just works installer.
+
+just-works-kernel is a specialist skill library. It is not the product path
+and not the installer for a new PC.
+
+Install Just works from:
+  https://github.com/glowly112/works
+  (.grok/skills + scripts/install-just-works.sh)
+
+A 12-stage FEATURE packet is not Just works. This kernel does not win on conflict.
+
+To install this kernel as an expert/library (67 specialist skills), set:
+  KERNEL_LIBRARY_INSTALL=1
+EOF
+  exit 1
+fi
+
 # Determine repository root
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
