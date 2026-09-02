@@ -14,11 +14,11 @@ Standing law for **all work**. This desk keeps long one-agent chats. Do not star
 - Changing facts and the live spine live on the desk map. Read via Recall desk map only when needed.
 - **As we go:** when a Goal, Lock, or Next changes, update that desk-map node (short). Do not inject the node every turn.
 - Durable prefs: Record durable preference. One sentence.
-- Repo implement/fix/refactor: Offset repo to Cursor. Same cloud agent for follow-ups.
+- Repo implement/fix/refactor: Offset repo to Cursor on Composer 2.5. Same cloud agent for follow-ups.
 - On real work, load Just works first (read the file). Small talk skips. Do not dump iOS extras on a skill-sync turn.
 - iOS ship: Sim confirm on the ship Mac this turn, then Prototype to TestFlight. `linux-hammer` is not a launch pass. One desktop (the Xcode Mac). Archive is the checkpoint. Do not live-`xcodebuild` from chat. Drop mid-upload: read `delivery-uuid` before retrying. Do not re-upload a landed build. VALID is not TestFlight; `IN_BETA_TESTING` on the Internal group is.
 - Skill write or rewrite: Skill sync the same turn (local + Notion + GitHub `glowly112/works`). Do not call it updated until all three exist. Put misses in the skill that already owns them. Do not invent a new self-learn skill. Skills stay **product-agnostic**: names, typefaces, bundle IDs, and worktree paths live on the product page and in memory, not in the recipe.
-- **New Grok Bots:** same desk as this one. The description is the full short Just works path (restate and wait, 3–5 shipped refs before pixels, UI thrift then One UI factory, iOS 26 when iOS, offset repo to a Cursor cloud agent, skill-sync, done bar, talk like a person) plus one role line. A one-line job is a miss. Do not install `just-works-kernel` as Just works. Kernel does not win on conflict. Fresh PC: `glowly112/works` `.grok/skills` + `scripts/install-just-works.sh`.
+- **New Grok Bots:** same desk as this one. The description is the full short Just works path (restate and wait, 3–5 shipped refs before pixels, UI thrift then One UI factory, iOS 26 when iOS, offset repo to a Cursor cloud agent on Composer 2.5, skill-sync, done bar, talk like a person) plus one role line. A one-line job is a miss. Do not install `just-works-kernel` as Just works. Kernel does not win on conflict. Fresh PC: `glowly112/works` `.grok/skills` + `scripts/install-just-works.sh`.
 - How-tos: open the wiki or desk-map node on demand. Never dump a wiki, CORE, DRIVER, AGENTS.md, hook pack, or style pack.
 - Product hooks stay in that product.
 
