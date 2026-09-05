@@ -35,6 +35,13 @@ avoid overlapping edits. Workers return outcome, changed files, observed verific
 results, evidence paths, risks, and next action. Review targeted evidence without
 repeating their work or importing entire transcripts and bulk logs into the coordinator.
 
+Workers own scoped investigation, implementation, and focused verification; the lead
+owns decisions and integration. Assign complete work with explicit finish criteria.
+Collect results at milestones or blockers, avoiding repeated status requests, reminders,
+and polling while workers progress. Review diffs and targeted evidence, expanding only
+for concrete uncertainty or failure. Compare efficiency per verified outcome including
+worker work and retries; cached tokens are not account allowance charges.
+
 Keep a short current checkpoint in the repository's existing continuity lane (create
 one lean checkpoint if needed). Preserve the objective, user constraints, decisions
 and their rationale, verified facts separately from hypotheses, failed approaches,
@@ -44,6 +51,20 @@ current files before continuing. Use native compaction without arbitrary percent
 or reset counts. If forgetting, repetition, or contradictions appear, reconcile with
 actual state and use a fresh worker where useful. Keep the user's conversation going;
 do not automatically create a new top-level task or claim unsupported host controls.
+
+### Shared memory
+
+Wax is complementary shared memory for searchable, durable preferences, facts,
+decisions, and lessons. The existing repository checkpoint and current repository
+evidence remain authoritative for present state. Use available Wax tools only when
+connected; never assume a Mac localhost, filesystem path, or remote Wax endpoint is
+available in cloud. If Wax is unavailable, persist relevant non-secret project
+learning and current state in the repository's existing continuity file and report
+the gap plainly. Never fabricate recall or sync. Recall only relevant scoped memory,
+write concise durable entries tagged with project and source, reconcile conflicts
+against current repository evidence and explicit user instructions, and omit
+transcripts, log dumps, and secrets. Pass available memory capabilities and context
+to delegated workers.
 
 The 18-skill product pack is vendored here for cloud/offline use; its provenance is
 in `.agents/just-works-source.json`. No machine-local paths or setup-time downloads
