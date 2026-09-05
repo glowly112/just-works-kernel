@@ -19,6 +19,32 @@ product requirements, security constraints, build commands, and tests below.
   to Grok Bot; use the current agent's available tools. If an optional specialist or
   helper is absent, report the gap instead of inventing a tool or completion result.
 
+### Planning, workers, and long conversations
+
+Prefer a long-lived Astra coordinator for planning, decisions, and final review
+when available. This is a role preference; instructions cannot switch the host model.
+The user authorises suitable subagents. Delegate substantial bounded implementation
+and research when the runtime supports it and independent work permits. Select the
+least expensive capable model and lowest reliable effort, considering retries and
+latency per verified result. Escalate when evidence warrants it; avoid tiny delegations.
+
+Give new assignments fresh worker context with a brief containing goal, owned scope,
+constraints, relevant decisions, and verification requirements. Reuse workers for
+related follow-up. Run independent work concurrently; keep dependencies serial and
+avoid overlapping edits. Workers return outcome, changed files, observed verification
+results, evidence paths, risks, and next action. Review targeted evidence without
+repeating their work or importing entire transcripts and bulk logs into the coordinator.
+
+Keep a short current checkpoint in the repository's existing continuity lane (create
+one lean checkpoint if needed). Preserve the objective, user constraints, decisions
+and their rationale, verified facts separately from hypotheses, failed approaches,
+proof commands/results, outstanding work, and next action. Refresh from actual state
+at milestones, not recursive summaries. After compaction, consult the checkpoint and
+current files before continuing. Use native compaction without arbitrary percentages
+or reset counts. If forgetting, repetition, or contradictions appear, reconcile with
+actual state and use a fresh worker where useful. Keep the user's conversation going;
+do not automatically create a new top-level task or claim unsupported host controls.
+
 The 18-skill product pack is vendored here for cloud/offline use; its provenance is
 in `.agents/just-works-source.json`. No machine-local paths or setup-time downloads
 are required. Source: https://github.com/glowly112/works (`.grok/skills`).
